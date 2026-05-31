@@ -1,0 +1,43 @@
+name: Backtest
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: "Region"
+        type: choice
+        default: europe
+        options: [europe, usa]
+      days:
+        description: "Anzahl Handelstage"
+        default: "10"
+      capital:
+        description: "Startkapital"
+        default: "10000"
+      target_r:
+        description: "Gewinnziel (R-Vielfaches)"
+        default: "2.0"
+
+permissions:
+  contents: read
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Abhaengigkeiten installieren
+        run: pip install yfinance
+
+      - name: Backtest ausfuehren
+        run: |
+          python backtest.py \
+            --region ${{ github.event.inputs.region }} \
+            --days ${{ github.event.inputs.days }} \
+            --capital ${{ github.event.inputs.capital }} \
+            --target-r ${{ github.event.inputs.target_r }}
