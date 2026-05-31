@@ -1,32 +1,88 @@
 {
-  "region": "europe", "region_label": "Europa", "flag": "EU", "currency": "EUR",
-  "phase": "breakout", "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-05-29T07:30:00+00:00", "generated_at_local": "29.05.2026, 09:30 Uhr",
-  "session_date": "2026-05-28",
-  "ticker": "RHM.DE", "name": "Rheinmetall", "last_price": 1861.0, "previous_close": 1779.0,
-  "change_pct": 3.57, "volume": 412000, "avg_volume": 188000, "rel_volume": 2.19,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (1854.0); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": { "sentiment": "positiv", "direction": "auf", "materiality": "hoch", "catalyst": true,
-    "summary": "Neuer Grossauftrag fuer Munition gemeldet \u2013 klar kursrelevant und positiv.",
-    "headline": "Rheinmetall meldet Milliarden-Rahmenvertrag", "url": "https://finance.yahoo.com" },
-  "or_window_min": 5,
-  "orb": { "market": "Xetra", "open_local": "09:00 Uhr", "window_min": 5,
-    "range_window": "09:00\u201309:05 Uhr", "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5\u20132x des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 1854.0, "range_low": 1838.0, "current_price": 1861.0, "vwap": 1849.5,
-    "breakout_status": "ausbruch_auf" },
-  "checks": { "vwap": true, "volume": true, "trend": true },
-  "quality": 3,
-  "trade_plan": { "entry": 1861.0, "stop": 1838.0, "risk_per_share": 23.0,
-    "target_1": 1895.5, "target_2": 1907.0, "target_r": [1.5, 2.0],
-    "account": 100000.0, "risk_pct": 1.0, "position_size": 43, "capital": 80023.0, "currency": "EUR" },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-05-31T18:36:39.147958+00:00",
+  "generated_at_local": "31.05.2026, 20:36 Uhr",
+  "session_date": "2026-05-29",
+  "ticker": "BAYN.DE",
+  "name": "Bayer",
+  "last_price": 36.53,
+  "previous_close": 37.84,
+  "change_pct": -3.46,
+  "volume": 7701911,
+  "avg_volume": 2380039,
+  "rel_volume": 3.24,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
+  "or_window_min": 15,
+  "orb": {
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 15,
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+  },
+  "checks": {
+    "vwap": null,
+    "volume": null,
+    "trend": false
+  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
-    { "ticker": "RHM.DE", "name": "Rheinmetall", "change_pct": 3.57, "rel_volume": 2.19, "catalyst": true, "status": "ausbruch_auf" },
-    { "ticker": "ENR.DE", "name": "Siemens Energy", "change_pct": 2.91, "rel_volume": 1.74, "catalyst": false, "status": "in_spanne" },
-    { "ticker": "IFX.DE", "name": "Infineon", "change_pct": -2.4, "rel_volume": 1.66, "catalyst": true, "status": "ausbruch_ab" },
-    { "ticker": "MBG.DE", "name": "Mercedes-Benz", "change_pct": 1.83, "rel_volume": 1.39, "catalyst": false, "status": "in_spanne" },
-    { "ticker": "BAYN.DE", "name": "Bayer", "change_pct": -1.55, "rel_volume": 1.28, "catalyst": false, "status": "in_spanne" },
-    { "ticker": "ADS.DE", "name": "Adidas", "change_pct": 1.12, "rel_volume": 1.15, "catalyst": false, "status": "ausbruch_auf" }
+    {
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": -3.46,
+      "rel_volume": 3.24,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": 2.41,
+      "rel_volume": 2.58,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": -1.64,
+      "rel_volume": 3.16,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": -2.11,
+      "rel_volume": 1.98,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": -1.9,
+      "rel_volume": 2.0,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": 1.25,
+      "rel_volume": 2.93,
+      "catalyst": true,
+      "status": null
+    }
   ],
-  "disclaimer": "Beispielaktie zum \u00dcben \u2013 keine Anlageempfehlung."
+  "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
 }
