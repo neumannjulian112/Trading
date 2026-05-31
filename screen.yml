@@ -1,0 +1,68 @@
+name: Tagesaktie
+
+on:
+  schedule:
+    # Cron laeuft in UTC und passt sich NICHT an Sommer-/Winterzeit an.
+    # --- Europa ---
+    - cron: "30 6 * * 1-5"    # screen   ~08:30 (Sommer) vor Xetra-Eroeffnung 09:00
+    - cron: "30 7 * * 1-5"    # breakout ~09:30 (Sommer) nach der Eroeffnungsspanne
+    # --- USA ---
+    - cron: "0 13 * * 1-5"    # screen   ~15:00 (Sommer) vor US-Eroeffnung 15:30
+    - cron: "0 14 * * 1-5"    # breakout ~16:00 (Sommer) nach der Eroeffnungsspanne
+  workflow_dispatch:
+    inputs:
+      region:
+        description: "Region"
+        type: choice
+        default: europe
+        options: [europe, usa]
+      phase:
+        description: "Phase"
+        type: choice
+        default: screen
+        options: [screen, breakout]
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Abhaengigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Region & Phase bestimmen
+        id: cfg
+        run: |
+          case "${{ github.event.schedule }}" in
+            "30 6 * * 1-5") echo "region=europe" >> "$GITHUB_OUTPUT"; echo "phase=screen"   >> "$GITHUB_OUTPUT" ;;
+            "30 7 * * 1-5") echo "region=europe" >> "$GITHUB_OUTPUT"; echo "phase=breakout" >> "$GITHUB_OUTPUT" ;;
+            "0 13 * * 1-5") echo "region=usa"    >> "$GITHUB_OUTPUT"; echo "phase=screen"   >> "$GITHUB_OUTPUT" ;;
+            "0 14 * * 1-5") echo "region=usa"    >> "$GITHUB_OUTPUT"; echo "phase=breakout" >> "$GITHUB_OUTPUT" ;;
+            *) echo "region=${{ github.event.inputs.region || 'europe' }}" >> "$GITHUB_OUTPUT";
+               echo "phase=${{ github.event.inputs.phase || 'screen' }}"   >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Screener ausfuehren
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python screener.py --region ${{ steps.cfg.outputs.region }} --phase ${{ steps.cfg.outputs.phase }}
+
+      - name: Ergebnis committen (falls geaendert)
+        run: |
+          git config user.name "tagesaktie-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add pick.json watch.json
+          if git diff --staged --quiet; then
+            echo "Keine Aenderung."
+          else
+            git commit -m "Tagesaktie: ${{ steps.cfg.outputs.region }}/${{ steps.cfg.outputs.phase }} $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
