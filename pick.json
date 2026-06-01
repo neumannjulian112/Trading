@@ -5,19 +5,27 @@
   "currency": "EUR",
   "phase": "screen",
   "status": "vorboerslich",
-  "generated_at": "2026-05-31T18:36:39.147958+00:00",
-  "generated_at_local": "31.05.2026, 20:36 Uhr",
-  "session_date": "2026-05-29",
-  "ticker": "BAYN.DE",
-  "name": "Bayer",
-  "last_price": 36.53,
-  "previous_close": 37.84,
-  "change_pct": -3.46,
-  "volume": 7701911,
-  "avg_volume": 2380039,
-  "rel_volume": 3.24,
+  "generated_at": "2026-06-01T08:52:10.548720+00:00",
+  "generated_at_local": "01.06.2026, 10:52 Uhr",
+  "session_date": "2026-06-01",
+  "ticker": "IFX.DE",
+  "name": "Infineon",
+  "last_price": 83.44,
+  "previous_close": 81.11,
+  "change_pct": 2.87,
+  "volume": 1036772,
+  "avg_volume": 5887212,
+  "rel_volume": 0.18,
   "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
-  "news": null,
+  "news": {
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
+    "catalyst": false,
+    "summary": "Partnership mit NVIDIA für Datacenter-Lösungen stärkt Infineons Marktposition, aber keine konkreten Zahlen oder Meilensteine.",
+    "headline": "NVIDIA Infineon Power Partnership Puts Data Center Story In New Focus",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-infineon-power-partnership-puts-170311130.html"
+  },
   "or_window_min": 15,
   "orb": {
     "market": "Xetra",
@@ -30,57 +38,57 @@
   "checks": {
     "vwap": null,
     "volume": null,
-    "trend": false
+    "trend": true
   },
   "quality": null,
   "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": -3.46,
-      "rel_volume": 3.24,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": 2.87,
+      "rel_volume": 0.18,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -2.01,
+      "rel_volume": 0.22,
       "catalyst": false,
       "status": null
     },
     {
       "ticker": "SAP.DE",
       "name": "SAP",
-      "change_pct": 2.41,
-      "rel_volume": 2.58,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "MC.PA",
-      "name": "LVMH",
-      "change_pct": -1.64,
-      "rel_volume": 3.16,
+      "change_pct": 1.88,
+      "rel_volume": 0.16,
       "catalyst": false,
       "status": null
     },
     {
       "ticker": "ENR.DE",
       "name": "Siemens Energy",
-      "change_pct": -2.11,
-      "rel_volume": 1.98,
+      "change_pct": 1.57,
+      "rel_volume": 0.18,
       "catalyst": false,
       "status": null
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": -1.9,
-      "rel_volume": 2.0,
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "change_pct": -1.42,
+      "rel_volume": 0.16,
       "catalyst": false,
       "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": 1.25,
-      "rel_volume": 2.93,
-      "catalyst": true,
+      "ticker": "MUV2.DE",
+      "name": "Munich Re",
+      "change_pct": -1.02,
+      "rel_volume": 0.21,
+      "catalyst": false,
       "status": null
     }
   ],
