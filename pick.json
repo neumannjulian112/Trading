@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-04T08:46:16.241184+00:00",
-  "generated_at_local": "04.06.2026, 10:46 Uhr",
-  "session_date": "2026-06-03",
-  "ticker": "SAP.DE",
-  "name": "SAP",
-  "last_price": 155.94,
-  "previous_close": 162.86,
-  "change_pct": -4.25,
-  "volume": 2462389,
-  "avg_volume": 3013209,
-  "rel_volume": 0.82,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (160.02); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-04T14:11:03.330383+00:00",
+  "generated_at_local": "04.06.2026, 16:11 Uhr",
+  "session_date": "2026-06-04",
+  "ticker": "AMD",
+  "name": "AMD",
+  "last_price": 503.45,
+  "previous_close": 542.52,
+  "change_pct": -7.2,
+  "volume": 8384766,
+  "avg_volume": 39119833,
+  "rel_volume": 0.21,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
     "catalyst": false,
-    "summary": "Bewertungsartikel ohne neuen fundamentalen Katalysator oder konkrete Kursreaktion.",
-    "headline": "Is There Still Room In SAP (XTRA:SAP) After The Recent Share Price Recovery?",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/still-room-sap-xtra-sap-010655132.html"
+    "summary": "Broadcom-Gewinnwarnung löst Halbleiter-Sektor-Ausverkauf aus, AMD mitbetroffen.",
+    "headline": "Intel, AMD, Micron shares sink as Broadcom results spark semiconductor sector sell-off",
+    "url": "https://finance.yahoo.com/markets/article/intel-amd-micron-shares-sink-as-broadcom-results-spark-semiconductor-sector-sell-off-130128609.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 160.02,
-    "range_low": 156.19,
-    "current_price": 163.34,
-    "vwap": 161.24,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 163.34,
-    "stop": 156.19,
-    "risk_per_share": 7.15,
-    "target_1": 174.06,
-    "target_2": 177.64,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 139,
-    "capital": 22704.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": -3.65,
-      "rel_volume": 1.44,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -7.2,
+      "rel_volume": 0.21,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": -4.25,
-      "rel_volume": 0.82,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 3.24,
+      "rel_volume": 0.37,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": -2.7,
-      "rel_volume": 1.07,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -3.08,
+      "rel_volume": 0.25,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": -2.27,
-      "rel_volume": 1.22,
+      "ticker": "META",
+      "name": "Meta",
+      "change_pct": 2.3,
+      "rel_volume": 0.29,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MC.PA",
-      "name": "LVMH",
-      "change_pct": -2.98,
-      "rel_volume": 0.9,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -3.22,
+      "rel_volume": 0.21,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ADS.DE",
-      "name": "Adidas",
-      "change_pct": -3.15,
-      "rel_volume": 0.83,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -3.48,
+      "rel_volume": 0.16,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
