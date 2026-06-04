@@ -3,12 +3,14 @@ name: Tagesaktie
 on:
   schedule:
     # Cron laeuft in UTC und passt sich NICHT an Sommer-/Winterzeit an.
+    # Bewusst KRUMME Minuten (nicht :00/:30), da runde Zeiten auf GitHub am
+    # staerksten ueberlastet und verzoegert sind.
     # --- Europa ---
-    - cron: "30 6 * * 1-5"    # screen   ~08:30 (Sommer) vor Xetra-Eroeffnung 09:00
-    - cron: "30 7 * * 1-5"    # breakout ~09:30 (Sommer) nach der Eroeffnungsspanne
+    - cron: "23 6 * * 1-5"    # screen   ~08:23 (Sommer) vor Xetra-Eroeffnung 09:00
+    - cron: "43 7 * * 1-5"    # breakout ~09:43 (Sommer) nach der Eroeffnungsspanne
     # --- USA ---
-    - cron: "0 13 * * 1-5"    # screen   ~15:00 (Sommer) vor US-Eroeffnung 15:30
-    - cron: "0 14 * * 1-5"    # breakout ~16:00 (Sommer) nach der Eroeffnungsspanne
+    - cron: "13 13 * * 1-5"   # screen   ~15:13 (Sommer) vor US-Eroeffnung 15:30
+    - cron: "3 14 * * 1-5"    # breakout ~16:03 (Sommer) nach der Eroeffnungsspanne
   workflow_dispatch:
     inputs:
       region:
@@ -29,9 +31,9 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5.6.0
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -42,10 +44,10 @@ jobs:
         id: cfg
         run: |
           case "${{ github.event.schedule }}" in
-            "30 6 * * 1-5") echo "region=europe" >> "$GITHUB_OUTPUT"; echo "phase=screen"   >> "$GITHUB_OUTPUT" ;;
-            "30 7 * * 1-5") echo "region=europe" >> "$GITHUB_OUTPUT"; echo "phase=breakout" >> "$GITHUB_OUTPUT" ;;
-            "0 13 * * 1-5") echo "region=usa"    >> "$GITHUB_OUTPUT"; echo "phase=screen"   >> "$GITHUB_OUTPUT" ;;
-            "0 14 * * 1-5") echo "region=usa"    >> "$GITHUB_OUTPUT"; echo "phase=breakout" >> "$GITHUB_OUTPUT" ;;
+            "23 6 * * 1-5") echo "region=europe" >> "$GITHUB_OUTPUT"; echo "phase=screen"   >> "$GITHUB_OUTPUT" ;;
+            "43 7 * * 1-5") echo "region=europe" >> "$GITHUB_OUTPUT"; echo "phase=breakout" >> "$GITHUB_OUTPUT" ;;
+            "13 13 * * 1-5") echo "region=usa"   >> "$GITHUB_OUTPUT"; echo "phase=screen"   >> "$GITHUB_OUTPUT" ;;
+            "3 14 * * 1-5") echo "region=usa"    >> "$GITHUB_OUTPUT"; echo "phase=breakout" >> "$GITHUB_OUTPUT" ;;
             *) echo "region=${{ github.event.inputs.region || 'europe' }}" >> "$GITHUB_OUTPUT";
                echo "phase=${{ github.event.inputs.phase || 'screen' }}"   >> "$GITHUB_OUTPUT" ;;
           esac
