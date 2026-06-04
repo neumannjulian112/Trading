@@ -245,7 +245,12 @@ def intraday_metrics(ticker, region, window_min):
     if df is None or df.empty:
         return None
     if df.columns.nlevels > 1:
-        df.columns = df.columns.get_level_values(-1)
+        # Die richtige Ebene waehlen: die, die Open/High/Low/Close enthaelt
+        lvl0 = set(map(str, df.columns.get_level_values(0)))
+        if {"High", "Low", "Close"} & lvl0:
+            df.columns = df.columns.get_level_values(0)
+        else:
+            df.columns = df.columns.get_level_values(-1)
     try:
         idx = df.index.tz_convert(mtz)
     except Exception:
