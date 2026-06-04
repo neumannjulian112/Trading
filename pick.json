@@ -3,73 +3,53 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-04T05:06:26.710439+00:00",
-  "generated_at_local": "04.06.2026, 07:06 Uhr",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-04T05:16:53.045578+00:00",
+  "generated_at_local": "04.06.2026, 07:16 Uhr",
   "session_date": "2026-06-03",
-  "ticker": "BAYN.DE",
-  "name": "Bayer",
-  "last_price": 34.7,
-  "previous_close": 34.1,
-  "change_pct": 1.76,
-  "volume": 3013210,
-  "avg_volume": 2618490,
-  "rel_volume": 1.15,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (34.3); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "DBK.DE",
+  "name": "Deutsche Bank",
+  "last_price": 26.93,
+  "previous_close": 27.95,
+  "change_pct": -3.65,
+  "volume": 7948005,
+  "avg_volume": 5515955,
+  "rel_volume": 1.44,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Andauernde Roundup-Litigation und CEO-Stellungnahmen bleiben erhebliche Belastungsfaktoren trotz Absage von Restrukturierungsplänen.",
-    "headline": "Bayer says no plans to restructure despite litigation threat",
-    "url": "https://finance.yahoo.com/news/bayer-says-no-plans-restructure-231110038.html"
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "Rechnungslegungstechnische Details zu Kreditrisikovorsorge und Dividenhenerhöhung sind marktbeobachtet, aber nicht wesentlich kursrelevant.",
+    "headline": "Market Chatter: Deutsche Bank Sees Q2 Credit-Loss Provisions Slightly Above Consensus",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-deutsche-bank-sees-152714600.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "Xetra",
     "open_local": "09:00 Uhr",
-    "window_min": 5,
-    "range_window": "09:00–09:05 Uhr",
-    "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 34.3,
-    "range_low": 33.53,
-    "current_price": 34.7,
-    "vwap": 34.26,
-    "breakout_status": "ausbruch_auf"
+    "window_min": 15,
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 1,
-  "trade_plan": {
-    "entry": 34.7,
-    "stop": 33.53,
-    "risk_per_share": 1.17,
-    "target_1": 36.46,
-    "target_2": 37.04,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 854,
-    "capital": 29634.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
       "ticker": "DBK.DE",
       "name": "Deutsche Bank",
       "change_pct": -3.65,
       "rel_volume": 1.44,
-      "catalyst": true,
-      "status": "ausbruch_ab"
+      "catalyst": false,
+      "status": null
     },
     {
       "ticker": "SAP.DE",
@@ -77,7 +57,7 @@
       "change_pct": -4.25,
       "rel_volume": 0.82,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
       "ticker": "DTE.DE",
@@ -85,7 +65,7 @@
       "change_pct": -2.7,
       "rel_volume": 1.07,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
       "ticker": "BMW.DE",
@@ -93,7 +73,7 @@
       "change_pct": -2.27,
       "rel_volume": 1.22,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
       "ticker": "MC.PA",
@@ -101,7 +81,7 @@
       "change_pct": -2.98,
       "rel_volume": 0.9,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
       "ticker": "ADS.DE",
@@ -109,7 +89,7 @@
       "change_pct": -3.15,
       "rel_volume": 0.83,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."

@@ -4,8 +4,8 @@
   "flag": "EU",
   "currency": "EUR",
   "phase": "screen",
-  "generated_at": "2026-06-04T05:04:26.268034+00:00",
-  "generated_at_local": "04.06.2026, 07:04 Uhr",
+  "generated_at": "2026-06-04T05:16:53.044988+00:00",
+  "generated_at_local": "04.06.2026, 07:16 Uhr",
   "session_date": "2026-06-03",
   "favorite": "DBK.DE",
   "watchlist": [
@@ -23,11 +23,11 @@
       "trend_up": false,
       "session_date": "2026-06-03",
       "news": {
-        "sentiment": "positiv",
-        "direction": "auf",
-        "materiality": "mittel",
-        "catalyst": true,
-        "summary": "Q2 Kreditverlustvorsorgen und Dividendenerhöhung bei Tochter DWS nach Rekordergebnissen sind konstruktive Signale.",
+        "sentiment": "neutral",
+        "direction": "unklar",
+        "materiality": "gering",
+        "catalyst": false,
+        "summary": "Rechnungslegungstechnische Details zu Kreditrisikovorsorge und Dividenhenerhöhung sind marktbeobachtet, aber nicht wesentlich kursrelevant.",
         "headline": "Market Chatter: Deutsche Bank Sees Q2 Credit-Loss Provisions Slightly Above Consensus",
         "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-deutsche-bank-sees-152714600.html"
       },
@@ -51,7 +51,7 @@
         "direction": "unklar",
         "materiality": "gering",
         "catalyst": false,
-        "summary": "Analytische Frage zur Bewertung nach Kursanstieg ohne neue fundamentale Informationen.",
+        "summary": "Analytische Frage zur Bewertung nach Kurserholung ist keine konkrete Nachricht und keine Kurskatalysator.",
         "headline": "Is There Still Room In SAP (XTRA:SAP) After The Recent Share Price Recovery?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/still-room-sap-xtra-sap-010655132.html"
       },
@@ -91,7 +91,7 @@
         "direction": "auf",
         "materiality": "mittel",
         "catalyst": false,
-        "summary": "EV-Strategie mit attraktiver Bewertung positiv positioniert trotz Marktskepsis.",
+        "summary": "Verknüpfung von politikgetriebener EV-Ausweitung mit Bewertungsdiskount könnte Aufwärtspotential signalisieren.",
         "headline": "BMW Shares Link Policy Driven EV Growth With Apparent Valuation Discount",
         "url": "https://finance.yahoo.com/sectors/energy/articles/bmw-shares-policy-driven-ev-061210238.html"
       },
@@ -127,11 +127,11 @@
       "trend_up": true,
       "session_date": "2026-06-03",
       "news": {
-        "sentiment": "neutral",
-        "direction": "unklar",
+        "sentiment": "negativ",
+        "direction": "ab",
         "materiality": "gering",
         "catalyst": false,
-        "summary": "Schlagzeile bezieht sich auf Nike, nicht auf Adidas; keine relevanten Informationen für ADS.",
+        "summary": "Schlagzeile betrifft Nike (NKE), nicht Adidas; technischer Verkaufssignal ist nicht kursrelevant für ADS.",
         "headline": "NKE Stock Slips Below 50-Day SMA: A Warning Sign for Investors?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nke-stock-slips-below-50-132200193.html"
       },
@@ -155,7 +155,7 @@
         "direction": "ab",
         "materiality": "hoch",
         "catalyst": true,
-        "summary": "Trump-Zölle und Vorwürfe der Zwangsarbeit sind ernsthafte Risiken für Volkswagens Geschäftsmodell.",
+        "summary": "Trumps Zollmauerbau stellt wesentliche Risiken für deutsche Autobauer wie Volkswagen dar und ist ein relevanter Marktimpuls.",
         "headline": "Trump Begins Rebuilding His Tariff Wall, Citing Forced Labor",
         "url": "https://finance.yahoo.com/economy/policy/articles/trump-proposes-levies-least-10-044418121.html"
       },
@@ -179,7 +179,7 @@
         "direction": "unklar",
         "materiality": "gering",
         "catalyst": false,
-        "summary": "Allgemeine Makro-Analyse zu Inflation und Fed-Politik ohne spezifische Allianz-Informationen.",
+        "summary": "Powell-Ära Geldpolitik-Lektionen sind gesamtmarktkontext, keine spezifische Allianz-Nachricht.",
         "headline": "Inflation Needs a Short Leash and 4 More Lessons From the Fed’s Powell Era",
         "url": "https://www.barrons.com/articles/federal-reserve-inflation-jerome-powell-f22c80ec?siteid=yhoof2&yptr=yahoo"
       },
@@ -202,8 +202,8 @@
         "sentiment": "gemischt",
         "direction": "unklar",
         "materiality": "mittel",
-        "catalyst": true,
-        "summary": "EV-Engagement positiv, aber Trump-Zölle und Bewertungsfragen im Kontext gemischter Kursentwicklung schaffen Unsicherheit.",
+        "catalyst": false,
+        "summary": "EV-Strategie-Commitment ist positiv, Zollrisiken negativ, Bewertungsanalyse ist neutral; im Mittel unklare Richtung.",
         "headline": "Mercedes doubles down on EVs as U.S. rivals pull back",
         "url": "https://www.thestreet.com/automotive/mercedes-doubles-down-on-evs-as-u-s-rivals-pull-back"
       },
@@ -223,15 +223,15 @@
       "trend_up": false,
       "session_date": "2026-06-03",
       "news": {
-        "sentiment": "negativ",
-        "direction": "ab",
-        "materiality": "hoch",
-        "catalyst": true,
-        "summary": "Andauernde Roundup-Litigation und CEO-Stellungnahmen bleiben erhebliche Belastungsfaktoren trotz Absage von Restrukturierungsplänen.",
+        "sentiment": "neutral",
+        "direction": "unklar",
+        "materiality": "mittel",
+        "catalyst": false,
+        "summary": "Restrukturierungsdementis und Litigationsdiskurs sind bekannte Risiken ohne neue konkrete Kurskatalysatoren.",
         "headline": "Bayer says no plans to restructure despite litigation threat",
         "url": "https://finance.yahoo.com/news/bayer-says-no-plans-restructure-231110038.html"
       },
-      "or_window_min": 5
+      "or_window_min": 15
     }
   ]
 }
