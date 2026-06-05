@@ -3,28 +3,28 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-06-05T16:18:31.206193+00:00",
-  "generated_at_local": "05.06.2026, 18:18 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-06-05T16:44:47.664159+00:00",
+  "generated_at_local": "05.06.2026, 18:44 Uhr",
   "session_date": "2026-06-05",
-  "ticker": "IFX.DE",
-  "name": "Infineon",
-  "last_price": 77.3,
-  "previous_close": 85.05,
-  "change_pct": -9.11,
-  "volume": 8243592,
-  "avg_volume": 6062147,
-  "rel_volume": 1.36,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "AIR.PA",
+  "name": "Airbus",
+  "last_price": 178.96,
+  "previous_close": 177.0,
+  "change_pct": 1.11,
+  "volume": 1239190,
+  "avg_volume": 1403533,
+  "rel_volume": 0.88,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (178.58); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
+    "sentiment": "positiv",
+    "direction": "auf",
     "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Infineon folgt dem Rutsch europäischer Chipaktien nach Broadcom-Guidance-Enttäuschung; NVIDIA-Partnership-News zu schwach als Gegengewicht.",
-    "headline": "How onsemi Is Winning in Renewable Energy Infrastructure",
-    "url": "https://finance.yahoo.com/sectors/energy/articles/onsemi-winning-renewable-energy-infrastructure-132200919.html"
+    "catalyst": true,
+    "summary": "Airbus profitiert von gelöstem China-Engpass mit 81 Lieferungen im Mai; Marktdaten und konkrete Produktionsrelevanz.",
+    "headline": "Boeing Eyes Bigger 737 Production Push",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-eyes-bigger-737-production-094614807.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 178.58,
+    "range_low": 177.24,
+    "current_price": 178.84,
+    "vwap": 178.52,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": true,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 3,
+  "trade_plan": {
+    "entry": 178.84,
+    "stop": 177.24,
+    "risk_per_share": 1.6,
+    "target_1": 181.24,
+    "target_2": 182.04,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 625,
+    "capital": 111775.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "IFX.DE",
@@ -49,7 +69,7 @@
       "change_pct": -9.11,
       "rel_volume": 1.36,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "ASML.AS",
@@ -57,7 +77,7 @@
       "change_pct": -2.39,
       "rel_volume": 1.0,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "P911.DE",
@@ -65,7 +85,7 @@
       "change_pct": -3.04,
       "rel_volume": 0.63,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "SAP.DE",
@@ -73,7 +93,7 @@
       "change_pct": -1.84,
       "rel_volume": 0.99,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MBG.DE",
@@ -81,7 +101,7 @@
       "change_pct": -2.2,
       "rel_volume": 0.76,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "BAYN.DE",
@@ -89,7 +109,7 @@
       "change_pct": 1.69,
       "rel_volume": 0.83,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
