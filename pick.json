@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-04T21:03:45.678980+00:00",
-  "generated_at_local": "04.06.2026, 23:03 Uhr",
-  "session_date": "2026-06-04",
-  "ticker": "AMD",
-  "name": "AMD",
-  "last_price": 523.2,
-  "previous_close": 542.52,
-  "change_pct": -3.56,
-  "volume": 28296824,
-  "avg_volume": 39124990,
-  "rel_volume": 0.72,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (518.5); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-05T16:18:31.206193+00:00",
+  "generated_at_local": "05.06.2026, 18:18 Uhr",
+  "session_date": "2026-06-05",
+  "ticker": "IFX.DE",
+  "name": "Infineon",
+  "last_price": 77.3,
+  "previous_close": 85.05,
+  "change_pct": -9.11,
+  "volume": 8243592,
+  "avg_volume": 6062147,
+  "rel_volume": 1.36,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
     "materiality": "mittel",
     "catalyst": false,
-    "summary": "AMD-Aktie sinkt im Zuge des Broadcom-bedingten Halbleitersektorselloffs, aber TSMC-Prognose bietet teilweise Gegengewicht.",
-    "headline": "Intel, AMD, Micron shares trim losses after Broadcom results spark semiconductor sector sell-off",
-    "url": "https://finance.yahoo.com/markets/stocks/article/intel-amd-micron-shares-trim-losses-after-broadcom-results-spark-semiconductor-sector-sell-off-130128361.html"
+    "summary": "Infineon folgt dem Rutsch europäischer Chipaktien nach Broadcom-Guidance-Enttäuschung; NVIDIA-Partnership-News zu schwach als Gegengewicht.",
+    "headline": "How onsemi Is Winning in Renewable Energy Infrastructure",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/onsemi-winning-renewable-energy-infrastructure-132200919.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 518.5,
-    "range_low": 505.05,
-    "current_price": 523.19,
-    "vwap": 517.94,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 523.19,
-    "stop": 505.05,
-    "risk_per_share": 18.14,
-    "target_1": 550.4,
-    "target_2": 559.47,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 55,
-    "capital": 28775.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "change_pct": 3.68,
-      "rel_volume": 1.47,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -9.11,
+      "rel_volume": 1.36,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "BA",
-      "name": "Boeing",
-      "change_pct": 3.25,
-      "rel_volume": 1.02,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -2.39,
+      "rel_volume": 1.0,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": -3.04,
+      "rel_volume": 0.63,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -1.84,
+      "rel_volume": 0.99,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": -2.2,
+      "rel_volume": 0.76,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": 1.69,
+      "rel_volume": 0.83,
       "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 2.23,
-      "rel_volume": 1.4,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -3.56,
-      "rel_volume": 0.72,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": 2.82,
-      "rel_volume": 0.91,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": 1.82,
-      "rel_volume": 1.03,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
