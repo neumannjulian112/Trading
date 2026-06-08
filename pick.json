@@ -3,28 +3,28 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-06-08T21:17:35.730019+00:00",
-  "generated_at_local": "08.06.2026, 23:17 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-06-08T21:20:45.663697+00:00",
+  "generated_at_local": "08.06.2026, 23:20 Uhr",
   "session_date": "2026-06-08",
-  "ticker": "INTC",
-  "name": "Intel",
-  "last_price": 110.27,
-  "previous_close": 99.17,
-  "change_pct": 11.19,
-  "volume": 135091297,
-  "avg_volume": 138026453,
-  "rel_volume": 0.98,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "MARA",
+  "name": "MARA Holdings",
+  "last_price": 13.78,
+  "previous_close": 12.32,
+  "change_pct": 11.85,
+  "volume": 32437315,
+  "avg_volume": 43679619,
+  "rel_volume": 0.74,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (12.99); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "mittel",
     "catalyst": false,
-    "summary": "Chipmaker profitiert von breiterer Tech-Erholung und positivem Marktsentiment.",
-    "headline": "US Equity Indexes Mixed Amid Big-Tech Gains as Iran, Israel Halt Strikes After Trump Calls for Ceasefire",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-amid-210530538.html"
+    "summary": "Krypto-Aktie partizipiert an Bitcoin-Rebound und Rallye von Crypto-Stocks.",
+    "headline": "Strategy, Coinbase, Circle and Robinhood Lead Crypto Stocks Rally Amid Bitcoin Rebound",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-coinbase-circle-robinhood-lead-194117279.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 12.99,
+    "range_low": 12.6,
+    "current_price": 13.77,
+    "vwap": 13.39,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 13.77,
+    "stop": 12.6,
+    "risk_per_share": 1.17,
+    "target_1": 15.52,
+    "target_2": 16.11,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 854,
+    "capital": 11760.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "INTC",
@@ -49,7 +69,7 @@
       "change_pct": 11.19,
       "rel_volume": 0.98,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "MARA",
@@ -57,7 +77,7 @@
       "change_pct": 11.85,
       "rel_volume": 0.74,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MSTR",
@@ -65,7 +85,7 @@
       "change_pct": 5.61,
       "rel_volume": 1.13,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "COIN",
@@ -73,7 +93,7 @@
       "change_pct": 6.37,
       "rel_volume": 0.88,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SMCI",
@@ -81,7 +101,7 @@
       "change_pct": 5.64,
       "rel_volume": 0.79,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "TSLA",
@@ -89,7 +109,7 @@
       "change_pct": 4.59,
       "rel_volume": 0.85,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
