@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-06-05T20:33:26.381422+00:00",
-  "generated_at_local": "05.06.2026, 22:33 Uhr",
-  "session_date": "2026-06-05",
-  "ticker": "SOFI",
-  "name": "SoFi",
-  "last_price": 15.78,
-  "previous_close": 17.15,
-  "change_pct": -7.99,
-  "volume": 65869699,
-  "avg_volume": 66493634,
-  "rel_volume": 0.99,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: SoFi (Spanne 16.41–16.99, aktuell 16.04).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-08T17:39:05.269196+00:00",
+  "generated_at_local": "08.06.2026, 19:39 Uhr",
+  "session_date": "2026-06-08",
+  "ticker": "ASML.AS",
+  "name": "ASML",
+  "last_price": 1514.6,
+  "previous_close": 1462.2,
+  "change_pct": 3.58,
+  "volume": 840744,
+  "avg_volume": 664308,
+  "rel_volume": 1.27,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "gemischt",
-    "direction": "unklar",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Positive Rule-of-40-Nachricht wird von SpaceX-IPO-Konkurrenz und regulatorischen Bedenken neutralisiert.",
-    "headline": "SpaceX IPO: How can I buy the stock?",
-    "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-ipo-how-can-i-buy-the-stock-141820340.html"
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Direkte Verhandlungen mit Elon Musk über 119-Milliarden-Dollar-Chipfabrik sowie Position in KI-Portfolios führen zu positiver Kursbewegung.",
+    "headline": "Wall Street Bank Warns SpaceX IPO Could Trigger Large Sell-Off in Popular Semiconductor Stocks",
+    "url": "https://247wallst.com/investing/2026/06/08/wall-street-bank-warns-spacex-ipo-could-trigger-large-sell-off-in-popular-semiconductor-stocks/"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 16.99,
-    "range_low": 16.41,
-    "current_price": 16.04,
-    "vwap": 16.06,
-    "breakout_status": "ausbruch_ab"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
-    "trend": false
+    "vwap": null,
+    "volume": null,
+    "trend": true
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 16.99,
-    "stop": 16.41,
-    "risk_per_share": 0.58,
-    "target_1": 17.86,
-    "target_2": 18.15,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1724,
-    "capital": 29291.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": -7.99,
-      "rel_volume": 0.99,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -13.11,
-      "rel_volume": 0.76,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": 3.58,
+      "rel_volume": 1.27,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -11.9,
-      "rel_volume": 0.97,
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": -4.18,
+      "rel_volume": 1.07,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -9.85,
-      "rel_volume": 1.83,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -8.55,
-      "rel_volume": 1.35,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -10.75,
-      "rel_volume": 0.75,
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 2.3,
+      "rel_volume": 1.2,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": 1.92,
+      "rel_volume": 0.86,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -2.09,
+      "rel_volume": 0.67,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": 1.22,
+      "rel_volume": 1.11,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
