@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-09T10:47:46.391993+00:00",
-  "generated_at_local": "09.06.2026, 12:47 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-09T16:13:19.553883+00:00",
+  "generated_at_local": "09.06.2026, 18:13 Uhr",
   "session_date": "2026-06-09",
-  "ticker": "RHM.DE",
-  "name": "Rheinmetall",
-  "last_price": 1220.8,
-  "previous_close": 1199.8,
-  "change_pct": 1.75,
-  "volume": 51840,
-  "avg_volume": 256751,
-  "rel_volume": 0.2,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (1199.8); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "SMCI",
+  "name": "Super Micro",
+  "last_price": 39.16,
+  "previous_close": 43.99,
+  "change_pct": -10.98,
+  "volume": 20573306,
+  "avg_volume": 39641780,
+  "rel_volume": 0.52,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "Rheinmetall als Value-Pick erwähnt, aber nur allgemeine Bewertungsaussagen ohne Kataly.",
-    "headline": "European Value Stock Picks That May Be Priced Below Intrinsic Estimates",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/european-value-stock-picks-may-053821274.html"
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Exportuntersuchungen gefährden die Wachstumsgeschichte des AI-Server-Marktführers erheblich.",
+    "headline": "From $1,000 to $17,070: How Super Micro Computer Became an AI Infrastructure Juggernaut in Ten Years",
+    "url": "https://247wallst.com/investing/2026/06/09/from-1000-to-17070-how-super-micro-computer-became-an-ai-infrastructure-juggernaut-in-ten-years/"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
-    "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 1199.8,
-    "range_low": 1184.6,
-    "current_price": 1226.6,
-    "vwap": 1199.96,
-    "breakout_status": "ausbruch_auf"
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
+    "window_min": 5,
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 1226.6,
-    "stop": 1184.6,
-    "risk_per_share": 42.0,
-    "target_1": 1289.6,
-    "target_2": 1310.6,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 23,
-    "capital": 28212.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": 4.05,
-      "rel_volume": 0.17,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": 2.45,
-      "rel_volume": 0.24,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 1.75,
-      "rel_volume": 0.2,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": -1.43,
-      "rel_volume": 0.24,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "change_pct": 1.58,
-      "rel_volume": 0.18,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -10.98,
+      "rel_volume": 0.52,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "BAS.DE",
-      "name": "BASF",
-      "change_pct": -1.47,
-      "rel_volume": 0.19,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -8.95,
+      "rel_volume": 0.55,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -6.94,
+      "rel_volume": 0.59,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -6.86,
+      "rel_volume": 0.49,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -7.8,
+      "rel_volume": 0.41,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "change_pct": -5.75,
+      "rel_volume": 0.41,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
