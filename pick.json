@@ -3,28 +3,28 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-06-09T10:06:25.100040+00:00",
-  "generated_at_local": "09.06.2026, 12:06 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-06-09T10:47:46.391993+00:00",
+  "generated_at_local": "09.06.2026, 12:47 Uhr",
   "session_date": "2026-06-09",
-  "ticker": "IFX.DE",
-  "name": "Infineon",
-  "last_price": 81.41,
-  "previous_close": 78.24,
-  "change_pct": 4.05,
-  "volume": 1048348,
-  "avg_volume": 6147514,
-  "rel_volume": 0.17,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "RHM.DE",
+  "name": "Rheinmetall",
+  "last_price": 1220.8,
+  "previous_close": 1199.8,
+  "change_pct": 1.75,
+  "volume": 51840,
+  "avg_volume": 256751,
+  "rel_volume": 0.2,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (1199.8); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "gering",
     "catalyst": false,
-    "summary": "Tech-Sektor profitiert von Dip-Buying, aber keine spezifischen Infineon-Nachrichten.",
-    "headline": "Stocks get a boost from tech dip-buying; bonds flag",
-    "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-tentative-bounce-bonds-012110402.html"
+    "summary": "Rheinmetall als Value-Pick erwähnt, aber nur allgemeine Bewertungsaussagen ohne Kataly.",
+    "headline": "European Value Stock Picks That May Be Priced Below Intrinsic Estimates",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/european-value-stock-picks-may-053821274.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 1199.8,
+    "range_low": 1184.6,
+    "current_price": 1226.6,
+    "vwap": 1199.96,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 1226.6,
+    "stop": 1184.6,
+    "risk_per_share": 42.0,
+    "target_1": 1289.6,
+    "target_2": 1310.6,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 23,
+    "capital": 28212.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "IFX.DE",
@@ -49,7 +69,7 @@
       "change_pct": 4.05,
       "rel_volume": 0.17,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "DBK.DE",
@@ -57,7 +77,7 @@
       "change_pct": 2.45,
       "rel_volume": 0.24,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "RHM.DE",
@@ -65,7 +85,7 @@
       "change_pct": 1.75,
       "rel_volume": 0.2,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "BAYN.DE",
@@ -73,7 +93,7 @@
       "change_pct": -1.43,
       "rel_volume": 0.24,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ALV.DE",
@@ -81,7 +101,7 @@
       "change_pct": 1.58,
       "rel_volume": 0.18,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "BAS.DE",
@@ -89,7 +109,7 @@
       "change_pct": -1.47,
       "rel_volume": 0.19,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
