@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-06-09T16:34:31.912017+00:00",
-  "generated_at_local": "09.06.2026, 18:34 Uhr",
-  "session_date": "2026-06-09",
-  "ticker": "SOFI",
-  "name": "SoFi",
-  "last_price": 15.88,
-  "previous_close": 16.5,
-  "change_pct": -3.79,
-  "volume": 35702979,
-  "avg_volume": 68374371,
-  "rel_volume": 0.52,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: SoFi (Spanne 16.4–16.9, aktuell 15.9).",
-  "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "SoFi steigt auf institutionelle Käufe zurück, aber ohne konkrete Geschäftskatalysatoren.",
-    "headline": "Fintech M&A Watch: 3 Stocks That Could Be Next on the Block",
-    "url": "https://247wallst.com/investing/2026/06/09/fintech-ma-watch-3-stocks-that-could-be-next-on-the-block/"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-10T10:37:38.440370+00:00",
+  "generated_at_local": "10.06.2026, 12:37 Uhr",
+  "session_date": "2026-06-10",
+  "ticker": "SAP.DE",
+  "name": "SAP",
+  "last_price": 148.68,
+  "previous_close": 154.7,
+  "change_pct": -3.89,
+  "volume": 814284,
+  "avg_volume": 2950557,
+  "rel_volume": 0.28,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 16.9,
-    "range_low": 16.4,
-    "current_price": 15.9,
-    "vwap": 16.38,
-    "breakout_status": "ausbruch_ab"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 16.9,
-    "stop": 16.4,
-    "risk_per_share": 0.5,
-    "target_1": 17.65,
-    "target_2": 17.9,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 2000,
-    "capital": 33800.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": -3.79,
-      "rel_volume": 0.52,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -3.89,
+      "rel_volume": 0.28,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -6.94,
-      "rel_volume": 0.59,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": -1.55,
+      "rel_volume": 0.44,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -10.98,
-      "rel_volume": 0.52,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": -5.06,
-      "rel_volume": 0.34,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -8.95,
-      "rel_volume": 0.55,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -5.75,
-      "rel_volume": 0.41,
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": -1.66,
+      "rel_volume": 0.16,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": -1.78,
+      "rel_volume": 0.13,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": 0.87,
+      "rel_volume": 0.25,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -0.73,
+      "rel_volume": 0.26,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
