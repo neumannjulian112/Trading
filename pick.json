@@ -3,77 +3,73 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-06-10T16:45:35.648887+00:00",
-  "generated_at_local": "10.06.2026, 18:45 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-06-10T17:27:12.428510+00:00",
+  "generated_at_local": "10.06.2026, 19:27 Uhr",
   "session_date": "2026-06-10",
-  "ticker": "SMCI",
-  "name": "Super Micro",
-  "last_price": 33.17,
-  "previous_close": 40.64,
-  "change_pct": -18.39,
-  "volume": 67818094,
-  "avg_volume": 40153883,
-  "rel_volume": 1.69,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "F",
+  "name": "Ford",
+  "last_price": 14.4,
+  "previous_close": 14.95,
+  "change_pct": -3.65,
+  "volume": 21922510,
+  "avg_volume": 63493945,
+  "rel_volume": 0.35,
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Ford (Spanne 14.51–14.84, aktuell 14.35).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "7-Milliarden-Dollar-Kapitalerhöhung zur Finanzierung des AI-Server-Wachstums führt zu Verwässerung und Kursrutsch.",
-    "headline": "Why Super Micro stock is plunging & Cracker Barrel stock is surging",
-    "url": "https://finance.yahoo.com/video/why-super-micro-stock-is-plunging--cracker-barrel-stock-is-surging-150815558.html"
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
+    "catalyst": false,
+    "summary": "Aluminium-Lieferant Novelis startet Produktion nach Brandschäden neu, was Fords Lieferkette stabilisiert.",
+    "headline": "General Motors follows Ford's lead into the battery business",
+    "url": "https://finance.yahoo.com/video/general-motors-follows-fords-lead-into-the-battery-business-152500628.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 14.84,
+    "range_low": 14.51,
+    "current_price": 14.35,
+    "vwap": 14.57,
+    "breakout_status": "ausbruch_ab"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": false,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 0,
+  "trade_plan": {
+    "entry": 14.84,
+    "stop": 14.51,
+    "risk_per_share": 0.33,
+    "target_1": 15.33,
+    "target_2": 15.5,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 3030,
+    "capital": 44965.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -18.39,
-      "rel_volume": 1.69,
-      "catalyst": true,
-      "status": null
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": -3.51,
-      "rel_volume": 0.5,
+      "ticker": "F",
+      "name": "Ford",
+      "change_pct": -3.65,
+      "rel_volume": 0.35,
       "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -3.71,
-      "rel_volume": 0.47,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -4.22,
-      "rel_volume": 0.36,
-      "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "SOFI",
@@ -81,15 +77,39 @@
       "change_pct": -2.49,
       "rel_volume": 0.6,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
-      "ticker": "F",
-      "name": "Ford",
-      "change_pct": -3.65,
-      "rel_volume": 0.35,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -3.71,
+      "rel_volume": 0.47,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -18.39,
+      "rel_volume": 1.69,
+      "catalyst": true,
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "change_pct": -2.85,
+      "rel_volume": 0.38,
+      "catalyst": false,
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "change_pct": -2.55,
+      "rel_volume": 0.49,
+      "catalyst": false,
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
