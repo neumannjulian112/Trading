@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-11T11:58:36.809887+00:00",
-  "generated_at_local": "11.06.2026, 13:58 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-11T17:02:09.708517+00:00",
+  "generated_at_local": "11.06.2026, 19:02 Uhr",
   "session_date": "2026-06-11",
-  "ticker": "MC.PA",
-  "name": "LVMH",
-  "last_price": 498.95,
-  "previous_close": 487.65,
-  "change_pct": 2.32,
-  "volume": 282940,
-  "avg_volume": 570761,
-  "rel_volume": 0.5,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (494.1); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "SMCI",
+  "name": "Super Micro",
+  "last_price": 30.25,
+  "previous_close": 29.27,
+  "change_pct": 3.35,
+  "volume": 176914189,
+  "avg_volume": 43681476,
+  "rel_volume": 4.05,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "Cramer-Aussage zu Lululemon betrifft LVMH nicht direkt, keine relevante Nachricht für Titel.",
-    "headline": "Jim Cramer Believes “LULU Could Get Interesting If The Business Turns Around a Little Bit”",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-believes-lulu-could-094255351.html"
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Massive Kapitalerhöhung von 4,9 Mrd. Dollar verdünnt bestehende Aktionäre erheblich trotz starkem Wachstum.",
+    "headline": "Amazon vs. transport stocks, DraftKings sees prediction markets boost",
+    "url": "https://finance.yahoo.com/video/amazon-vs-transport-stocks-draftkings-sees-prediction-markets-boost-200152313.html"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
-    "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 494.1,
-    "range_low": 484.0,
-    "current_price": 502.1,
-    "vwap": 498.22,
-    "breakout_status": "ausbruch_auf"
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
+    "window_min": 5,
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 502.1,
-    "stop": 484.0,
-    "risk_per_share": 18.1,
-    "target_1": 529.25,
-    "target_2": 538.3,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 55,
-    "capital": 27616.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": -4.13,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": 3.35,
+      "rel_volume": 4.05,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 4.18,
+      "rel_volume": 0.76,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "change_pct": -2.86,
       "rel_volume": 0.51,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": -2.63,
-      "rel_volume": 0.66,
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "change_pct": -2.41,
+      "rel_volume": 0.6,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "P911.DE",
-      "name": "Porsche AG",
-      "change_pct": 2.79,
-      "rel_volume": 0.46,
+      "ticker": "BA",
+      "name": "Boeing",
+      "change_pct": 3.04,
+      "rel_volume": 0.34,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 3.24,
-      "rel_volume": 0.36,
+      "ticker": "META",
+      "name": "Meta",
+      "change_pct": -1.89,
+      "rel_volume": 0.45,
       "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": -2.51,
-      "rel_volume": 0.46,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MC.PA",
-      "name": "LVMH",
-      "change_pct": 2.32,
-      "rel_volume": 0.5,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
