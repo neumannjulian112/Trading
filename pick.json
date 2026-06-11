@@ -3,45 +3,65 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-06-11T17:02:09.708517+00:00",
-  "generated_at_local": "11.06.2026, 19:02 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-06-11T17:39:53.094021+00:00",
+  "generated_at_local": "11.06.2026, 19:39 Uhr",
   "session_date": "2026-06-11",
-  "ticker": "SMCI",
-  "name": "Super Micro",
-  "last_price": 30.25,
-  "previous_close": 29.27,
-  "change_pct": 3.35,
-  "volume": 176914189,
-  "avg_volume": 43681476,
-  "rel_volume": 4.05,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "BA",
+  "name": "Boeing",
+  "last_price": 215.35,
+  "previous_close": 209.0,
+  "change_pct": 3.04,
+  "volume": 2344033,
+  "avg_volume": 6842323,
+  "rel_volume": 0.34,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (211.91); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Massive Kapitalerhöhung von 4,9 Mrd. Dollar verdünnt bestehende Aktionäre erheblich trotz starkem Wachstum.",
-    "headline": "Amazon vs. transport stocks, DraftKings sees prediction markets boost",
-    "url": "https://finance.yahoo.com/video/amazon-vs-transport-stocks-draftkings-sees-prediction-markets-boost-200152313.html"
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "mittel",
+    "catalyst": false,
+    "summary": "Tarifstreit-Deadline und Defense-Produktionszuwächse sind langfristige Faktoren ohne unmittelbare Impulse.",
+    "headline": "US and EU near deadline on $11.5 billion tariffs in long-running aircraft dispute",
+    "url": "https://finance.yahoo.com/economy/policy/articles/us-eu-near-deadline-11-153048405.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 211.91,
+    "range_low": 209.8,
+    "current_price": 217.76,
+    "vwap": 214.01,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 1,
+  "trade_plan": {
+    "entry": 217.76,
+    "stop": 209.8,
+    "risk_per_share": 7.96,
+    "target_1": 229.7,
+    "target_2": 233.68,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 125,
+    "capital": 27220.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "SMCI",
@@ -49,7 +69,7 @@
       "change_pct": 3.35,
       "rel_volume": 4.05,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "INTC",
@@ -57,7 +77,7 @@
       "change_pct": 4.18,
       "rel_volume": 0.76,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "MSFT",
@@ -65,7 +85,7 @@
       "change_pct": -2.86,
       "rel_volume": 0.51,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "GOOGL",
@@ -73,7 +93,7 @@
       "change_pct": -2.41,
       "rel_volume": 0.6,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "BA",
@@ -81,7 +101,7 @@
       "change_pct": 3.04,
       "rel_volume": 0.34,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "META",
@@ -89,7 +109,7 @@
       "change_pct": -1.89,
       "rel_volume": 0.45,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
