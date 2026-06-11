@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-06-10T17:27:12.428510+00:00",
-  "generated_at_local": "10.06.2026, 19:27 Uhr",
-  "session_date": "2026-06-10",
-  "ticker": "F",
-  "name": "Ford",
-  "last_price": 14.4,
-  "previous_close": 14.95,
-  "change_pct": -3.65,
-  "volume": 21922510,
-  "avg_volume": 63493945,
-  "rel_volume": 0.35,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Ford (Spanne 14.51–14.84, aktuell 14.35).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-11T11:02:26.242110+00:00",
+  "generated_at_local": "11.06.2026, 13:02 Uhr",
+  "session_date": "2026-06-11",
+  "ticker": "SAP.DE",
+  "name": "SAP",
+  "last_price": 143.52,
+  "previous_close": 149.7,
+  "change_pct": -4.13,
+  "volume": 1493248,
+  "avg_volume": 2942233,
+  "rel_volume": 0.51,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
+    "sentiment": "negativ",
+    "direction": "ab",
     "materiality": "mittel",
     "catalyst": false,
-    "summary": "Aluminium-Lieferant Novelis startet Produktion nach Brandschäden neu, was Fords Lieferkette stabilisiert.",
-    "headline": "General Motors follows Ford's lead into the battery business",
-    "url": "https://finance.yahoo.com/video/general-motors-follows-fords-lead-into-the-battery-business-152500628.html"
+    "summary": "Konkurrenz durch Oracles aggressive AI-Investitionen verunsichert Investoren, keine neuen SAP-Katalysatoren.",
+    "headline": "SAP Shares Retreat After Oracle Unveils Aggressive AI Investment Plans (SAP)",
+    "url": "https://investorshub.advfn.com/market-news/article/30156/sap-shares-retreat-after-oracle-unveils-aggressive-ai-investment-plans-sap"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 14.84,
-    "range_low": 14.51,
-    "current_price": 14.35,
-    "vwap": 14.57,
-    "breakout_status": "ausbruch_ab"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 14.84,
-    "stop": 14.51,
-    "risk_per_share": 0.33,
-    "target_1": 15.33,
-    "target_2": 15.5,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 3030,
-    "capital": 44965.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "F",
-      "name": "Ford",
-      "change_pct": -3.65,
-      "rel_volume": 0.35,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -4.13,
+      "rel_volume": 0.51,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": -2.49,
-      "rel_volume": 0.6,
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": -2.63,
+      "rel_volume": 0.66,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -3.71,
-      "rel_volume": 0.47,
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 2.79,
+      "rel_volume": 0.46,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -18.39,
-      "rel_volume": 1.69,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 3.24,
+      "rel_volume": 0.36,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "change_pct": -2.51,
+      "rel_volume": 0.46,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "BA",
-      "name": "Boeing",
-      "change_pct": -2.85,
-      "rel_volume": 0.38,
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": 2.32,
+      "rel_volume": 0.5,
       "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": -2.55,
-      "rel_volume": 0.49,
-      "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
