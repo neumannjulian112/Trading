@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-11T17:39:53.094021+00:00",
-  "generated_at_local": "11.06.2026, 19:39 Uhr",
-  "session_date": "2026-06-11",
-  "ticker": "BA",
-  "name": "Boeing",
-  "last_price": 215.35,
-  "previous_close": 209.0,
-  "change_pct": 3.04,
-  "volume": 2344033,
-  "avg_volume": 6842323,
-  "rel_volume": 0.34,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (211.91); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Tarifstreit-Deadline und Defense-Produktionszuwächse sind langfristige Faktoren ohne unmittelbare Impulse.",
-    "headline": "US and EU near deadline on $11.5 billion tariffs in long-running aircraft dispute",
-    "url": "https://finance.yahoo.com/economy/policy/articles/us-eu-near-deadline-11-153048405.html"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-12T10:44:37.727392+00:00",
+  "generated_at_local": "12.06.2026, 12:44 Uhr",
+  "session_date": "2026-06-12",
+  "ticker": "DBK.DE",
+  "name": "Deutsche Bank",
+  "last_price": 28.39,
+  "previous_close": 26.96,
+  "change_pct": 5.3,
+  "volume": 3135427,
+  "avg_volume": 5150039,
+  "rel_volume": 0.61,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 211.91,
-    "range_low": 209.8,
-    "current_price": 217.76,
-    "vwap": 214.01,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": false
+    "vwap": null,
+    "volume": null,
+    "trend": true
   },
-  "quality": 1,
-  "trade_plan": {
-    "entry": 217.76,
-    "stop": 209.8,
-    "risk_per_share": 7.96,
-    "target_1": 229.7,
-    "target_2": 233.68,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 125,
-    "capital": 27220.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 3.35,
-      "rel_volume": 4.05,
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": 5.3,
+      "rel_volume": 0.61,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": 4.16,
+      "rel_volume": 0.52,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 4.18,
-      "rel_volume": 0.76,
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 2.31,
+      "rel_volume": 0.65,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "change_pct": -2.86,
-      "rel_volume": 0.51,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": 2.9,
+      "rel_volume": 0.47,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": 2.91,
+      "rel_volume": 0.42,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "change_pct": -2.41,
-      "rel_volume": 0.6,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "BA",
-      "name": "Boeing",
-      "change_pct": 3.04,
-      "rel_volume": 0.34,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": -1.89,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 2.44,
       "rel_volume": 0.45,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
