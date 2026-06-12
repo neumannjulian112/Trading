@@ -3,28 +3,28 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-06-12T16:28:11.642487+00:00",
-  "generated_at_local": "12.06.2026, 18:28 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-06-12T16:50:28.399950+00:00",
+  "generated_at_local": "12.06.2026, 18:50 Uhr",
   "session_date": "2026-06-12",
-  "ticker": "SMCI",
-  "name": "Super Micro",
-  "last_price": 30.59,
-  "previous_close": 31.97,
-  "change_pct": -4.32,
-  "volume": 51941177,
-  "avg_volume": 48523230,
-  "rel_volume": 1.07,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "INTC",
+  "name": "Intel",
+  "last_price": 123.53,
+  "previous_close": 116.96,
+  "change_pct": 5.61,
+  "volume": 83510751,
+  "avg_volume": 139592741,
+  "rel_volume": 0.6,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (120.45); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "mittel",
     "catalyst": false,
-    "summary": "Positive Kursentwicklung und Fokus auf AI-Auftragserfüllung, aber keine frischen Katalysatoren.",
-    "headline": "Can SMCI's Software Strategy Strengthen Data Center Deployments?",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/smcis-software-strategy-strengthen-data-140200785.html"
+    "summary": "BofA-Upgrade und positive CPU-Marktprognose stützen die Aktie, aber keine konkreten Geschäftszahlen.",
+    "headline": "Intel stock pops on upgrade from BofA, citing CPU growth opportunity",
+    "url": "https://finance.yahoo.com/markets/stocks/article/intel-stock-pops-on-upgrade-from-bofa-citing-cpu-growth-opportunity-134326258.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 120.45,
+    "range_low": 115.33,
+    "current_price": 125.23,
+    "vwap": 121.44,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 125.23,
+    "stop": 115.33,
+    "risk_per_share": 9.9,
+    "target_1": 140.08,
+    "target_2": 145.03,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 101,
+    "capital": 12648.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "SMCI",
@@ -49,7 +69,7 @@
       "change_pct": -4.32,
       "rel_volume": 1.07,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "INTC",
@@ -57,7 +77,7 @@
       "change_pct": 5.61,
       "rel_volume": 0.6,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "AMD",
@@ -65,7 +85,7 @@
       "change_pct": 4.8,
       "rel_volume": 0.45,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MSTR",
@@ -73,7 +93,7 @@
       "change_pct": 3.62,
       "rel_volume": 0.51,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MARA",
@@ -81,7 +101,7 @@
       "change_pct": 2.76,
       "rel_volume": 0.59,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "AMZN",
@@ -89,7 +109,7 @@
       "change_pct": -2.04,
       "rel_volume": 0.63,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
