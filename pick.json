@@ -1,107 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-15T13:36:45.863501+00:00",
-  "generated_at_local": "15.06.2026, 15:36 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-15T18:02:15.557349+00:00",
+  "generated_at_local": "15.06.2026, 20:02 Uhr",
   "session_date": "2026-06-15",
-  "ticker": "P911.DE",
-  "name": "Porsche AG",
-  "last_price": 50.18,
-  "previous_close": 49.1,
-  "change_pct": 2.2,
-  "volume": 409660,
-  "avg_volume": 515844,
-  "rel_volume": 0.79,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (50.14); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": null,
+  "ticker": "MSTR",
+  "name": "MicroStrategy",
+  "last_price": 133.47,
+  "previous_close": 123.97,
+  "change_pct": 7.66,
+  "volume": 12672886,
+  "avg_volume": 18597390,
+  "rel_volume": 0.68,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": {
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
+    "catalyst": true,
+    "summary": "MicroStrategy kauft kontinuierlich Bitcoin in bedeutenden Mengen, was die Kursfestigung und positive Marktsentiment für Bitcoin-Player unterstützt.",
+    "headline": "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rallies-two-week-high-050754772.html"
+  },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 50.14,
-    "range_low": 49.84,
-    "current_price": 50.4,
-    "vwap": 50.25,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 50.4,
-    "stop": 49.84,
-    "risk_per_share": 0.56,
-    "target_1": 51.24,
-    "target_2": 51.52,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1785,
-    "capital": 89964.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": 4.11,
-      "rel_volume": 0.65,
-      "catalyst": false,
-      "status": "in_spanne"
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 7.66,
+      "rel_volume": 0.68,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "P911.DE",
-      "name": "Porsche AG",
-      "change_pct": 2.2,
-      "rel_volume": 0.79,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "change_pct": 7.19,
+      "rel_volume": 0.59,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MC.PA",
-      "name": "LVMH",
-      "change_pct": 2.47,
-      "rel_volume": 0.6,
+      "ticker": "BA",
+      "name": "Boeing",
+      "change_pct": 5.34,
+      "rel_volume": 0.75,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": 3.08,
-      "rel_volume": 0.47,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": 6.46,
+      "rel_volume": 0.56,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "AIR.PA",
-      "name": "Airbus",
-      "change_pct": 3.68,
-      "rel_volume": 0.36,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 7.32,
+      "rel_volume": 0.48,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": 3.37,
-      "rel_volume": 0.37,
+      "ticker": "META",
+      "name": "Meta",
+      "change_pct": 4.95,
+      "rel_volume": 0.63,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
