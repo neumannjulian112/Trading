@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-16T12:28:58.164099+00:00",
-  "generated_at_local": "16.06.2026, 14:28 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-16T18:09:47.563860+00:00",
+  "generated_at_local": "16.06.2026, 20:09 Uhr",
   "session_date": "2026-06-16",
-  "ticker": "DBK.DE",
-  "name": "Deutsche Bank",
-  "last_price": 30.28,
-  "previous_close": 29.98,
-  "change_pct": 1.0,
-  "volume": 1767451,
-  "avg_volume": 5323964,
-  "rel_volume": 0.33,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (29.95); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "NFLX",
+  "name": "Netflix",
+  "last_price": 77.99,
+  "previous_close": 81.67,
+  "change_pct": -4.51,
+  "volume": 38963855,
+  "avg_volume": 38550180,
+  "rel_volume": 1.01,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "Schlagzeilen beziehen sich auf Rohölpreise und andere Unternehmen, nicht auf Deutsche Bank selbst.",
-    "headline": "Oil Prices Fall Further as Trump Says Strait of Hormuz Will Reopen This Week",
-    "url": "https://www.barrons.com/articles/oil-price-today-trump-hormuz-reopen-6c1da5ce?siteid=yhoof2&yptr=yahoo"
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Übernahmegerüchte um Lionsgate könnten M&A-Aktivität auslösen und Wachstumsperspektiven verbessern.",
+    "headline": "Netflix Is Reportedly Eyeing Lionsgate After Losing Roku Bid To Fox – A Look At Why The Fox Deal Might Have Appealed To Roku Board",
+    "url": "https://stocktwits.com/news-articles/markets/equity/netflix-is-reportedly-eyeing-lionsgate-after-losing-roku-bid-to-fox-a-look-at-why-the-fox-deal-might-have-appealed-to-roku-board/cZKWvseR74X"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
-    "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 29.95,
-    "range_low": 29.65,
-    "current_price": 30.33,
-    "vwap": 30.14,
-    "breakout_status": "ausbruch_auf"
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
+    "window_min": 5,
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 30.33,
-    "stop": 29.65,
-    "risk_per_share": 0.68,
-    "target_1": 31.35,
-    "target_2": 31.69,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1470,
-    "capital": 44585.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 1.76,
-      "rel_volume": 0.42,
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "change_pct": 4.93,
+      "rel_volume": 1.01,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": -1.66,
-      "rel_volume": 0.35,
-      "catalyst": false,
-      "status": "ausbruch_ab"
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "change_pct": -4.51,
+      "rel_volume": 1.01,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": -1.73,
-      "rel_volume": 0.29,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -5.66,
+      "rel_volume": 0.6,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "P911.DE",
-      "name": "Porsche AG",
-      "change_pct": -2.47,
-      "rel_volume": 0.2,
+      "ticker": "NIO",
+      "name": "NIO",
+      "change_pct": -3.85,
+      "rel_volume": 0.87,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 1.68,
-      "rel_volume": 0.25,
-      "catalyst": false,
-      "status": "in_spanne"
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -4.78,
+      "rel_volume": 0.41,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": 1.0,
-      "rel_volume": 0.33,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -4.05,
+      "rel_volume": 0.46,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
