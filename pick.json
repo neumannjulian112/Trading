@@ -3,28 +3,28 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-06-16T11:38:42.198537+00:00",
-  "generated_at_local": "16.06.2026, 13:38 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-06-16T12:28:58.164099+00:00",
+  "generated_at_local": "16.06.2026, 14:28 Uhr",
   "session_date": "2026-06-16",
-  "ticker": "RHM.DE",
-  "name": "Rheinmetall",
-  "last_price": 1170.4,
-  "previous_close": 1150.2,
-  "change_pct": 1.76,
-  "volume": 104139,
-  "avg_volume": 248689,
-  "rel_volume": 0.42,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "DBK.DE",
+  "name": "Deutsche Bank",
+  "last_price": 30.28,
+  "previous_close": 29.98,
+  "change_pct": 1.0,
+  "volume": 1767451,
+  "avg_volume": 5323964,
+  "rel_volume": 0.33,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (29.95); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
+    "sentiment": "neutral",
+    "direction": "unklar",
     "materiality": "gering",
     "catalyst": false,
-    "summary": "Aktie wird als unterbewertet eingeschätzt, aber keine neuen Informationen oder Katalysatoren.",
-    "headline": "Discover Three European Stocks That May Be Trading Below Estimated Value",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/discover-three-european-stocks-may-103823189.html"
+    "summary": "Schlagzeilen beziehen sich auf Rohölpreise und andere Unternehmen, nicht auf Deutsche Bank selbst.",
+    "headline": "Oil Prices Fall Further as Trump Says Strait of Hormuz Will Reopen This Week",
+    "url": "https://www.barrons.com/articles/oil-price-today-trump-hormuz-reopen-6c1da5ce?siteid=yhoof2&yptr=yahoo"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 29.95,
+    "range_low": 29.65,
+    "current_price": 30.33,
+    "vwap": 30.14,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 30.33,
+    "stop": 29.65,
+    "risk_per_share": 0.68,
+    "target_1": 31.35,
+    "target_2": 31.69,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 1470,
+    "capital": 44585.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "RHM.DE",
@@ -49,7 +69,7 @@
       "change_pct": 1.76,
       "rel_volume": 0.42,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "VOW3.DE",
@@ -57,7 +77,7 @@
       "change_pct": -1.66,
       "rel_volume": 0.35,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "BMW.DE",
@@ -65,7 +85,7 @@
       "change_pct": -1.73,
       "rel_volume": 0.29,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "P911.DE",
@@ -73,7 +93,7 @@
       "change_pct": -2.47,
       "rel_volume": 0.2,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "ENR.DE",
@@ -81,7 +101,7 @@
       "change_pct": 1.68,
       "rel_volume": 0.25,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "DBK.DE",
@@ -89,7 +109,7 @@
       "change_pct": 1.0,
       "rel_volume": 0.33,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
