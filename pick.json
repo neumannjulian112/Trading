@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-17T17:12:38.512300+00:00",
-  "generated_at_local": "17.06.2026, 19:12 Uhr",
-  "session_date": "2026-06-17",
-  "ticker": "SOFI",
-  "name": "SoFi",
-  "last_price": 18.42,
-  "previous_close": 17.71,
-  "change_pct": 3.98,
-  "volume": 58794847,
-  "avg_volume": 71686497,
-  "rel_volume": 0.82,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (18.21); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-18T10:50:26.838975+00:00",
+  "generated_at_local": "18.06.2026, 12:50 Uhr",
+  "session_date": "2026-06-18",
+  "ticker": "BMW.DE",
+  "name": "BMW",
+  "last_price": 59.62,
+  "previous_close": 62.24,
+  "change_pct": -4.21,
+  "volume": 1170705,
+  "avg_volume": 1348729,
+  "rel_volume": 0.87,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
     "catalyst": true,
-    "summary": "SpaceX IPO-Zugang für Retail-Investoren über SOFI-Plattform und CEO-Aktienkäufe signalisieren Vertrauen und Geschäftswachstum.",
-    "headline": "SoFi (SOFI) Opened SpaceX IPO Access To Retail Investors Through Its Platform",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-sofi-opened-spacex-ipo-161111132.html"
+    "summary": "BMW warnt vor 18% Rückgang in China und senkt Gewinnausblick; Marktführer unter Druck durch Preiskampf.",
+    "headline": "Europe Tries to Take On China Without Launching a New Trade War",
+    "url": "https://finance.yahoo.com/economy/policy/articles/europe-tries-china-without-launching-040000528.html"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 18.21,
-    "range_low": 17.78,
-    "current_price": 18.64,
-    "vwap": 18.39,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 18.64,
-    "stop": 17.78,
-    "risk_per_share": 0.86,
-    "target_1": 19.93,
-    "target_2": 20.36,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1162,
-    "capital": 21660.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": 3.98,
-      "rel_volume": 0.82,
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": -4.21,
+      "rel_volume": 0.87,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": -3.58,
-      "rel_volume": 0.47,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 4.61,
+      "rel_volume": 0.57,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": -4.42,
+      "rel_volume": 0.53,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 4.5,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -2.45,
+      "rel_volume": 0.73,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": -3.36,
+      "rel_volume": 0.28,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": 2.47,
       "rel_volume": 0.35,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "change_pct": -2.36,
-      "rel_volume": 0.46,
       "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": -2.5,
-      "rel_volume": 0.4,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 2.98,
-      "rel_volume": 0.31,
-      "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
