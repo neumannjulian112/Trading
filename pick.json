@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-18T17:19:29.925518+00:00",
-  "generated_at_local": "18.06.2026, 19:19 Uhr",
-  "session_date": "2026-06-18",
-  "ticker": "SMCI",
-  "name": "Super Micro",
-  "last_price": 30.52,
-  "previous_close": 27.78,
-  "change_pct": 9.86,
-  "volume": 35751657,
-  "avg_volume": 52174400,
-  "rel_volume": 0.69,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (28.68); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-19T10:59:58.576942+00:00",
+  "generated_at_local": "19.06.2026, 12:59 Uhr",
+  "session_date": "2026-06-19",
+  "ticker": "VOW3.DE",
+  "name": "Volkswagen",
+  "last_price": 80.6,
+  "previous_close": 84.1,
+  "change_pct": -4.16,
+  "volume": 828293,
+  "avg_volume": 889761,
+  "rel_volume": 0.93,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
+    "sentiment": "negativ",
+    "direction": "ab",
     "materiality": "hoch",
-    "catalyst": true,
-    "summary": "7-Milliarden-Dollar-Kapitalerhöhung finalisiert, unterstützt AI-Server-Wachstum.",
-    "headline": "Can SMCI's $7 Billion Capital Raise Plan Help it Sustain AI Growth?",
-    "url": "https://finance.yahoo.com/technology/ai/articles/smcis-7-billion-capital-raise-142100854.html"
+    "catalyst": false,
+    "summary": "Restructuring unter Druck, EV-Gewinne durch Zölle und massive Kosteneinsparungen belastet.",
+    "headline": "HCLTech signs software partnership with Volkswagen subsidiary e.solutions",
+    "url": "https://www.just-auto.com/news/hcltech-signs-software-partnership-e-solutions/"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 28.68,
-    "range_low": 28.28,
-    "current_price": 30.65,
-    "vwap": 29.84,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 15,
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 1,
-  "trade_plan": {
-    "entry": 30.65,
-    "stop": 28.28,
-    "risk_per_share": 2.37,
-    "target_1": 34.2,
-    "target_2": 35.39,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 421,
-    "capital": 12904.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 10.62,
-      "rel_volume": 0.82,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 9.86,
-      "rel_volume": 0.69,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -4.63,
-      "rel_volume": 0.94,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -4.16,
+      "rel_volume": 0.93,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": 2.79,
-      "rel_volume": 0.76,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 4.33,
-      "rel_volume": 0.44,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": 2.93,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -2.02,
       "rel_volume": 0.53,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 2.16,
+      "rel_volume": 0.48,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
+    },
+    {
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": 1.77,
+      "rel_volume": 0.44,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": 1.79,
+      "rel_volume": 0.34,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "change_pct": -1.3,
+      "rel_volume": 0.45,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
