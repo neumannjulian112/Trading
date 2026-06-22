@@ -1,107 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-22T13:14:27.973543+00:00",
-  "generated_at_local": "22.06.2026, 15:14 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-22T17:48:35.364816+00:00",
+  "generated_at_local": "22.06.2026, 19:48 Uhr",
   "session_date": "2026-06-22",
-  "ticker": "IFX.DE",
-  "name": "Infineon",
-  "last_price": 86.77,
-  "previous_close": 81.97,
-  "change_pct": 5.86,
-  "volume": 1473183,
-  "avg_volume": 6462304,
-  "rel_volume": 0.23,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (85.89); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": null,
-  "or_window_min": 15,
+  "ticker": "SMCI",
+  "name": "Super Micro",
+  "last_price": 35.84,
+  "previous_close": 30.66,
+  "change_pct": 16.89,
+  "volume": 83399067,
+  "avg_volume": 53843556,
+  "rel_volume": 1.55,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": {
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Nvidia Vera Rubin Platform treibt AI-Server-Nachfrage und Aktienkurs um 11% nach oben.",
+    "headline": "Nvidia's Vera Rubin Platform Gains Momentum",
+    "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-vera-rubin-platform-gains-174356381.html"
+  },
+  "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
-    "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 85.89,
-    "range_low": 83.64,
-    "current_price": 87.38,
-    "vwap": 86.06,
-    "breakout_status": "ausbruch_auf"
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
+    "window_min": 5,
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 87.38,
-    "stop": 83.64,
-    "risk_per_share": 3.74,
-    "target_1": 92.99,
-    "target_2": 94.86,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 267,
-    "capital": 23330.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": -3.11,
-      "rel_volume": 0.71,
-      "catalyst": false,
-      "status": "ausbruch_ab"
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": 16.89,
+      "rel_volume": 1.55,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": 5.86,
-      "rel_volume": 0.23,
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "change_pct": -5.86,
+      "rel_volume": 1.39,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": -2.48,
-      "rel_volume": 0.39,
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "change_pct": -5.69,
+      "rel_volume": 0.99,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": -2.33,
-      "rel_volume": 0.4,
-      "catalyst": false,
-      "status": "ausbruch_ab"
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": -6.34,
+      "rel_volume": 0.82,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": -2.09,
-      "rel_volume": 0.4,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": 4.52,
+      "rel_volume": 1.13,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": 2.44,
-      "rel_volume": 0.3,
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "change_pct": -4.42,
+      "rel_volume": 0.76,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
