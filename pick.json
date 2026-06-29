@@ -1,107 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-06-29T12:17:41.977498+00:00",
-  "generated_at_local": "29.06.2026, 14:17 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-06-29T16:41:49.838033+00:00",
+  "generated_at_local": "29.06.2026, 18:41 Uhr",
   "session_date": "2026-06-29",
-  "ticker": "ALV.DE",
-  "name": "Allianz",
-  "last_price": 409.9,
-  "previous_close": 407.9,
-  "change_pct": 0.49,
-  "volume": 161995,
-  "avg_volume": 681284,
-  "rel_volume": 0.24,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (409.5); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": null,
-  "or_window_min": 15,
+  "ticker": "MSTR",
+  "name": "MicroStrategy",
+  "last_price": 88.57,
+  "previous_close": 82.31,
+  "change_pct": 7.6,
+  "volume": 21489178,
+  "avg_volume": 20246548,
+  "rel_volume": 1.06,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": {
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "MicroStrategy plant Verkauf von bis zu 1,25 Mrd. Dollar Bitcoin zur Finanzierung von Aktienrueckkaufen, was Druck auf die Treasury-Strategie signalisiert.",
+    "headline": "The top crypto events to watch this week",
+    "url": "https://finance.yahoo.com/video/top-crypto-events-watch-week-120000776.html"
+  },
+  "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
-    "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 409.5,
-    "range_low": 407.8,
-    "current_price": 410.0,
-    "vwap": 409.07,
-    "breakout_status": "ausbruch_auf"
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
+    "window_min": 5,
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 410.0,
-    "stop": 407.8,
-    "risk_per_share": 2.2,
-    "target_1": 413.3,
-    "target_2": 414.4,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 454,
-    "capital": 186140.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": -1.97,
-      "rel_volume": 0.69,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 7.6,
+      "rel_volume": 1.06,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": -1.29,
-      "rel_volume": 0.3,
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": 6.17,
+      "rel_volume": 0.56,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": -0.83,
-      "rel_volume": 0.42,
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "change_pct": 3.18,
+      "rel_volume": 0.8,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": 1.82,
-      "rel_volume": 0.19,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -3.62,
+      "rel_volume": 0.56,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "change_pct": 4.06,
+      "rel_volume": 0.49,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
       "change_pct": 2.17,
-      "rel_volume": 0.12,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 0.54,
-      "rel_volume": 0.44,
-      "catalyst": false,
-      "status": "in_spanne"
+      "rel_volume": 0.61,
+      "catalyst": true,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
