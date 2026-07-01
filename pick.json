@@ -3,28 +3,28 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-01T10:26:46.259800+00:00",
-  "generated_at_local": "01.07.2026, 12:26 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-01T10:56:11.504291+00:00",
+  "generated_at_local": "01.07.2026, 12:56 Uhr",
   "session_date": "2026-07-01",
-  "ticker": "RHM.DE",
-  "name": "Rheinmetall",
-  "last_price": 1048.4,
-  "previous_close": 990.5,
-  "change_pct": 5.85,
-  "volume": 183494,
-  "avg_volume": 289355,
-  "rel_volume": 0.63,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "AIR.PA",
+  "name": "Airbus",
+  "last_price": 198.8,
+  "previous_close": 194.54,
+  "change_pct": 2.19,
+  "volume": 389069,
+  "avg_volume": 1324577,
+  "rel_volume": 0.29,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (197.4); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "hoch",
     "catalyst": true,
-    "summary": "Großauftrag für Ukraine-Artillerie ist bedeutsamer Geschäftserfolg trotz vorherigem Rückschlag.",
-    "headline": "Stocks to Watch: Nike, Alcoa, Galderma",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-01-2026/card/stocks-to-watch-nike-alcoa-galderma-6mI4BQwGZwhQDkUHtF8Z?siteid=yhoof2&yptr=yahoo"
+    "summary": "Rekordauftrag von Scandinavian Airlines über 8,75 Mrd. Euro signalisiert starke Nachfrage nach Airbus-Flugzeugen.",
+    "headline": "Scandinavian Airlines bets on recovery with record €8.75 billion Airbus jet order",
+    "url": "https://www.euronews.com/2026/06/30/scandinavian-airlines-bets-on-recovery-with-record-875-billion-airbus-jet-order"
   },
   "or_window_min": 5,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 5,
     "range_window": "09:00–09:05 Uhr",
     "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 197.4,
+    "range_low": 194.92,
+    "current_price": 198.84,
+    "vwap": 198.4,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 198.84,
+    "stop": 194.92,
+    "risk_per_share": 3.92,
+    "target_1": 204.72,
+    "target_2": 206.68,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 255,
+    "capital": 50704.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "RHM.DE",
@@ -49,7 +69,7 @@
       "change_pct": 5.85,
       "rel_volume": 0.63,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "AIR.PA",
@@ -57,7 +77,7 @@
       "change_pct": 2.19,
       "rel_volume": 0.29,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "DTE.DE",
@@ -65,7 +85,7 @@
       "change_pct": 1.47,
       "rel_volume": 0.31,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "VOW3.DE",
@@ -73,7 +93,7 @@
       "change_pct": -0.83,
       "rel_volume": 0.5,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "ENR.DE",
@@ -81,7 +101,7 @@
       "change_pct": 1.27,
       "rel_volume": 0.26,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ADS.DE",
@@ -89,7 +109,7 @@
       "change_pct": -1.78,
       "rel_volume": 0.18,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
