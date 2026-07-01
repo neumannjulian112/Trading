@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-01T10:56:11.504291+00:00",
-  "generated_at_local": "01.07.2026, 12:56 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-01T15:49:33.980195+00:00",
+  "generated_at_local": "01.07.2026, 17:49 Uhr",
   "session_date": "2026-07-01",
-  "ticker": "AIR.PA",
-  "name": "Airbus",
-  "last_price": 198.8,
-  "previous_close": 194.54,
-  "change_pct": 2.19,
-  "volume": 389069,
-  "avg_volume": 1324577,
-  "rel_volume": 0.29,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (197.4); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "META",
+  "name": "Meta",
+  "last_price": 616.41,
+  "previous_close": 563.29,
+  "change_pct": 9.43,
+  "volume": 27236063,
+  "avg_volume": 16996109,
+  "rel_volume": 1.6,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "hoch",
     "catalyst": true,
-    "summary": "Rekordauftrag von Scandinavian Airlines über 8,75 Mrd. Euro signalisiert starke Nachfrage nach Airbus-Flugzeugen.",
-    "headline": "Scandinavian Airlines bets on recovery with record €8.75 billion Airbus jet order",
-    "url": "https://www.euronews.com/2026/06/30/scandinavian-airlines-bets-on-recovery-with-record-875-billion-airbus-jet-order"
+    "summary": "Meta baut Cloud-Business für überschüssige AI-Compute-Kapazitäten auf und signalisiert neues Geschäftsfeld mit Umsatzpotenzial.",
+    "headline": "Meta to reportedly rent out excess AI compute, joining the ranks of Amazon & Microsoft",
+    "url": "https://finance.yahoo.com/video/meta-to-reportedly-rent-out-excess-ai-compute-joining-the-ranks-of-amazon--microsoft-151209864.html"
   },
   "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 5,
-    "range_window": "09:00–09:05 Uhr",
-    "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 197.4,
-    "range_low": 194.92,
-    "current_price": 198.84,
-    "vwap": 198.4,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 198.84,
-    "stop": 194.92,
-    "risk_per_share": 3.92,
-    "target_1": 204.72,
-    "target_2": 206.68,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 255,
-    "capital": 50704.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 5.85,
-      "rel_volume": 0.63,
+      "ticker": "META",
+      "name": "Meta",
+      "change_pct": 9.43,
+      "rel_volume": 1.6,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AIR.PA",
-      "name": "Airbus",
-      "change_pct": 2.19,
-      "rel_volume": 0.29,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": 1.47,
-      "rel_volume": 0.31,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 11.35,
+      "rel_volume": 0.77,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": -0.83,
-      "rel_volume": 0.5,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 1.27,
-      "rel_volume": 0.26,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "ADS.DE",
-      "name": "Adidas",
-      "change_pct": -1.78,
-      "rel_volume": 0.18,
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": 9.3,
+      "rel_volume": 0.71,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "change_pct": 10.75,
+      "rel_volume": 0.52,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -7.48,
+      "rel_volume": 0.38,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -4.81,
+      "rel_volume": 0.37,
+      "catalyst": true,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
