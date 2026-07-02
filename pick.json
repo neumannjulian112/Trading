@@ -3,28 +3,28 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-02T15:29:50.806187+00:00",
-  "generated_at_local": "02.07.2026, 17:29 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-02T16:08:24.023837+00:00",
+  "generated_at_local": "02.07.2026, 18:08 Uhr",
   "session_date": "2026-07-02",
-  "ticker": "MSTR",
-  "name": "MicroStrategy",
-  "last_price": 100.24,
-  "previous_close": 93.39,
-  "change_pct": 7.33,
-  "volume": 16368862,
-  "avg_volume": 21851473,
-  "rel_volume": 0.75,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "AAPL",
+  "name": "Apple",
+  "last_price": 305.41,
+  "previous_close": 294.38,
+  "change_pct": 3.75,
+  "volume": 26874902,
+  "avg_volume": 57381721,
+  "rel_volume": 0.47,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (301.14); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
+    "sentiment": "neutral",
+    "direction": "unklar",
     "materiality": "gering",
     "catalyst": false,
-    "summary": "Insider-Verkauf mit 44% Verlust ist negative Sentiment, aber keine aktuellen Fundamentaldaten.",
-    "headline": "FBI Director Kash Patel's Undisclosed Stock Buy in Bitcoin Giant Strategy Is Down 44%",
-    "url": "https://decrypt.co/372677/fbi-director-kash-patel-undisclosed-stock-buy-bitcoin-giant-strategy"
+    "summary": "Allgemeine Mag7 Volatilität und AI-Kosten-Diskussion ohne konkrete Unternehmens-News.",
+    "headline": "Here's how much more expensive your devices have gotten thanks to AI",
+    "url": "https://finance.yahoo.com/technology/article/heres-how-much-more-expensive-your-devices-have-gotten-thanks-to-ai-121100267.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 301.14,
+    "range_low": 293.68,
+    "current_price": 306.65,
+    "vwap": 303.96,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 306.65,
+    "stop": 293.68,
+    "risk_per_share": 12.97,
+    "target_1": 326.1,
+    "target_2": 332.59,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 77,
+    "capital": 23612.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "MSTR",
@@ -49,7 +69,7 @@
       "change_pct": 7.33,
       "rel_volume": 0.75,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "TSLA",
@@ -57,7 +77,7 @@
       "change_pct": -6.62,
       "rel_volume": 0.7,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MARA",
@@ -65,7 +85,7 @@
       "change_pct": -4.9,
       "rel_volume": 0.51,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "COIN",
@@ -73,7 +93,7 @@
       "change_pct": 4.86,
       "rel_volume": 0.51,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "META",
@@ -81,7 +101,7 @@
       "change_pct": -4.09,
       "rel_volume": 0.54,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "AAPL",
@@ -89,7 +109,7 @@
       "change_pct": 3.75,
       "rel_volume": 0.47,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
