@@ -3,28 +3,28 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-03T15:24:25.016800+00:00",
-  "generated_at_local": "03.07.2026, 17:24 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-03T15:55:18.331661+00:00",
+  "generated_at_local": "03.07.2026, 17:55 Uhr",
   "session_date": "2026-07-02",
-  "ticker": "TSLA",
-  "name": "Tesla",
-  "last_price": 393.45,
-  "previous_close": 425.3,
-  "change_pct": -7.49,
-  "volume": 73717700,
-  "avg_volume": 49480758,
-  "rel_volume": 1.49,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "NFLX",
+  "name": "Netflix",
+  "last_price": 77.65,
+  "previous_close": 74.19,
+  "change_pct": 4.66,
+  "volume": 55456500,
+  "avg_volume": 41039043,
+  "rel_volume": 1.35,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (76.21); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "mittel",
     "catalyst": true,
-    "summary": "Robotaxi-Start in Miami und Verkaufszahlen +25% sind operative Fortschritte, die Anleger positiv bewerten könnten.",
-    "headline": "Dow Jones Futures Rise, Techs Lead After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
-    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo"
+    "summary": "AI-Ads-Vereinbarung mit Omnicom und Kursgewinne von 9,5% signalisieren operatives Momentum.",
+    "headline": "1 of Wall Street’s Favorite Stocks for Long-Term Investors and 2 We Avoid",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stocks-143406703.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 76.21,
+    "range_low": 74.91,
+    "current_price": 77.6,
+    "vwap": 77.2,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 77.6,
+    "stop": 74.91,
+    "risk_per_share": 2.69,
+    "target_1": 81.63,
+    "target_2": 82.98,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 371,
+    "capital": 28790.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "MSTR",
@@ -49,7 +69,7 @@
       "change_pct": 7.9,
       "rel_volume": 1.58,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "TSLA",
@@ -57,7 +77,7 @@
       "change_pct": -7.49,
       "rel_volume": 1.49,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MARA",
@@ -65,7 +85,7 @@
       "change_pct": -7.26,
       "rel_volume": 1.2,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "AAPL",
@@ -73,7 +93,7 @@
       "change_pct": 4.84,
       "rel_volume": 1.31,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "NFLX",
@@ -81,7 +101,7 @@
       "change_pct": 4.66,
       "rel_volume": 1.35,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "META",
@@ -89,7 +109,7 @@
       "change_pct": -4.9,
       "rel_volume": 1.23,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
