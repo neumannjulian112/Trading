@@ -1,107 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-03T10:16:36.849829+00:00",
-  "generated_at_local": "03.07.2026, 12:16 Uhr",
-  "session_date": "2026-07-03",
-  "ticker": "P911.DE",
-  "name": "Porsche AG",
-  "last_price": 46.88,
-  "previous_close": 45.2,
-  "change_pct": 3.72,
-  "volume": 87206,
-  "avg_volume": 581723,
-  "rel_volume": 0.15,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (45.94); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": null,
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-03T15:24:25.016800+00:00",
+  "generated_at_local": "03.07.2026, 17:24 Uhr",
+  "session_date": "2026-07-02",
+  "ticker": "TSLA",
+  "name": "Tesla",
+  "last_price": 393.45,
+  "previous_close": 425.3,
+  "change_pct": -7.49,
+  "volume": 73717700,
+  "avg_volume": 49480758,
+  "rel_volume": 1.49,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": {
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
+    "catalyst": true,
+    "summary": "Robotaxi-Start in Miami und Verkaufszahlen +25% sind operative Fortschritte, die Anleger positiv bewerten könnten.",
+    "headline": "Dow Jones Futures Rise, Techs Lead After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo"
+  },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 45.94,
-    "range_low": 45.12,
-    "current_price": 46.54,
-    "vwap": 46.45,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 46.54,
-    "stop": 45.12,
-    "risk_per_share": 1.42,
-    "target_1": 48.67,
-    "target_2": 49.38,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 704,
-    "capital": 32764.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": 7.88,
-      "rel_volume": 0.36,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 7.9,
+      "rel_volume": 1.58,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": 6.3,
-      "rel_volume": 0.3,
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": -7.49,
+      "rel_volume": 1.49,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": 6.48,
-      "rel_volume": 0.22,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": 4.67,
-      "rel_volume": 0.21,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -7.26,
+      "rel_volume": 1.2,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "DHL.DE",
-      "name": "DHL Group",
-      "change_pct": 2.9,
-      "rel_volume": 0.26,
+      "ticker": "AAPL",
+      "name": "Apple",
+      "change_pct": 4.84,
+      "rel_volume": 1.31,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 2.34,
-      "rel_volume": 0.3,
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "change_pct": 4.66,
+      "rel_volume": 1.35,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "change_pct": -4.9,
+      "rel_volume": 1.23,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
