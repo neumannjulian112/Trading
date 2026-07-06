@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-03T15:55:18.331661+00:00",
-  "generated_at_local": "03.07.2026, 17:55 Uhr",
-  "session_date": "2026-07-02",
-  "ticker": "NFLX",
-  "name": "Netflix",
-  "last_price": 77.65,
-  "previous_close": 74.19,
-  "change_pct": 4.66,
-  "volume": 55456500,
-  "avg_volume": 41039043,
-  "rel_volume": 1.35,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (76.21); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-06T11:08:43.413595+00:00",
+  "generated_at_local": "06.07.2026, 13:08 Uhr",
+  "session_date": "2026-07-06",
+  "ticker": "ASML.AS",
+  "name": "ASML",
+  "last_price": 1607.0,
+  "previous_close": 1634.4,
+  "change_pct": -1.68,
+  "volume": 177996,
+  "avg_volume": 749528,
+  "rel_volume": 0.24,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
-    "materiality": "mittel",
+    "materiality": "hoch",
     "catalyst": true,
-    "summary": "AI-Ads-Vereinbarung mit Omnicom und Kursgewinne von 9,5% signalisieren operatives Momentum.",
-    "headline": "1 of Wall Street’s Favorite Stocks for Long-Term Investors and 2 We Avoid",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stocks-143406703.html"
+    "summary": "Starke Nachfrage nach AI-Chips treibt ASML-Aufträge und Marktexpansion, SK hynix Listing signalisiert Branchendynamik.",
+    "headline": "SK hynix to launch $28bn Nasdaq listing amid global AI chip demand",
+    "url": "https://www.verdict.co.uk/sk-hynix-nasdaq-listing/"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 76.21,
-    "range_low": 74.91,
-    "current_price": 77.6,
-    "vwap": 77.2,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 77.6,
-    "stop": 74.91,
-    "risk_per_share": 2.69,
-    "target_1": 81.63,
-    "target_2": 82.98,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 371,
-    "capital": 28790.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 7.9,
-      "rel_volume": 1.58,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 2.07,
+      "rel_volume": 0.28,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": -7.49,
-      "rel_volume": 1.49,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -1.68,
+      "rel_volume": 0.24,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -7.26,
-      "rel_volume": 1.2,
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": 1.07,
+      "rel_volume": 0.35,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "change_pct": 4.84,
-      "rel_volume": 1.31,
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": 0.84,
+      "rel_volume": 0.32,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "NFLX",
-      "name": "Netflix",
-      "change_pct": 4.66,
-      "rel_volume": 1.35,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": -4.9,
-      "rel_volume": 1.23,
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": -0.9,
+      "rel_volume": 0.29,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -1.74,
+      "rel_volume": 0.14,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
