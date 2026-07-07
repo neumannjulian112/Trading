@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-07T10:39:05.926647+00:00",
-  "generated_at_local": "07.07.2026, 12:39 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-07T15:50:47.043361+00:00",
+  "generated_at_local": "07.07.2026, 17:50 Uhr",
   "session_date": "2026-07-07",
-  "ticker": "DBK.DE",
-  "name": "Deutsche Bank",
-  "last_price": 32.88,
-  "previous_close": 32.29,
-  "change_pct": 1.8,
-  "volume": 1777218,
-  "avg_volume": 5239717,
-  "rel_volume": 0.34,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (32.83); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "INTC",
+  "name": "Intel",
+  "last_price": 109.05,
+  "previous_close": 122.2,
+  "change_pct": -10.76,
+  "volume": 68532457,
+  "avg_volume": 132272065,
+  "rel_volume": 0.52,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
     "catalyst": false,
-    "summary": "Gemischte Nachrichten ohne direkte Geschäftsauswirkung; AI-Jobverlust-Analyse ist makroökonomisch, nicht unternehmensrelevant.",
-    "headline": "Samsung Stock Dives After Huge Jump in Profit, Micron Rival Sinks KOSPI Index",
-    "url": "https://www.barrons.com/articles/samsung-stock-micron-sk-hynix-kospi-27b6be7c?siteid=yhoof2&yptr=yahoo"
+    "summary": "Samsung-Gewinne loesen Chip-Sektor-Ausverkauf aus; Intel faellt 10% mit AMD und anderen Halbleitern.",
+    "headline": "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market",
+    "url": "https://finance.yahoo.com/markets/article/micron-samsung-sk-hynix-just-dragged-memory-stocks-into-a-bear-market-154549356.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 32.83,
-    "range_low": 32.4,
-    "current_price": 32.9,
-    "vwap": 32.87,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 32.9,
-    "stop": 32.4,
-    "risk_per_share": 0.5,
-    "target_1": 33.65,
-    "target_2": 33.9,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 2000,
-    "capital": 65800.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": -6.59,
-      "rel_volume": 0.45,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -10.76,
+      "rel_volume": 0.52,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -6.37,
-      "rel_volume": 0.23,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -7.26,
+      "rel_volume": 0.42,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": -5.44,
-      "rel_volume": 0.26,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": 1.8,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -7.03,
       "rel_volume": 0.34,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MUV2.DE",
-      "name": "Munich Re",
-      "change_pct": 2.76,
-      "rel_volume": 0.18,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -4.97,
+      "rel_volume": 0.3,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": -2.41,
-      "rel_volume": 0.16,
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "change_pct": -3.84,
+      "rel_volume": 0.38,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": 2.26,
+      "rel_volume": 0.56,
+      "catalyst": true,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
