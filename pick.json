@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-06T16:55:30.300403+00:00",
-  "generated_at_local": "06.07.2026, 18:55 Uhr",
-  "session_date": "2026-07-06",
-  "ticker": "TSLA",
-  "name": "Tesla",
-  "last_price": 417.2,
-  "previous_close": 393.45,
-  "change_pct": 6.04,
-  "volume": 26765029,
-  "avg_volume": 50147077,
-  "rel_volume": 0.53,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (400.66); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Tesla zeigt Wachstum in China und Großbritannien, Robotaxi-Expansion und neue Model-Y-Variante signalisieren Geschäftsdynamik.",
-    "headline": "Tesla is doing in China what it couldn't do in the U.S.",
-    "url": "https://www.thestreet.com/markets/tesla-is-doing-in-china-what-it-couldnt-do-in-the-u-s-electric-vehicles"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-07T10:03:32.109300+00:00",
+  "generated_at_local": "07.07.2026, 12:03 Uhr",
+  "session_date": "2026-07-07",
+  "ticker": "ENR.DE",
+  "name": "Siemens Energy",
+  "last_price": 159.2,
+  "previous_close": 170.44,
+  "change_pct": -6.59,
+  "volume": 1162781,
+  "avg_volume": 2577735,
+  "rel_volume": 0.45,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 400.66,
-    "range_low": 390.5,
-    "current_price": 417.85,
-    "vwap": 407.23,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 417.85,
-    "stop": 390.5,
-    "risk_per_share": 27.35,
-    "target_1": 458.88,
-    "target_2": 472.55,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 36,
-    "capital": 15043.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 8.66,
-      "rel_volume": 0.5,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": -6.59,
+      "rel_volume": 0.45,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": 7.62,
-      "rel_volume": 0.47,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -6.37,
+      "rel_volume": 0.23,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": 6.04,
-      "rel_volume": 0.53,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": 5.74,
-      "rel_volume": 0.48,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -5.44,
+      "rel_volume": 0.26,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": 4.22,
-      "rel_volume": 0.49,
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": 1.8,
+      "rel_volume": 0.34,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": 3.26,
-      "rel_volume": 0.48,
+      "ticker": "MUV2.DE",
+      "name": "Munich Re",
+      "change_pct": 2.76,
+      "rel_volume": 0.18,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": -2.41,
+      "rel_volume": 0.16,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
