@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-07-08T09:57:52.812760+00:00",
-  "generated_at_local": "08.07.2026, 11:57 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-08T15:33:12.541989+00:00",
+  "generated_at_local": "08.07.2026, 17:33 Uhr",
   "session_date": "2026-07-08",
-  "ticker": "MBG.DE",
-  "name": "Mercedes-Benz",
-  "last_price": 44.37,
-  "previous_close": 45.97,
-  "change_pct": -3.48,
-  "volume": 575441,
-  "avg_volume": 2540547,
-  "rel_volume": 0.23,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Mercedes-Benz (Spanne 44.74–45.13, aktuell 44.36).",
+  "ticker": "PLTR",
+  "name": "Palantir",
+  "last_price": 128.32,
+  "previous_close": 134.37,
+  "change_pct": -4.5,
+  "volume": 18906645,
+  "avg_volume": 42635002,
+  "rel_volume": 0.44,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
     "catalyst": false,
-    "summary": "Bewertungskommentar zu MBG ohne neue Geschäftsnachrichten; Momenta-Nachricht ist irrelevant.",
-    "headline": "Mercedes Benz Group (XTRA:MBG) Stock Looks Below Fair Value On Cash Flow And Earnings",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/mercedes-benz-group-xtra-mbg-043228113.html"
+    "summary": "Aufnahme in Best-Cybersecurity-Stocks-Liste und SAP-Partnerschaft stützen langfristige Perspektive, aber keine akuten Kurskatalysatoren.",
+    "headline": "Here is why Palantir Technologies Inc. (PLTR) is among the 12 Best Cybersecurity Stocks to Buy and Hold for the Long Term",
+    "url": "https://finance.yahoo.com/technology/ai/articles/why-palantir-technologies-inc-pltr-144822979.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 45.13,
-    "range_low": 44.74,
-    "current_price": 44.36,
-    "vwap": 44.66,
-    "breakout_status": "ausbruch_ab"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
-    "trend": false
+    "vwap": null,
+    "volume": null,
+    "trend": true
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 45.13,
-    "stop": 44.74,
-    "risk_per_share": 0.39,
-    "target_1": 45.72,
-    "target_2": 45.91,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 2564,
-    "capital": 115713.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "MBG.DE",
-      "name": "Mercedes-Benz",
-      "change_pct": -3.48,
-      "rel_volume": 0.23,
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": -4.5,
+      "rel_volume": 0.44,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": -3.19,
-      "rel_volume": 0.23,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": -4.95,
-      "rel_volume": 0.32,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -4.75,
+      "rel_volume": 0.36,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "DHL.DE",
-      "name": "DHL Group",
-      "change_pct": -2.22,
-      "rel_volume": 0.19,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": -3.54,
-      "rel_volume": 0.28,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -4.85,
+      "rel_volume": 0.31,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "AIR.PA",
-      "name": "Airbus",
-      "change_pct": -2.88,
-      "rel_volume": 0.17,
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "change_pct": -3.52,
+      "rel_volume": 0.31,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "change_pct": -3.64,
+      "rel_volume": 0.29,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -2.78,
+      "rel_volume": 0.33,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
