@@ -3,28 +3,28 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-08T15:33:12.541989+00:00",
-  "generated_at_local": "08.07.2026, 17:33 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-07-08T16:04:45.426112+00:00",
+  "generated_at_local": "08.07.2026, 18:04 Uhr",
   "session_date": "2026-07-08",
-  "ticker": "PLTR",
-  "name": "Palantir",
-  "last_price": 128.32,
-  "previous_close": 134.37,
-  "change_pct": -4.5,
-  "volume": 18906645,
-  "avg_volume": 42635002,
-  "rel_volume": 0.44,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "SOFI",
+  "name": "SoFi",
+  "last_price": 17.12,
+  "previous_close": 17.75,
+  "change_pct": -3.52,
+  "volume": 24163640,
+  "avg_volume": 77390942,
+  "rel_volume": 0.31,
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: SoFi (Spanne 17.27–17.6, aktuell 17.22).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
-    "materiality": "mittel",
+    "materiality": "gering",
     "catalyst": false,
-    "summary": "Aufnahme in Best-Cybersecurity-Stocks-Liste und SAP-Partnerschaft stützen langfristige Perspektive, aber keine akuten Kurskatalysatoren.",
-    "headline": "Here is why Palantir Technologies Inc. (PLTR) is among the 12 Best Cybersecurity Stocks to Buy and Hold for the Long Term",
-    "url": "https://finance.yahoo.com/technology/ai/articles/why-palantir-technologies-inc-pltr-144822979.html"
+    "summary": "Bewertungsdiskussionen und neue Produktinitiiativen sind unterstützend, aber spekulativ.",
+    "headline": "SoFi Technologies (SOFI) Could Be 23% Undervalued As New ETF Fuels Valuation Debate",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-could-23-141530796.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,55 +33,43 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 17.6,
+    "range_low": 17.27,
+    "current_price": 17.22,
+    "vwap": 17.27,
+    "breakout_status": "ausbruch_ab"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": true
+    "vwap": false,
+    "volume": false,
+    "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 0,
+  "trade_plan": {
+    "entry": 17.6,
+    "stop": 17.27,
+    "risk_per_share": 0.33,
+    "target_1": 18.1,
+    "target_2": 18.26,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 3030,
+    "capital": 53328.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": -4.5,
-      "rel_volume": 0.44,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -4.75,
-      "rel_volume": 0.36,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -4.85,
-      "rel_volume": 0.31,
-      "catalyst": false,
-      "status": null
-    },
     {
       "ticker": "SOFI",
       "name": "SoFi",
       "change_pct": -3.52,
       "rel_volume": 0.31,
       "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "BA",
-      "name": "Boeing",
-      "change_pct": -3.64,
-      "rel_volume": 0.29,
-      "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MARA",
@@ -89,7 +77,39 @@
       "change_pct": -2.78,
       "rel_volume": 0.33,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -4.85,
+      "rel_volume": 0.31,
+      "catalyst": false,
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": -4.5,
+      "rel_volume": 0.44,
+      "catalyst": false,
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "change_pct": -3.43,
+      "rel_volume": 0.2,
+      "catalyst": true,
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "change_pct": -3.64,
+      "rel_volume": 0.29,
+      "catalyst": true,
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
