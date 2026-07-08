@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-07T16:36:17.566116+00:00",
-  "generated_at_local": "07.07.2026, 18:36 Uhr",
-  "session_date": "2026-07-07",
-  "ticker": "PLTR",
-  "name": "Palantir",
-  "last_price": 135.54,
-  "previous_close": 132.54,
-  "change_pct": 2.26,
-  "volume": 23803768,
-  "avg_volume": 42575395,
-  "rel_volume": 0.56,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (135.06); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-08T09:02:42.212751+00:00",
+  "generated_at_local": "08.07.2026, 11:02 Uhr",
+  "session_date": "2026-07-08",
+  "ticker": "RHM.DE",
+  "name": "Rheinmetall",
+  "last_price": 1067.8,
+  "previous_close": 1111.6,
+  "change_pct": -3.94,
+  "volume": 77968,
+  "avg_volume": 283752,
+  "rel_volume": 0.27,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
-    "materiality": "mittel",
+    "materiality": "hoch",
     "catalyst": true,
-    "summary": "Palantir partneert mit Nvidia fuer Secure-AI-Angebote; CEO-Kritik an OpenAI/Anthropic staerkt Differenzierung.",
-    "headline": "Palantir CEO: “Something Has Gone Completely Wrong” With OpenAI and Anthropic",
-    "url": "https://247wallst.com/investing/2026/07/07/palantir-ceo-something-has-gone-completely-wrong-with-openai-and-anthropic/"
+    "summary": "Strategische Partnerschaft mit Lockheed Martin zur ATACMS-Missilenfertigung in Deutschland ist ein signifikanter Auftrag.",
+    "headline": "Beyond Lockheed's $3.5B Buyout: Naval Consolidation Reshaping Defense ETFs",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/beyond-lockheeds-3-5b-buyout-162500442.html"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 135.06,
-    "range_low": 132.2,
-    "current_price": 136.18,
-    "vwap": 134.24,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 136.18,
-    "stop": 132.2,
-    "risk_per_share": 3.98,
-    "target_1": 142.15,
-    "target_2": 144.14,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 251,
-    "capital": 34181.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -10.76,
-      "rel_volume": 0.52,
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": -4.95,
+      "rel_volume": 0.32,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -7.26,
-      "rel_volume": 0.42,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -7.03,
-      "rel_volume": 0.34,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -4.97,
-      "rel_volume": 0.3,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": -3.84,
-      "rel_volume": 0.38,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": 2.26,
-      "rel_volume": 0.56,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -3.94,
+      "rel_volume": 0.27,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
+    },
+    {
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -3.54,
+      "rel_volume": 0.28,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": -3.89,
+      "rel_volume": 0.22,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": -3.48,
+      "rel_volume": 0.23,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": -3.19,
+      "rel_volume": 0.23,
+      "catalyst": true,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
