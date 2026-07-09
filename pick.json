@@ -3,45 +3,65 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-09T16:09:36.019810+00:00",
-  "generated_at_local": "09.07.2026, 18:09 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-09T16:30:52.813016+00:00",
+  "generated_at_local": "09.07.2026, 18:30 Uhr",
   "session_date": "2026-07-09",
-  "ticker": "MARA",
-  "name": "MARA Holdings",
-  "last_price": 13.84,
-  "previous_close": 12.02,
-  "change_pct": 15.1,
-  "volume": 46415583,
-  "avg_volume": 41333567,
-  "rel_volume": 1.12,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "META",
+  "name": "Meta",
+  "last_price": 611.44,
+  "previous_close": 603.12,
+  "change_pct": 1.38,
+  "volume": 10370435,
+  "avg_volume": 17852487,
+  "rel_volume": 0.58,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (589.09); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
-    "materiality": "hoch",
+    "materiality": "mittel",
     "catalyst": true,
-    "summary": "Bitcoin-Miner akquiriert 1.200 Acres Texas-Land für 600 Mio. Dollar und verdoppelt damit Stromkapazität.",
-    "headline": "MARA Stock Pops as Bitcoin Miner Agrees to Acquire Massive Powered Texas Land Plot",
-    "url": "https://decrypt.co/373144/mara-stock-pops-bitcoin-miner-agrees-acquire-texas-land-plot"
+    "summary": "Meta expandiert Rechenzentren nach Kanada und launcht neue AI-Modelle mit erweiterten Fähigkeiten.",
+    "headline": "Meta is expanding its data center build-out to Canada",
+    "url": "https://finance.yahoo.com/technology/article/meta-is-expanding-its-data-center-build-out-to-canada-203557315.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 589.09,
+    "range_low": 577.07,
+    "current_price": 614.31,
+    "vwap": 594.6,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 614.31,
+    "stop": 577.07,
+    "risk_per_share": 37.24,
+    "target_1": 670.17,
+    "target_2": 688.79,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 26,
+    "capital": 15972.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "MARA",
@@ -49,7 +69,7 @@
       "change_pct": 15.1,
       "rel_volume": 1.12,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "AMD",
@@ -57,7 +77,7 @@
       "change_pct": 7.51,
       "rel_volume": 0.44,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "PLTR",
@@ -65,7 +85,7 @@
       "change_pct": -4.38,
       "rel_volume": 0.48,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "NIO",
@@ -73,7 +93,7 @@
       "change_pct": -2.35,
       "rel_volume": 0.35,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SOFI",
@@ -81,7 +101,7 @@
       "change_pct": 2.28,
       "rel_volume": 0.36,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "META",
@@ -89,7 +109,7 @@
       "change_pct": 1.38,
       "rel_volume": 0.58,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
