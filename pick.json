@@ -1,107 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-13T10:41:37.087939+00:00",
-  "generated_at_local": "13.07.2026, 12:41 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-13T15:51:15.645265+00:00",
+  "generated_at_local": "13.07.2026, 17:51 Uhr",
   "session_date": "2026-07-13",
-  "ticker": "DTE.DE",
-  "name": "Deutsche Telekom",
-  "last_price": 26.79,
-  "previous_close": 26.12,
-  "change_pct": 2.57,
-  "volume": 1172406,
-  "avg_volume": 7572570,
-  "rel_volume": 0.15,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (26.62); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": null,
+  "ticker": "INTC",
+  "name": "Intel",
+  "last_price": 104.42,
+  "previous_close": 109.84,
+  "change_pct": -4.93,
+  "volume": 38042869,
+  "avg_volume": 125122950,
+  "rel_volume": 0.3,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": {
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
+    "catalyst": false,
+    "summary": "Chipsektor unter Druck durch SK Hynix Rout und AI-Trade Angst; Intel fällt 4% mit AMD und Applied Materials.",
+    "headline": "SK Hynix stock falls, leads broader chip sector declines as AI trade angst returns",
+    "url": "https://finance.yahoo.com/markets/article/sk-hynix-stock-falls-leads-broader-chip-sector-declines-as-ai-trade-angst-returns-120751185.html"
+  },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 26.62,
-    "range_low": 26.29,
-    "current_price": 26.76,
-    "vwap": 26.72,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 26.76,
-    "stop": 26.29,
-    "risk_per_share": 0.47,
-    "target_1": 27.46,
-    "target_2": 27.7,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 2127,
-    "capital": 56919.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": 2.57,
-      "rel_volume": 0.15,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -4.93,
+      "rel_volume": 0.3,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 1.75,
-      "rel_volume": 0.19,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "ticker": "NIO",
+      "name": "NIO",
+      "change_pct": 2.93,
+      "rel_volume": 0.42,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "BAS.DE",
-      "name": "BASF",
-      "change_pct": 1.52,
-      "rel_volume": 0.14,
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "change_pct": -2.32,
+      "rel_volume": 0.44,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ADS.DE",
-      "name": "Adidas",
-      "change_pct": 1.07,
-      "rel_volume": 0.19,
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": -3.03,
+      "rel_volume": 0.31,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -1.6,
-      "rel_volume": 0.09,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -2.98,
+      "rel_volume": 0.3,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": -1.27,
-      "rel_volume": 0.12,
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": 2.46,
+      "rel_volume": 0.36,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
