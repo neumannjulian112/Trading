@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-10T16:28:17.730181+00:00",
-  "generated_at_local": "10.07.2026, 18:28 Uhr",
-  "session_date": "2026-07-10",
-  "ticker": "NVDA",
-  "name": "NVIDIA",
-  "last_price": 209.19,
-  "previous_close": 202.78,
-  "change_pct": 3.16,
-  "volume": 59995172,
-  "avg_volume": 163148090,
-  "rel_volume": 0.37,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (204.99); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "Keine direkten Nachrichten zu NVIDIA; Marktbreite Themen und Wettbewerbs-Kontexte haben geringe spezifische Relevanz.",
-    "headline": "Stock market today: Dow, S&P 500, Nasdaq waver ahead of SK Hynix's mega US IPO",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-10-dow-sp-nasdaq-113921604.html"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-13T09:50:46.623340+00:00",
+  "generated_at_local": "13.07.2026, 11:50 Uhr",
+  "session_date": "2026-07-13",
+  "ticker": "DTE.DE",
+  "name": "Deutsche Telekom",
+  "last_price": 26.79,
+  "previous_close": 26.12,
+  "change_pct": 2.57,
+  "volume": 1172406,
+  "avg_volume": 7572570,
+  "rel_volume": 0.15,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 204.99,
-    "range_low": 201.92,
-    "current_price": 210.04,
-    "vwap": 206.75,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 210.04,
-    "stop": 201.92,
-    "risk_per_share": 8.12,
-    "target_1": 222.22,
-    "target_2": 226.28,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 123,
-    "capital": 25835.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": 6.24,
-      "rel_volume": 1.25,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -5.11,
-      "rel_volume": 0.58,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix",
-      "change_pct": -3.23,
-      "rel_volume": 0.47,
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "change_pct": 2.57,
+      "rel_volume": 0.15,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": 3.16,
-      "rel_volume": 0.37,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 1.75,
+      "rel_volume": 0.19,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -3.17,
-      "rel_volume": 0.26,
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": 1.52,
+      "rel_volume": 0.14,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": -2.29,
-      "rel_volume": 0.31,
-      "catalyst": true,
-      "status": "ausbruch_ab"
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": 1.07,
+      "rel_volume": 0.19,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -1.6,
+      "rel_volume": 0.09,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -1.27,
+      "rel_volume": 0.12,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
