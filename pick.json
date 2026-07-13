@@ -3,29 +3,21 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-13T15:51:15.645265+00:00",
-  "generated_at_local": "13.07.2026, 17:51 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-13T16:38:53.776751+00:00",
+  "generated_at_local": "13.07.2026, 18:38 Uhr",
   "session_date": "2026-07-13",
-  "ticker": "INTC",
-  "name": "Intel",
-  "last_price": 104.42,
-  "previous_close": 109.84,
-  "change_pct": -4.93,
-  "volume": 38042869,
-  "avg_volume": 125122950,
-  "rel_volume": 0.3,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
-  "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "hoch",
-    "catalyst": false,
-    "summary": "Chipsektor unter Druck durch SK Hynix Rout und AI-Trade Angst; Intel fällt 4% mit AMD und Applied Materials.",
-    "headline": "SK Hynix stock falls, leads broader chip sector declines as AI trade angst returns",
-    "url": "https://finance.yahoo.com/markets/article/sk-hynix-stock-falls-leads-broader-chip-sector-declines-as-ai-trade-angst-returns-120751185.html"
-  },
+  "ticker": "GME",
+  "name": "GameStop",
+  "last_price": 22.26,
+  "previous_close": 21.68,
+  "change_pct": 2.68,
+  "volume": 1102107,
+  "avg_volume": 5395397,
+  "rel_volume": 0.2,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (21.98); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "news": null,
   "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
@@ -33,15 +25,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 21.98,
+    "range_low": 21.73,
+    "current_price": 22.13,
+    "vwap": 22.05,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 22.13,
+    "stop": 21.73,
+    "risk_per_share": 0.4,
+    "target_1": 22.73,
+    "target_2": 22.93,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 2500,
+    "capital": 55325.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "INTC",
@@ -49,7 +61,7 @@
       "change_pct": -4.93,
       "rel_volume": 0.3,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NIO",
@@ -57,7 +69,7 @@
       "change_pct": 2.93,
       "rel_volume": 0.42,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SOFI",
@@ -65,7 +77,7 @@
       "change_pct": -2.32,
       "rel_volume": 0.44,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "TSLA",
@@ -73,7 +85,7 @@
       "change_pct": -3.03,
       "rel_volume": 0.31,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MARA",
@@ -81,7 +93,7 @@
       "change_pct": -2.98,
       "rel_volume": 0.3,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "PLTR",
@@ -89,7 +101,7 @@
       "change_pct": 2.46,
       "rel_volume": 0.36,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
