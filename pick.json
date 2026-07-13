@@ -3,10 +3,10 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-13T09:50:46.623340+00:00",
-  "generated_at_local": "13.07.2026, 11:50 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-13T10:41:37.087939+00:00",
+  "generated_at_local": "13.07.2026, 12:41 Uhr",
   "session_date": "2026-07-13",
   "ticker": "DTE.DE",
   "name": "Deutsche Telekom",
@@ -16,7 +16,7 @@
   "volume": 1172406,
   "avg_volume": 7572570,
   "rel_volume": 0.15,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (26.62); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 26.62,
+    "range_low": 26.29,
+    "current_price": 26.76,
+    "vwap": 26.72,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 26.76,
+    "stop": 26.29,
+    "risk_per_share": 0.47,
+    "target_1": 27.46,
+    "target_2": 27.7,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 2127,
+    "capital": 56919.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "DTE.DE",
@@ -41,7 +61,7 @@
       "change_pct": 2.57,
       "rel_volume": 0.15,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "RHM.DE",
@@ -49,7 +69,7 @@
       "change_pct": 1.75,
       "rel_volume": 0.19,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "BAS.DE",
@@ -57,7 +77,7 @@
       "change_pct": 1.52,
       "rel_volume": 0.14,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ADS.DE",
@@ -65,7 +85,7 @@
       "change_pct": 1.07,
       "rel_volume": 0.19,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "IFX.DE",
@@ -73,7 +93,7 @@
       "change_pct": -1.6,
       "rel_volume": 0.09,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ASML.AS",
@@ -81,7 +101,7 @@
       "change_pct": -1.27,
       "rel_volume": 0.12,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
