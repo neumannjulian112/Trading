@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-15T09:32:21.467459+00:00",
-  "generated_at_local": "15.07.2026, 11:32 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-15T15:01:31.614547+00:00",
+  "generated_at_local": "15.07.2026, 17:01 Uhr",
   "session_date": "2026-07-15",
-  "ticker": "DBK.DE",
-  "name": "Deutsche Bank",
-  "last_price": 31.27,
-  "previous_close": 31.44,
-  "change_pct": -0.56,
-  "volume": 647199,
-  "avg_volume": 5350727,
-  "rel_volume": 0.12,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (31.28); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "MSTR",
+  "name": "MicroStrategy",
+  "last_price": 98.67,
+  "previous_close": 92.1,
+  "change_pct": 7.13,
+  "volume": 6003956,
+  "avg_volume": 23031212,
+  "rel_volume": 0.26,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
     "catalyst": false,
-    "summary": "Schlagzeilen beziehen sich auf Aberdeen Group und China-EU-Handel, nicht auf Deutsche Bank.",
-    "headline": "Aberdeen Group (LSE:ABDN) Stock Gets Fair Value Bump After Mixed Analyst Target Changes",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/aberdeen-group-lse-abdn-stock-221510402.html"
+    "summary": "Bitcoin-Stabilität und positive Kryptostimmung stützen die Strategie-These, aber keine neuen fundamentalen Katalysatoren.",
+    "headline": "Strategy Says It’s ‘Secure’ Until Bitcoin Falls Below $10,000",
+    "url": "https://www.cryptoprowl.com/releases/strategy-says-its-secure-until-bitcoin-falls-below-10000-6164"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 31.28,
-    "range_low": 31.03,
-    "current_price": 31.41,
-    "vwap": 31.21,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 31.41,
-    "stop": 31.03,
-    "risk_per_share": 0.38,
-    "target_1": 31.98,
-    "target_2": 32.17,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 2631,
-    "capital": 82640.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": 3.3,
-      "rel_volume": 0.28,
-      "catalyst": true,
-      "status": "ausbruch_ab"
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 7.13,
+      "rel_volume": 0.26,
+      "catalyst": false,
+      "status": null
     },
     {
-      "ticker": "MC.PA",
-      "name": "LVMH",
-      "change_pct": 2.64,
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "change_pct": 4.07,
+      "rel_volume": 0.22,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -2.51,
+      "rel_volume": 0.31,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "change_pct": 2.66,
+      "rel_volume": 0.27,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "change_pct": 2.08,
+      "rel_volume": 0.3,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "change_pct": 3.07,
       "rel_volume": 0.2,
       "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": -1.7,
-      "rel_volume": 0.24,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": -2.44,
-      "rel_volume": 0.14,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -3.12,
-      "rel_volume": 0.1,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "BAS.DE",
-      "name": "BASF",
-      "change_pct": -1.76,
-      "rel_volume": 0.13,
-      "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
