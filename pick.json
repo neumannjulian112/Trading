@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-15T15:38:50.078335+00:00",
-  "generated_at_local": "15.07.2026, 17:38 Uhr",
-  "session_date": "2026-07-15",
-  "ticker": "F",
-  "name": "Ford",
-  "last_price": 14.28,
-  "previous_close": 13.85,
-  "change_pct": 3.14,
-  "volume": 9228014,
-  "avg_volume": 63078284,
-  "rel_volume": 0.15,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (14.1); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-16T08:37:45.678333+00:00",
+  "generated_at_local": "16.07.2026, 10:37 Uhr",
+  "session_date": "2026-07-16",
+  "ticker": "ENR.DE",
+  "name": "Siemens Energy",
+  "last_price": 148.24,
+  "previous_close": 152.18,
+  "change_pct": -2.59,
+  "volume": 351487,
+  "avg_volume": 2466087,
+  "rel_volume": 0.14,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "gemischt",
-    "direction": "unklar",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "SUV-Profite positiv, EV-Strategie-Kritik und China-Wettbewerbs-Warnung heben sich teilweise auf.",
-    "headline": "Ford Should Stop Selling EVs",
-    "url": "https://247wallst.com/investing/2026/07/15/ford-should-stop-selling-evs/"
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Unabhängige Markenentwicklung signalisiert strategische Neuausrichtung mit Wachstumspotenzial.",
+    "headline": "Siemens Energy begins preparations for independent brand launch",
+    "url": "https://www.energyglobal.com/product-news/15072026/siemens-energy-begins-preparations-for-independent-brand-launch/?yptr=yahoo"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 14.1,
-    "range_low": 14.01,
-    "current_price": 14.27,
-    "vwap": 14.25,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 14.27,
-    "stop": 14.01,
-    "risk_per_share": 0.26,
-    "target_1": 14.66,
-    "target_2": 14.79,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 3846,
-    "capital": 54882.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 7.13,
-      "rel_volume": 0.26,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "change_pct": 4.07,
-      "rel_volume": 0.22,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -2.51,
-      "rel_volume": 0.31,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": 2.66,
-      "rel_volume": 0.27,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": -2.59,
+      "rel_volume": 0.14,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "change_pct": 2.08,
-      "rel_volume": 0.3,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -2.61,
+      "rel_volume": 0.13,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": 3.07,
-      "rel_volume": 0.2,
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": -0.96,
+      "rel_volume": 0.28,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": 1.34,
+      "rel_volume": 0.15,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": 0.41,
+      "rel_volume": 0.16,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 1.06,
+      "rel_volume": 0.06,
+      "catalyst": true,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
