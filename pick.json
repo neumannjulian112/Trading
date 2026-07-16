@@ -3,28 +3,28 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-16T15:12:51.933264+00:00",
-  "generated_at_local": "16.07.2026, 17:12 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-16T15:41:46.999987+00:00",
+  "generated_at_local": "16.07.2026, 17:41 Uhr",
   "session_date": "2026-07-16",
-  "ticker": "MARA",
-  "name": "MARA Holdings",
-  "last_price": 11.62,
-  "previous_close": 12.29,
-  "change_pct": -5.41,
-  "volume": 13273955,
-  "avg_volume": 42431352,
-  "rel_volume": 0.31,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "AAPL",
+  "name": "Apple",
+  "last_price": 330.33,
+  "previous_close": 327.5,
+  "change_pct": 0.86,
+  "volume": 16431697,
+  "avg_volume": 57627420,
+  "rel_volume": 0.29,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (328.98); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "Trendschlagzeilen ohne konkrete Geschäftsnachrichten oder Kursbewegungsfaktoren.",
-    "headline": "Marathon Digital Holdings, Inc. (MARA) Is a Trending Stock: Facts to Know Before Betting on It",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/marathon-digital-holdings-inc-mara-130004131.html"
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
+    "catalyst": true,
+    "summary": "Apple räumt Hürde für iPhone AI in China ab, wichtiger regulatorischer Meilenstein für China-Markt.",
+    "headline": "$3.2 trillion rotation from chips to the 'Magnificent 7' has left the S&P 500 going nowhere: Chart of the Day",
+    "url": "https://finance.yahoo.com/markets/article/32-trillion-rotation-from-chips-to-the-magnificent-7-has-left-the-sp-500-going-nowhere-chart-of-the-day-100000821.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 328.98,
+    "range_low": 326.79,
+    "current_price": 331.2,
+    "vwap": 329.4,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 331.2,
+    "stop": 326.79,
+    "risk_per_share": 4.41,
+    "target_1": 337.81,
+    "target_2": 340.02,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 226,
+    "capital": 74851.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "MARA",
@@ -49,7 +69,7 @@
       "change_pct": -5.41,
       "rel_volume": 0.31,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "AMD",
@@ -57,7 +77,7 @@
       "change_pct": -4.23,
       "rel_volume": 0.28,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "INTC",
@@ -65,7 +85,7 @@
       "change_pct": -4.11,
       "rel_volume": 0.26,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "SMCI",
@@ -73,7 +93,7 @@
       "change_pct": -5.36,
       "rel_volume": 0.17,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NVDA",
@@ -81,7 +101,7 @@
       "change_pct": -2.92,
       "rel_volume": 0.23,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MSTR",
@@ -89,7 +109,7 @@
       "change_pct": -3.85,
       "rel_volume": 0.16,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
