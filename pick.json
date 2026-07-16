@@ -3,28 +3,28 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-16T08:37:45.678333+00:00",
-  "generated_at_local": "16.07.2026, 10:37 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-16T09:37:00.972157+00:00",
+  "generated_at_local": "16.07.2026, 11:37 Uhr",
   "session_date": "2026-07-16",
-  "ticker": "ENR.DE",
-  "name": "Siemens Energy",
-  "last_price": 148.24,
-  "previous_close": 152.18,
-  "change_pct": -2.59,
-  "volume": 351487,
-  "avg_volume": 2466087,
-  "rel_volume": 0.14,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "BAS.DE",
+  "name": "BASF",
+  "last_price": 48.58,
+  "previous_close": 47.94,
+  "change_pct": 1.34,
+  "volume": 331473,
+  "avg_volume": 2285838,
+  "rel_volume": 0.15,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (48.0); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "hoch",
     "catalyst": true,
-    "summary": "Unabhängige Markenentwicklung signalisiert strategische Neuausrichtung mit Wachstumspotenzial.",
-    "headline": "Siemens Energy begins preparations for independent brand launch",
-    "url": "https://www.energyglobal.com/product-news/15072026/siemens-energy-begins-preparations-for-independent-brand-launch/?yptr=yahoo"
+    "summary": "Anhebung der Gewinnprognose überwiegt geopolitische Risiken deutlich.",
+    "headline": "Basic Materials Roundup: Market Talk",
+    "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-b98d33a2?siteid=yhoof2&yptr=yahoo"
   },
   "or_window_min": 5,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 5,
     "range_window": "09:00–09:05 Uhr",
     "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 48.0,
+    "range_low": 47.85,
+    "current_price": 48.26,
+    "vwap": 48.3,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": false,
+    "volume": true,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 48.26,
+    "stop": 47.85,
+    "risk_per_share": 0.41,
+    "target_1": 48.88,
+    "target_2": 49.08,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 2439,
+    "capital": 117706.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "ENR.DE",
@@ -49,7 +69,7 @@
       "change_pct": -2.59,
       "rel_volume": 0.14,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "IFX.DE",
@@ -57,7 +77,7 @@
       "change_pct": -2.61,
       "rel_volume": 0.13,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "SIE.DE",
@@ -65,7 +85,7 @@
       "change_pct": -0.96,
       "rel_volume": 0.28,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "BAS.DE",
@@ -73,7 +93,7 @@
       "change_pct": 1.34,
       "rel_volume": 0.15,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ASML.AS",
@@ -81,7 +101,7 @@
       "change_pct": 0.41,
       "rel_volume": 0.16,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "P911.DE",
@@ -89,7 +109,7 @@
       "change_pct": 1.06,
       "rel_volume": 0.06,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
