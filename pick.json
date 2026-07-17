@@ -1,107 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-17T09:29:19.606737+00:00",
-  "generated_at_local": "17.07.2026, 11:29 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-17T14:53:05.269160+00:00",
+  "generated_at_local": "17.07.2026, 16:53 Uhr",
   "session_date": "2026-07-17",
-  "ticker": "MUV2.DE",
-  "name": "Munich Re",
-  "last_price": 516.8,
-  "previous_close": 512.2,
-  "change_pct": 0.9,
-  "volume": 36864,
-  "avg_volume": 330364,
-  "rel_volume": 0.11,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (515.0); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": null,
-  "or_window_min": 15,
+  "ticker": "NFLX",
+  "name": "Netflix",
+  "last_price": 67.87,
+  "previous_close": 74.35,
+  "change_pct": -8.72,
+  "volume": 63120114,
+  "avg_volume": 42617668,
+  "rel_volume": 1.48,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": {
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Q3-Umsatz verfehlt Erwartungen, Wachstum verlangsamt sich, Guidance-Verfehlungen triggern Kursrutsch.",
+    "headline": "Netflix stock tanks as Q3 revenue falls short: 'Nothing here to get excited about'",
+    "url": "https://finance.yahoo.com/markets/stocks/article/netflix-stock-tanks-as-q3-revenue-falls-short-nothing-here-to-get-excited-about-201022485.html"
+  },
+  "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
-    "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 515.0,
-    "range_low": 513.0,
-    "current_price": 516.8,
-    "vwap": 515.8,
-    "breakout_status": "ausbruch_auf"
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
+    "window_min": 5,
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 516.8,
-    "stop": 513.0,
-    "risk_per_share": 3.8,
-    "target_1": 522.5,
-    "target_2": 524.4,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 263,
-    "capital": 135918.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -5.42,
-      "rel_volume": 0.21,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": -4.82,
-      "rel_volume": 0.17,
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "change_pct": -8.72,
+      "rel_volume": 1.48,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": -2.94,
-      "rel_volume": 0.15,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -5.78,
+      "rel_volume": 0.29,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": 2.62,
-      "rel_volume": 0.14,
+      "ticker": "META",
+      "name": "Meta",
+      "change_pct": -5.13,
+      "rel_volume": 0.29,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": -2.68,
-      "rel_volume": 0.13,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": 0.82,
-      "rel_volume": 0.31,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -2.99,
+      "rel_volume": 0.4,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -2.18,
+      "rel_volume": 0.39,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": -2.92,
+      "rel_volume": 0.26,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
