@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-17T15:19:42.179611+00:00",
-  "generated_at_local": "17.07.2026, 17:19 Uhr",
-  "session_date": "2026-07-17",
-  "ticker": "NVDA",
-  "name": "NVIDIA",
-  "last_price": 203.77,
-  "previous_close": 207.4,
-  "change_pct": -1.75,
-  "volume": 62975266,
-  "avg_volume": 158507746,
-  "rel_volume": 0.4,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (202.74); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Verlust des Titels als grösste Unternehmen, strukturelle Verschiebung zu Apple und Berkshire.",
-    "headline": "Buffett’s Biggest Bet Just Dethroned Nvidia As the Largest Company In the World",
-    "url": "https://247wallst.com/investing/2026/07/17/buffetts-biggest-bet-just-dethroned-nvidia-as-the-largest-company-in-the-world/"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-20T09:39:06.689242+00:00",
+  "generated_at_local": "20.07.2026, 11:39 Uhr",
+  "session_date": "2026-07-20",
+  "ticker": "ENR.DE",
+  "name": "Siemens Energy",
+  "last_price": 152.64,
+  "previous_close": 147.66,
+  "change_pct": 3.37,
+  "volume": 473586,
+  "avg_volume": 2466675,
+  "rel_volume": 0.19,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 202.74,
-    "range_low": 197.97,
-    "current_price": 203.7,
-    "vwap": 202.22,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 203.7,
-    "stop": 197.97,
-    "risk_per_share": 5.73,
-    "target_1": 212.29,
-    "target_2": 215.16,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 174,
-    "capital": 35444.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "NFLX",
-      "name": "Netflix",
-      "change_pct": -8.72,
-      "rel_volume": 1.48,
-      "catalyst": true,
-      "status": "ausbruch_auf"
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 3.37,
+      "rel_volume": 0.19,
+      "catalyst": false,
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -5.78,
-      "rel_volume": 0.29,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": 0.57,
+      "rel_volume": 0.14,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": -5.13,
-      "rel_volume": 0.29,
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": 0.81,
+      "rel_volume": 0.08,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -2.99,
-      "rel_volume": 0.4,
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": -1.01,
+      "rel_volume": 0.07,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -2.18,
-      "rel_volume": 0.39,
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": -0.72,
+      "rel_volume": 0.09,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": -2.92,
-      "rel_volume": 0.26,
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": -0.68,
+      "rel_volume": 0.09,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
