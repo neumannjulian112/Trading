@@ -3,21 +3,29 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-20T09:39:06.689242+00:00",
-  "generated_at_local": "20.07.2026, 11:39 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-20T10:28:42.819211+00:00",
+  "generated_at_local": "20.07.2026, 12:28 Uhr",
   "session_date": "2026-07-20",
-  "ticker": "ENR.DE",
-  "name": "Siemens Energy",
-  "last_price": 152.64,
-  "previous_close": 147.66,
-  "change_pct": 3.37,
-  "volume": 473586,
-  "avg_volume": 2466675,
-  "rel_volume": 0.19,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
-  "news": null,
+  "ticker": "ADS.DE",
+  "name": "Adidas",
+  "last_price": 182.0,
+  "previous_close": 181.1,
+  "change_pct": 0.5,
+  "volume": 65167,
+  "avg_volume": 649429,
+  "rel_volume": 0.1,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (181.3); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "news": {
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "Bewertungsanalyse stellt Aufwärtspotenzial in Frage, ohne neue operative Catalysts zu nennen.",
+    "headline": "Does adidas (XTRA:ADS) Have More Upside Than Its Earnings Suggest?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/does-adidas-xtra-ads-more-140708055.html"
+  },
   "or_window_min": 15,
   "orb": {
     "market": "Xetra",
@@ -25,15 +33,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 181.3,
+    "range_low": 180.4,
+    "current_price": 182.05,
+    "vwap": 181.37,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 182.05,
+    "stop": 180.4,
+    "risk_per_share": 1.65,
+    "target_1": 184.53,
+    "target_2": 185.35,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 606,
+    "capital": 110322.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "ENR.DE",
@@ -41,7 +69,7 @@
       "change_pct": 3.37,
       "rel_volume": 0.19,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ASML.AS",
@@ -49,7 +77,7 @@
       "change_pct": 0.57,
       "rel_volume": 0.14,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SIE.DE",
@@ -57,7 +85,7 @@
       "change_pct": 0.81,
       "rel_volume": 0.08,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "BAYN.DE",
@@ -65,7 +93,7 @@
       "change_pct": -1.01,
       "rel_volume": 0.07,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "AIR.PA",
@@ -73,7 +101,7 @@
       "change_pct": -0.72,
       "rel_volume": 0.09,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "BAS.DE",
@@ -81,7 +109,7 @@
       "change_pct": -0.68,
       "rel_volume": 0.09,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
