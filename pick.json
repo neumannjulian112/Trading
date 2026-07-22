@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-21T15:47:16.920804+00:00",
-  "generated_at_local": "21.07.2026, 17:47 Uhr",
-  "session_date": "2026-07-21",
-  "ticker": "COIN",
-  "name": "Coinbase",
-  "last_price": 178.37,
-  "previous_close": 160.43,
-  "change_pct": 11.18,
-  "volume": 6058033,
-  "avg_volume": 8017550,
-  "rel_volume": 0.76,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (175.31); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-22T09:04:06.499164+00:00",
+  "generated_at_local": "22.07.2026, 11:04 Uhr",
+  "session_date": "2026-07-22",
+  "ticker": "AIR.PA",
+  "name": "Airbus",
+  "last_price": 208.0,
+  "previous_close": 194.6,
+  "change_pct": 6.89,
+  "volume": 536366,
+  "avg_volume": 1180402,
+  "rel_volume": 0.45,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "mittel",
     "catalyst": false,
-    "summary": "Mehrere positive Signale: Traditionelle Finanzinstitute (Morgan Stanley/E*TRADE) expandieren in Crypto, regulatorische Clarity Act nähert sich der Abstimmung, Stablecoin-Wachstum erwartet.",
-    "headline": "Morgan Stanley's E*TRADE embraces crypto trading",
-    "url": "https://finance.yahoo.com/video/morgan-stanleys-e-trade-embraces-183000419.html"
+    "summary": "Boeing-Anfechtung des EU-Kreditdeals für Airbus schafft Unsicherheit, aber langfristig neutral bis leicht positiv für Wettbewerb.",
+    "headline": "3M turns to AI to fuel turnaround",
+    "url": "https://finance.yahoo.com/video/3m-turns-to-ai-to-fuel-turnaround-194739770.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 175.31,
-    "range_low": 167.86,
-    "current_price": 179.93,
-    "vwap": 176.18,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 179.93,
-    "stop": 167.86,
-    "risk_per_share": 12.07,
-    "target_1": 198.03,
-    "target_2": 204.07,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 82,
-    "capital": 14754.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": 11.18,
-      "rel_volume": 0.76,
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": 6.89,
+      "rel_volume": 0.45,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": 7.07,
-      "rel_volume": 0.38,
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 2.77,
+      "rel_volume": 0.21,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 7.82,
-      "rel_volume": 0.33,
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "change_pct": 1.4,
+      "rel_volume": 0.19,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -2.06,
+      "rel_volume": 0.13,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 6.12,
-      "rel_volume": 0.36,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -1.14,
+      "rel_volume": 0.16,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 5.3,
-      "rel_volume": 0.39,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 1.53,
+      "rel_volume": 0.09,
       "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": 3.31,
-      "rel_volume": 0.34,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
