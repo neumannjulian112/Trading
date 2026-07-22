@@ -3,10 +3,10 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-22T15:16:23.676486+00:00",
-  "generated_at_local": "22.07.2026, 17:16 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-22T15:45:36.028000+00:00",
+  "generated_at_local": "22.07.2026, 17:45 Uhr",
   "session_date": "2026-07-22",
   "ticker": "SMCI",
   "name": "Super Micro",
@@ -16,7 +16,7 @@
   "volume": 92357321,
   "avg_volume": 58209950,
   "rel_volume": 1.59,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (29.81); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
@@ -33,15 +33,35 @@
     "window_min": 5,
     "range_window": "15:30–15:35 Uhr",
     "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 29.81,
+    "range_low": 28.62,
+    "current_price": 31.66,
+    "vwap": 30.71,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 31.66,
+    "stop": 28.62,
+    "risk_per_share": 3.04,
+    "target_1": 36.22,
+    "target_2": 37.74,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 328,
+    "capital": 10384.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "SMCI",
@@ -49,7 +69,7 @@
       "change_pct": 24.57,
       "rel_volume": 1.59,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MARA",
@@ -57,7 +77,7 @@
       "change_pct": 3.63,
       "rel_volume": 0.33,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "PLTR",
@@ -65,7 +85,7 @@
       "change_pct": -4.38,
       "rel_volume": 0.25,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "COIN",
@@ -73,7 +93,7 @@
       "change_pct": -3.14,
       "rel_volume": 0.3,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NIO",
@@ -81,7 +101,7 @@
       "change_pct": -2.25,
       "rel_volume": 0.36,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "AMD",
@@ -89,7 +109,7 @@
       "change_pct": 2.16,
       "rel_volume": 0.36,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
