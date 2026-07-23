@@ -3,28 +3,28 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-23T09:03:35.490006+00:00",
-  "generated_at_local": "23.07.2026, 11:03 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-07-23T10:03:10.219323+00:00",
+  "generated_at_local": "23.07.2026, 12:03 Uhr",
   "session_date": "2026-07-23",
-  "ticker": "IFX.DE",
-  "name": "Infineon",
-  "last_price": 67.32,
-  "previous_close": 69.8,
-  "change_pct": -3.55,
-  "volume": 1346728,
-  "avg_volume": 5334104,
-  "rel_volume": 0.25,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "BAS.DE",
+  "name": "BASF",
+  "last_price": 49.72,
+  "previous_close": 48.97,
+  "change_pct": 1.52,
+  "volume": 380043,
+  "avg_volume": 2206298,
+  "rel_volume": 0.17,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (49.15); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "mittel",
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
     "catalyst": false,
-    "summary": "Technologie-Sektor unter Druck, breitere Marktbelastung für Infineon.",
-    "headline": "European Stock Indexes Fall as Tech Struggles Extend",
-    "url": "https://www.wsj.com/finance/stocks/nikkei-rises-0-6-led-by-chip-stocks-8cbbd234?siteid=yhoof2&yptr=yahoo"
+    "summary": "Erwartung von durchschnittlichen Quartalsergebnissen im Chemiesektor.",
+    "headline": "Chemicals Companies Likely to Report In-Line Quarterly Results, Deutsche Bank Says",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/chemicals-companies-likely-report-line-164650842.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 49.15,
+    "range_low": 48.76,
+    "current_price": 49.58,
+    "vwap": 49.49,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 49.58,
+    "stop": 48.76,
+    "risk_per_share": 0.82,
+    "target_1": 50.81,
+    "target_2": 51.22,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 1219,
+    "capital": 60438.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "IFX.DE",
@@ -49,7 +69,7 @@
       "change_pct": -3.55,
       "rel_volume": 0.25,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "MC.PA",
@@ -57,7 +77,7 @@
       "change_pct": -1.81,
       "rel_volume": 0.21,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "RHM.DE",
@@ -65,7 +85,7 @@
       "change_pct": 1.71,
       "rel_volume": 0.16,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "BAS.DE",
@@ -73,7 +93,7 @@
       "change_pct": 1.52,
       "rel_volume": 0.17,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "AIR.PA",
@@ -81,7 +101,7 @@
       "change_pct": -1.51,
       "rel_volume": 0.11,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "BAYN.DE",
@@ -89,7 +109,7 @@
       "change_pct": -1.13,
       "rel_volume": 0.12,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
