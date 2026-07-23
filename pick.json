@@ -3,61 +3,81 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-07-23T15:23:23.964629+00:00",
-  "generated_at_local": "23.07.2026, 17:23 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-07-23T15:57:27.696331+00:00",
+  "generated_at_local": "23.07.2026, 17:57 Uhr",
   "session_date": "2026-07-23",
-  "ticker": "TSLA",
-  "name": "Tesla",
-  "last_price": 319.86,
-  "previous_close": 374.01,
-  "change_pct": -14.48,
-  "volume": 51780402,
-  "avg_volume": 43172875,
-  "rel_volume": 1.2,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "SMCI",
+  "name": "Super Micro",
+  "last_price": 31.01,
+  "previous_close": 30.56,
+  "change_pct": 1.47,
+  "volume": 34896770,
+  "avg_volume": 61374657,
+  "rel_volume": 0.57,
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Super Micro (Spanne 30.18–31.53, aktuell 31.23).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Geduld bei Robotaxi/Optimus verursacht Kursabschlag trotz Rekordlieferungen; Wachstumsunsicherheit dominiert positive Zahlen.",
-    "headline": "How Tesla's robotaxi struggle is akin to the Apple vs. Google Maps rivalry",
-    "url": "https://finance.yahoo.com/video/teslas-robotaxi-struggle-akin-apple-151500987.html"
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "Keine spezifischen Super-Micro-Katalysatoren; Dell profitiert von Nvidia-Server-Boom, nicht SMCI direkt.",
+    "headline": "Stocks making big moves yesterday: Pegasystems, Reddit, AAR, Everforth, and Super Micro",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-135607860.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 31.53,
+    "range_low": 30.18,
+    "current_price": 31.23,
+    "vwap": 31.38,
+    "breakout_status": "in_spanne"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": false,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 1,
+  "trade_plan": {
+    "entry": 31.53,
+    "stop": 30.18,
+    "risk_per_share": 1.35,
+    "target_1": 33.55,
+    "target_2": 34.23,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 740,
+    "capital": 23332.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": -14.48,
-      "rel_volume": 1.2,
-      "catalyst": true,
-      "status": null
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": 1.47,
+      "rel_volume": 0.57,
+      "catalyst": false,
+      "status": "in_spanne"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "change_pct": -7.35,
-      "rel_volume": 1.02,
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "change_pct": -3.08,
+      "rel_volume": 0.31,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MSTR",
@@ -65,23 +85,15 @@
       "change_pct": -7.07,
       "rel_volume": 0.27,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": -5.01,
-      "rel_volume": 0.36,
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "change_pct": -7.35,
+      "rel_volume": 1.02,
       "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": -4.1,
-      "rel_volume": 0.26,
-      "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "COIN",
@@ -89,7 +101,15 @@
       "change_pct": -3.86,
       "rel_volume": 0.25,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": -2.78,
+      "rel_volume": 0.27,
+      "catalyst": false,
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
