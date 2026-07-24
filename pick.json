@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-07-23T15:57:27.696331+00:00",
-  "generated_at_local": "23.07.2026, 17:57 Uhr",
-  "session_date": "2026-07-23",
-  "ticker": "SMCI",
-  "name": "Super Micro",
-  "last_price": 31.01,
-  "previous_close": 30.56,
-  "change_pct": 1.47,
-  "volume": 34896770,
-  "avg_volume": 61374657,
-  "rel_volume": 0.57,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Super Micro (Spanne 30.18–31.53, aktuell 31.23).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-24T09:00:31.408690+00:00",
+  "generated_at_local": "24.07.2026, 11:00 Uhr",
+  "session_date": "2026-07-24",
+  "ticker": "SAP.DE",
+  "name": "SAP",
+  "last_price": 136.6,
+  "previous_close": 128.32,
+  "change_pct": 6.45,
+  "volume": 868798,
+  "avg_volume": 2847007,
+  "rel_volume": 0.31,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "Keine spezifischen Super-Micro-Katalysatoren; Dell profitiert von Nvidia-Server-Boom, nicht SMCI direkt.",
-    "headline": "Stocks making big moves yesterday: Pegasystems, Reddit, AAR, Everforth, and Super Micro",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-135607860.html"
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Q2-Ergebnisse mit Cloud-Wachstum und AI-Investitionen überzeugen, Bewertung als unterbewertet wahrgenommen.",
+    "headline": "SAP (XTRA:SAP) Leans On AI And Q2 Results As Undervalued Narrative Holds",
+    "url": "https://finance.yahoo.com/technology/ai/articles/sap-xtra-sap-leans-ai-060955610.html"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 31.53,
-    "range_low": 30.18,
-    "current_price": 31.23,
-    "vwap": 31.38,
-    "breakout_status": "in_spanne"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 1,
-  "trade_plan": {
-    "entry": 31.53,
-    "stop": 30.18,
-    "risk_per_share": 1.35,
-    "target_1": 33.55,
-    "target_2": 34.23,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 740,
-    "capital": 23332.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 1.47,
-      "rel_volume": 0.57,
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": -3.06,
+      "rel_volume": 0.75,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": -3.08,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": 6.45,
       "rel_volume": 0.31,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -7.07,
-      "rel_volume": 0.27,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "change_pct": -7.35,
-      "rel_volume": 1.02,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -3.86,
-      "rel_volume": 0.25,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -1.48,
+      "rel_volume": 0.34,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": -2.78,
-      "rel_volume": 0.27,
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": -2.03,
+      "rel_volume": 0.11,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 1.93,
+      "rel_volume": 0.09,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 1.12,
+      "rel_volume": 0.12,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
