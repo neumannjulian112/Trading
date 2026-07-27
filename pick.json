@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-24T15:34:48.957734+00:00",
-  "generated_at_local": "24.07.2026, 17:34 Uhr",
-  "session_date": "2026-07-24",
-  "ticker": "AAPL",
-  "name": "Apple",
-  "last_price": 328.88,
-  "previous_close": 321.66,
-  "change_pct": 2.24,
-  "volume": 8731307,
-  "avg_volume": 58642217,
-  "rel_volume": 0.15,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (325.99); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Magnificent-7-Selloff kostet 797 Mrd USD Marktkapital, obwohl AI-Potenzial längerfristig positiv.",
-    "headline": "'Magnificent 7' stocks erase $797 billion in market value in worst day since April 2025",
-    "url": "https://finance.yahoo.com/markets/article/magnificent-7-stocks-erase-797-billion-in-market-value-in-worst-day-since-april-2025-201930579.html"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-27T10:12:57.807083+00:00",
+  "generated_at_local": "27.07.2026, 12:12 Uhr",
+  "session_date": "2026-07-27",
+  "ticker": "SAP.DE",
+  "name": "SAP",
+  "last_price": 147.48,
+  "previous_close": 140.2,
+  "change_pct": 5.19,
+  "volume": 1231239,
+  "avg_volume": 2943808,
+  "rel_volume": 0.42,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 325.99,
-    "range_low": 321.62,
-    "current_price": 332.11,
-    "vwap": 328.31,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 332.11,
-    "stop": 321.62,
-    "risk_per_share": 10.49,
-    "target_1": 347.85,
-    "target_2": 353.09,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 95,
-    "capital": 31550.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -3.77,
-      "rel_volume": 0.55,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": -2.18,
-      "rel_volume": 0.39,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": 5.19,
+      "rel_volume": 0.42,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -4.25,
-      "rel_volume": 0.2,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -3.29,
-      "rel_volume": 0.2,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -2.47,
-      "rel_volume": 0.26,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -3.93,
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": 2.65,
       "rel_volume": 0.16,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": 2.17,
+      "rel_volume": 0.17,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": 1.67,
+      "rel_volume": 0.19,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": 1.41,
+      "rel_volume": 0.21,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": 2.11,
+      "rel_volume": 0.11,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
