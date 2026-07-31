@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-07-30T15:55:03.922113+00:00",
-  "generated_at_local": "30.07.2026, 17:55 Uhr",
-  "session_date": "2026-07-30",
-  "ticker": "SMCI",
-  "name": "Super Micro",
-  "last_price": 27.86,
-  "previous_close": 25.7,
-  "change_pct": 8.4,
-  "volume": 19102583,
-  "avg_volume": 59952534,
-  "rel_volume": 0.32,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (27.29); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-07-31T09:20:49.417538+00:00",
+  "generated_at_local": "31.07.2026, 11:20 Uhr",
+  "session_date": "2026-07-31",
+  "ticker": "IFX.DE",
+  "name": "Infineon",
+  "last_price": 62.58,
+  "previous_close": 59.47,
+  "change_pct": 5.23,
+  "volume": 2634524,
+  "avg_volume": 5153890,
+  "rel_volume": 0.51,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
+    "sentiment": "positiv",
+    "direction": "auf",
     "materiality": "mittel",
-    "catalyst": true,
-    "summary": "ITC-Patentermittlung gegen Super Micro birgt regulatorisches und finanzielles Risiko für Netlist-Speichertechnologie.",
-    "headline": "Super Micro (SMCI) Faces ITC Patent Investigation Over Netlist Memory Tech",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-smci-faces-itc-010853627.html"
+    "catalyst": false,
+    "summary": "Infineon profitiert von europäischem Tech-Rally und Rekordständen, aber ohne spezifische Unternehmensnachrichten.",
+    "headline": "European stocks hit record high on tech, earnings boost; eye monthly gain",
+    "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-shares-power-europes-stoxx-071854089.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 27.29,
-    "range_low": 26.65,
-    "current_price": 27.82,
-    "vwap": 27.59,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 27.82,
-    "stop": 26.65,
-    "risk_per_share": 1.17,
-    "target_1": 29.57,
-    "target_2": 30.16,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 854,
-    "capital": 23758.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "change_pct": 14.34,
-      "rel_volume": 1.5,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": -8.77,
-      "rel_volume": 1.08,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": 17.66,
-      "rel_volume": 0.5,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": 5.23,
+      "rel_volume": 0.51,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 13.07,
-      "rel_volume": 0.58,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 13.13,
-      "rel_volume": 0.54,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 2.67,
+      "rel_volume": 0.25,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": 4.65,
-      "rel_volume": 0.58,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 2.54,
+      "rel_volume": 0.23,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": 2.07,
+      "rel_volume": 0.26,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "change_pct": -2.18,
+      "rel_volume": 0.18,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": 1.76,
+      "rel_volume": 0.14,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
