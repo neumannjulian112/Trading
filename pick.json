@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-08-05T10:13:31.962102+00:00",
-  "generated_at_local": "05.08.2026, 12:13 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-08-05T15:26:11.099818+00:00",
+  "generated_at_local": "05.08.2026, 17:26 Uhr",
   "session_date": "2026-08-05",
-  "ticker": "BAYN.DE",
-  "name": "Bayer",
-  "last_price": 50.2,
-  "previous_close": 47.12,
-  "change_pct": 6.54,
-  "volume": 824358,
-  "avg_volume": 3231323,
-  "rel_volume": 0.26,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (49.74); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "AMD",
+  "name": "AMD",
+  "last_price": 482.6,
+  "previous_close": 518.58,
+  "change_pct": -6.94,
+  "volume": 27609168,
+  "avg_volume": 30301224,
+  "rel_volume": 0.91,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
+    "sentiment": "negativ",
+    "direction": "ab",
     "materiality": "hoch",
     "catalyst": true,
-    "summary": "Q2-Zahlen schlagen Erwartungen, CropScience wächst stark, neue Prostatakrebstherapie stützt Kurs.",
-    "headline": "Bayer AG (BAYRY) (Q2 2026) Earnings Call Highlights: Strong CropScience Growth and Landmark ...",
-    "url": "https://finance.yahoo.com/healthcare/articles/bayer-ag-bayry-q2-2026-190239470.html"
+    "summary": "Schwache Umsatzprognose und Wettbewerbsdruck durch Nvidia führen zu 6% Kursabfall trotz Rekordquartal.",
+    "headline": "AMD sinks on revenue forecasts as competition with Nvidia grows more apparent",
+    "url": "https://finance.yahoo.com/video/amd-sinks-revenue-forecasts-competition-134557567.html"
   },
   "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 5,
-    "range_window": "09:00–09:05 Uhr",
-    "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 49.74,
-    "range_low": 49.41,
-    "current_price": 50.18,
-    "vwap": 50.05,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 50.18,
-    "stop": 49.41,
-    "risk_per_share": 0.77,
-    "target_1": 51.34,
-    "target_2": 51.72,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1298,
-    "capital": 65134.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": 6.54,
-      "rel_volume": 0.26,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -6.94,
+      "rel_volume": 0.91,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 2.68,
-      "rel_volume": 0.34,
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "change_pct": 3.3,
+      "rel_volume": 0.5,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": -2.05,
+      "rel_volume": 0.7,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 4.17,
-      "rel_volume": 0.2,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -2.54,
+      "rel_volume": 0.29,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -1.81,
-      "rel_volume": 0.41,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MUV2.DE",
-      "name": "Munich Re",
-      "change_pct": -0.96,
-      "rel_volume": 0.71,
+      "ticker": "NIO",
+      "name": "NIO",
+      "change_pct": -1.23,
+      "rel_volume": 0.4,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": 3.1,
-      "rel_volume": 0.21,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -2.04,
+      "rel_volume": 0.23,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
