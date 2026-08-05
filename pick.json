@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-08-04T16:16:07.013850+00:00",
-  "generated_at_local": "04.08.2026, 18:16 Uhr",
-  "session_date": "2026-08-04",
-  "ticker": "PLTR",
-  "name": "Palantir",
-  "last_price": 158.64,
-  "previous_close": 125.65,
-  "change_pct": 26.26,
-  "volume": 87946427,
-  "avg_volume": 39643334,
-  "rel_volume": 2.22,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (149.85); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-08-05T09:13:48.228629+00:00",
+  "generated_at_local": "05.08.2026, 11:13 Uhr",
+  "session_date": "2026-08-05",
+  "ticker": "BAYN.DE",
+  "name": "Bayer",
+  "last_price": 50.2,
+  "previous_close": 47.12,
+  "change_pct": 6.54,
+  "volume": 824358,
+  "avg_volume": 3231323,
+  "rel_volume": 0.26,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "hoch",
     "catalyst": true,
-    "summary": "Q2-Gewinnschlag mit Guidance-Erhöhung und starkes Geschäftswachstum treiben Kurs.",
-    "headline": "Palantir looks 'a bit unstoppable' after overwhelming Q2 commercial growth",
-    "url": "https://finance.yahoo.com/video/palantir-looks-bit-unstoppable-overwhelming-144500334.html"
+    "summary": "Q2-Zahlen schlagen Erwartungen, CropScience wächst stark, neue Prostatakrebstherapie stützt Kurs.",
+    "headline": "Bayer AG (BAYRY) (Q2 2026) Earnings Call Highlights: Strong CropScience Growth and Landmark ...",
+    "url": "https://finance.yahoo.com/healthcare/articles/bayer-ag-bayry-q2-2026-190239470.html"
   },
   "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 149.85,
-    "range_low": 143.28,
-    "current_price": 160.6,
-    "vwap": 154.54,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 160.6,
-    "stop": 143.28,
-    "risk_per_share": 17.32,
-    "target_1": 186.58,
-    "target_2": 195.24,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 57,
-    "capital": 9154.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": 26.26,
-      "rel_volume": 2.22,
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": 6.54,
+      "rel_volume": 0.26,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 9.71,
-      "rel_volume": 0.42,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 2.68,
+      "rel_volume": 0.34,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 4.17,
+      "rel_volume": 0.2,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 7.1,
-      "rel_volume": 0.49,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -1.81,
+      "rel_volume": 0.41,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 5.45,
-      "rel_volume": 0.28,
+      "ticker": "MUV2.DE",
+      "name": "Munich Re",
+      "change_pct": -0.96,
+      "rel_volume": 0.71,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": -2.17,
-      "rel_volume": 0.54,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "change_pct": 2.04,
-      "rel_volume": 0.5,
-      "catalyst": true,
-      "status": "ausbruch_auf"
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": 3.1,
+      "rel_volume": 0.21,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
