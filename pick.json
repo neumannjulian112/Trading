@@ -3,28 +3,28 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-08-06T09:16:01.368546+00:00",
-  "generated_at_local": "06.08.2026, 11:16 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-08-06T10:15:38.822374+00:00",
+  "generated_at_local": "06.08.2026, 12:15 Uhr",
   "session_date": "2026-08-06",
-  "ticker": "DTE.DE",
-  "name": "Deutsche Telekom",
-  "last_price": 28.98,
-  "previous_close": 27.42,
-  "change_pct": 5.69,
-  "volume": 3000839,
-  "avg_volume": 7132569,
-  "rel_volume": 0.42,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "ENR.DE",
+  "name": "Siemens Energy",
+  "last_price": 152.24,
+  "previous_close": 150.86,
+  "change_pct": 0.91,
+  "volume": 416188,
+  "avg_volume": 2546192,
+  "rel_volume": 0.16,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (150.96); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
     "materiality": "hoch",
     "catalyst": true,
-    "summary": "Erhöhung des Aktienrückkaufs um bis zu 3,5 Milliarden Dollar und erneute Guidance-Anhebung signalisiert Vertrauen.",
-    "headline": "Deutsche Telekom Lifts Buyback by Up to $3.5 Billion, Raises Guidance for Key Metric Again",
-    "url": "https://www.wsj.com/business/earnings/deutsche-telekom-lifts-buyback-by-up-to-3-5-billion-raises-key-metric-guidance-704c27bb?siteid=yhoof2&yptr=yahoo"
+    "summary": "Rekordaufträge und Margen durch US-Datencenter-Nachfrage treiben starke Fundamentals an.",
+    "headline": "Siemens Energy AG (SMEGF) (Q3 2026) Earnings Call Highlights: Record Orders and Margins Signal ...",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/siemens-energy-ag-smegf-q3-150034173.html"
   },
   "or_window_min": 5,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 5,
     "range_window": "09:00–09:05 Uhr",
     "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 150.96,
+    "range_low": 148.6,
+    "current_price": 154.04,
+    "vwap": 150.63,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 154.04,
+    "stop": 148.6,
+    "risk_per_share": 5.44,
+    "target_1": 162.2,
+    "target_2": 164.92,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 183,
+    "capital": 28189.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "SIE.DE",
@@ -49,7 +69,7 @@
       "change_pct": -4.62,
       "rel_volume": 0.78,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "DTE.DE",
@@ -57,7 +77,7 @@
       "change_pct": 5.69,
       "rel_volume": 0.42,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "RHM.DE",
@@ -65,7 +85,7 @@
       "change_pct": -1.2,
       "rel_volume": 0.57,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SAP.DE",
@@ -73,7 +93,7 @@
       "change_pct": 1.16,
       "rel_volume": 0.33,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "ALV.DE",
@@ -81,7 +101,7 @@
       "change_pct": 1.1,
       "rel_volume": 0.24,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MUV2.DE",
@@ -89,7 +109,7 @@
       "change_pct": 1.09,
       "rel_volume": 0.25,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
