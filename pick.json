@@ -3,10 +3,10 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-08-07T07:48:25.886537+00:00",
-  "generated_at_local": "07.08.2026, 09:48 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-08-07T08:36:44.498247+00:00",
+  "generated_at_local": "07.08.2026, 10:36 Uhr",
   "session_date": "2026-08-07",
   "ticker": "SAP.DE",
   "name": "SAP",
@@ -16,7 +16,7 @@
   "volume": 612614,
   "avg_volume": 2975336,
   "rel_volume": 0.21,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (176.42); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 176.42,
+    "range_low": 173.82,
+    "current_price": 177.82,
+    "vwap": 176.34,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 177.82,
+    "stop": 173.82,
+    "risk_per_share": 4.0,
+    "target_1": 183.82,
+    "target_2": 185.82,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 250,
+    "capital": 44455.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "SAP.DE",
@@ -41,7 +61,7 @@
       "change_pct": 4.97,
       "rel_volume": 0.21,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "DTE.DE",
@@ -49,7 +69,7 @@
       "change_pct": 5.76,
       "rel_volume": 0.07,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "SIE.DE",
@@ -57,7 +77,7 @@
       "change_pct": -3.99,
       "rel_volume": 0.1,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "MUV2.DE",
@@ -65,7 +85,7 @@
       "change_pct": -1.32,
       "rel_volume": 0.29,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ENR.DE",
@@ -73,7 +93,7 @@
       "change_pct": 2.28,
       "rel_volume": 0.1,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "IFX.DE",
@@ -81,7 +101,7 @@
       "change_pct": 1.78,
       "rel_volume": 0.07,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
