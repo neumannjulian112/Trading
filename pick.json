@@ -3,29 +3,21 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-08-17T13:51:32.689512+00:00",
-  "generated_at_local": "17.08.2026, 15:51 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-08-17T14:34:20.310940+00:00",
+  "generated_at_local": "17.08.2026, 16:34 Uhr",
   "session_date": "2026-08-17",
-  "ticker": "SMCI",
-  "name": "Super Micro",
-  "last_price": 38.32,
-  "previous_close": 39.84,
-  "change_pct": -3.82,
-  "volume": 11373289,
-  "avg_volume": 54739492,
-  "rel_volume": 0.21,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
-  "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Kursbewegungen ohne konkrete Nachricht erwähnt, spekulativ.",
-    "headline": "Why Super Micro Stock Jumped Last Week",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/why-super-micro-stock-jumped-121001952.html"
-  },
+  "ticker": "MARA",
+  "name": "MARA Holdings",
+  "last_price": 9.36,
+  "previous_close": 9.2,
+  "change_pct": 1.79,
+  "volume": 4010095,
+  "avg_volume": 45845090,
+  "rel_volume": 0.09,
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: MARA Holdings (Spanne 9.2–9.4, aktuell 9.28).",
+  "news": null,
   "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
@@ -33,23 +25,43 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 9.4,
+    "range_low": 9.2,
+    "current_price": 9.28,
+    "vwap": 9.29,
+    "breakout_status": "in_spanne"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": true
+    "vwap": false,
+    "volume": false,
+    "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 0,
+  "trade_plan": {
+    "entry": 9.4,
+    "stop": 9.2,
+    "risk_per_share": 0.2,
+    "target_1": 9.7,
+    "target_2": 9.8,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 5000,
+    "capital": 47000.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -3.82,
-      "rel_volume": 0.21,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": 1.79,
+      "rel_volume": 0.09,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "MSTR",
@@ -57,31 +69,23 @@
       "change_pct": 2.86,
       "rel_volume": 0.17,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": -1.62,
-      "rel_volume": 0.11,
-      "catalyst": false,
-      "status": null
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "change_pct": 1.23,
+      "rel_volume": 0.1,
+      "catalyst": true,
+      "status": "in_spanne"
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": 1.79,
-      "rel_volume": 0.09,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "change_pct": -2.0,
-      "rel_volume": 0.06,
-      "catalyst": false,
-      "status": null
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 0.81,
+      "rel_volume": 0.12,
+      "catalyst": true,
+      "status": "in_spanne"
     },
     {
       "ticker": "COIN",
@@ -89,7 +93,15 @@
       "change_pct": 1.22,
       "rel_volume": 0.11,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -3.82,
+      "rel_volume": 0.21,
+      "catalyst": false,
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
