@@ -1,107 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-08-18T14:39:37.231912+00:00",
-  "generated_at_local": "18.08.2026, 16:39 Uhr",
-  "session_date": "2026-08-18",
-  "ticker": "GME",
-  "name": "GameStop",
-  "last_price": 18.3,
-  "previous_close": 18.66,
-  "change_pct": -1.96,
-  "volume": 663404,
-  "avg_volume": 5367182,
-  "rel_volume": 0.12,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: GameStop (Spanne 18.21–18.38, aktuell 18.28).",
-  "news": null,
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-08-19T07:10:45.614976+00:00",
+  "generated_at_local": "19.08.2026, 09:10 Uhr",
+  "session_date": "2026-08-17",
+  "ticker": "MC.PA",
+  "name": "LVMH",
+  "last_price": 446.0,
+  "previous_close": 458.4,
+  "change_pct": -2.71,
+  "volume": 589215,
+  "avg_volume": 517046,
+  "rel_volume": 1.14,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": {
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "CEO-Aussage zu Luxuskonsum als Vertrauensindikator ist generisches Markt-Commentary ohne konkrete Geschäftsnachricht.",
+    "headline": "Luxury spending is 'an indicator of people's confidence in their future,' Aston Martin CEO says of its latest supercar",
+    "url": "https://finance.yahoo.com/markets/article/luxury-spending-is-an-indicator-of-peoples-confidence-in-their-future-aston-martin-ceo-says-of-its-latest-supercar-140739699.html"
+  },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 18.38,
-    "range_low": 18.21,
-    "current_price": 18.28,
-    "vwap": 18.27,
-    "breakout_status": "in_spanne"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 1,
-  "trade_plan": {
-    "entry": 18.38,
-    "stop": 18.21,
-    "risk_per_share": 0.17,
-    "target_1": 18.63,
-    "target_2": 18.72,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 5882,
-    "capital": 108111.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "GME",
-      "name": "GameStop",
-      "change_pct": -1.96,
-      "rel_volume": 0.12,
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": -2.71,
+      "rel_volume": 1.14,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -1.16,
-      "rel_volume": 0.17,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 2.82,
-      "rel_volume": 0.09,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "BA",
-      "name": "Boeing",
-      "change_pct": -2.99,
-      "rel_volume": 0.06,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": -2.54,
-      "rel_volume": 0.12,
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": -3.14,
+      "rel_volume": 0.95,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -6.73,
-      "rel_volume": 0.18,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": 2.63,
+      "rel_volume": 0.76,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
+    },
+    {
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": -1.78,
+      "rel_volume": 0.75,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": -1.25,
+      "rel_volume": 0.78,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "change_pct": -0.93,
+      "rel_volume": 0.88,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
