@@ -3,29 +3,21 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-08-19T07:10:45.614976+00:00",
-  "generated_at_local": "19.08.2026, 09:10 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-08-19T08:06:29.011103+00:00",
+  "generated_at_local": "19.08.2026, 10:06 Uhr",
   "session_date": "2026-08-17",
-  "ticker": "MC.PA",
-  "name": "LVMH",
-  "last_price": 446.0,
-  "previous_close": 458.4,
-  "change_pct": -2.71,
-  "volume": 589215,
-  "avg_volume": 517046,
-  "rel_volume": 1.14,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
-  "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "CEO-Aussage zu Luxuskonsum als Vertrauensindikator ist generisches Markt-Commentary ohne konkrete Geschäftsnachricht.",
-    "headline": "Luxury spending is 'an indicator of people's confidence in their future,' Aston Martin CEO says of its latest supercar",
-    "url": "https://finance.yahoo.com/markets/article/luxury-spending-is-an-indicator-of-peoples-confidence-in-their-future-aston-martin-ceo-says-of-its-latest-supercar-140739699.html"
-  },
+  "ticker": "BMW.DE",
+  "name": "BMW",
+  "last_price": 58.34,
+  "previous_close": 59.4,
+  "change_pct": -1.78,
+  "volume": 1136443,
+  "avg_volume": 1520939,
+  "rel_volume": 0.75,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (58.0); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "news": null,
   "or_window_min": 15,
   "orb": {
     "market": "Xetra",
@@ -33,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 58.0,
+    "range_low": 57.74,
+    "current_price": 58.17,
+    "vwap": 58.13,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": true,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 58.17,
+    "stop": 57.74,
+    "risk_per_share": 0.43,
+    "target_1": 58.82,
+    "target_2": 59.03,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 2325,
+    "capital": 135245.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "MC.PA",
@@ -49,7 +61,7 @@
       "change_pct": -2.71,
       "rel_volume": 1.14,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ADS.DE",
@@ -57,7 +69,7 @@
       "change_pct": -3.14,
       "rel_volume": 0.95,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "ASML.AS",
@@ -65,7 +77,7 @@
       "change_pct": 2.63,
       "rel_volume": 0.76,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "BMW.DE",
@@ -73,7 +85,7 @@
       "change_pct": -1.78,
       "rel_volume": 0.75,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "BAS.DE",
@@ -81,7 +93,7 @@
       "change_pct": -1.25,
       "rel_volume": 0.78,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "ALV.DE",
@@ -89,7 +101,7 @@
       "change_pct": -0.93,
       "rel_volume": 0.88,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
