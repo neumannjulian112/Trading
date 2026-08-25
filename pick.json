@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-08-24T14:49:29.116772+00:00",
-  "generated_at_local": "24.08.2026, 16:49 Uhr",
-  "session_date": "2026-08-24",
-  "ticker": "MSTR",
-  "name": "MicroStrategy",
-  "last_price": 122.64,
-  "previous_close": 119.25,
-  "change_pct": 2.84,
-  "volume": 10911434,
-  "avg_volume": 22404321,
-  "rel_volume": 0.49,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (122.9); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-08-25T07:13:34.182371+00:00",
+  "generated_at_local": "25.08.2026, 09:13 Uhr",
+  "session_date": "2026-08-21",
+  "ticker": "MC.PA",
+  "name": "LVMH",
+  "last_price": 452.5,
+  "previous_close": 443.1,
+  "change_pct": 2.12,
+  "volume": 401255,
+  "avg_volume": 473008,
+  "rel_volume": 0.85,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Massive 1,59-Milliarden-Dollar Bitcoin-Kaufprogramm und CEO-Optimismus treiben Kurs.",
-    "headline": "Strive Jumps 5% as CEO Declares the Bitcoin Bear Market Over, Strategy and Bitmine Rise 3%",
-    "url": "https://247wallst.com/investing/2026/08/24/strive-jumps-5-as-ceo-declares-the-bitcoin-bear-market-over-strategy-and-bitmine-rise-3/"
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "Persönliche Investmentphilosophie eines Dritten zu Bitcoin hat keine direkte Relevanz für LVMH.",
+    "headline": "Michael Saylor Explains How to Invest Like a Billionaire, and Why Bitcoin Passes the Test",
+    "url": "https://beincrypto.com/saylor-bitcoin-bernard-arnault-test/"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 122.9,
-    "range_low": 119.73,
-    "current_price": 124.92,
-    "vwap": 123.2,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 15,
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 124.92,
-    "stop": 119.73,
-    "risk_per_share": 5.19,
-    "target_1": 132.71,
-    "target_2": 135.3,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 192,
-    "capital": 23985.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -7.44,
-      "rel_volume": 0.2,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 2.84,
-      "rel_volume": 0.49,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": -4.21,
-      "rel_volume": 0.31,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -5.12,
-      "rel_volume": 0.19,
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": 2.12,
+      "rel_volume": 0.85,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -4.35,
-      "rel_volume": 0.12,
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": 2.28,
+      "rel_volume": 0.62,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": -2.59,
-      "rel_volume": 0.18,
-      "catalyst": true,
-      "status": "in_spanne"
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": -1.17,
+      "rel_volume": 1.16,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": 1.58,
+      "rel_volume": 0.83,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": 1.66,
+      "rel_volume": 0.79,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 0.92,
+      "rel_volume": 1.27,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
