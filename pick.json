@@ -3,77 +3,73 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-08-26T14:02:57.507007+00:00",
-  "generated_at_local": "26.08.2026, 16:02 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-08-26T14:51:13.229406+00:00",
+  "generated_at_local": "26.08.2026, 16:51 Uhr",
   "session_date": "2026-08-26",
-  "ticker": "MSTR",
-  "name": "MicroStrategy",
-  "last_price": 124.6,
-  "previous_close": 126.83,
-  "change_pct": -1.76,
-  "volume": 3739599,
-  "avg_volume": 22122509,
-  "rel_volume": 0.17,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "MARA",
+  "name": "MARA Holdings",
+  "last_price": 11.61,
+  "previous_close": 11.83,
+  "change_pct": -1.82,
+  "volume": 5923716,
+  "avg_volume": 49199221,
+  "rel_volume": 0.12,
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: MARA Holdings (Spanne 11.34–11.68, aktuell 11.34).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Bernstein senkt Kursziel um $100 und verschiebt Bitcoin-Prognose auf 2027; Finanzierungsrisiko durch MSCI-Ausschluss droht.",
-    "headline": "Nvidia, Meta, Intuit, Salesforce, Zoom, Kohl’s, and More Stocks That Explain Today’s Market",
-    "url": "https://www.barrons.com/articles/stock-movers-6a7eb3fe?siteid=yhoof2&yptr=yahoo"
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
+    "catalyst": false,
+    "summary": "Crypto-Mining-Aktien rallyen mit Bitcoin um $80K; MARA springt 7% auf Marktstimmung.",
+    "headline": "Crypto Mining Stocks Rally as Bitcoin Hovers Around $80K: MARA Jumps 7%, TeraWulf and IREN Climb 5%",
+    "url": "https://247wallst.com/investing/2026/08/25/crypto-mining-stocks-rally-as-bitcoin-hovers-around-80k-mara-jumps-7-terawulf-and-iren-climb-5/"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 11.68,
+    "range_low": 11.34,
+    "current_price": 11.34,
+    "vwap": 11.53,
+    "breakout_status": "in_spanne"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": false,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 1,
+  "trade_plan": {
+    "entry": 11.68,
+    "stop": 11.34,
+    "risk_per_share": 0.34,
+    "target_1": 12.19,
+    "target_2": 12.36,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 2941,
+    "capital": 34351.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -1.76,
-      "rel_volume": 0.17,
-      "catalyst": true,
-      "status": null
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 1.94,
-      "rel_volume": 0.14,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -1.76,
-      "rel_volume": 0.12,
-      "catalyst": true,
-      "status": null
-    },
     {
       "ticker": "MARA",
       "name": "MARA Holdings",
       "change_pct": -1.82,
       "rel_volume": 0.12,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SMCI",
@@ -81,15 +77,39 @@
       "change_pct": -1.29,
       "rel_volume": 0.12,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": -0.7,
-      "rel_volume": 0.16,
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "change_pct": -0.88,
+      "rel_volume": 0.12,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "change_pct": 0.63,
+      "rel_volume": 0.14,
+      "catalyst": true,
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -0.88,
+      "rel_volume": 0.12,
+      "catalyst": true,
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -1.76,
+      "rel_volume": 0.17,
+      "catalyst": true,
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
