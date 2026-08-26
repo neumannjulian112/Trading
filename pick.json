@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-08-25T14:52:26.951626+00:00",
-  "generated_at_local": "25.08.2026, 16:52 Uhr",
-  "session_date": "2026-08-25",
-  "ticker": "MSTR",
-  "name": "MicroStrategy",
-  "last_price": 123.03,
-  "previous_close": 122.63,
-  "change_pct": 0.33,
-  "volume": 6836415,
-  "avg_volume": 22440138,
-  "rel_volume": 0.3,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (121.35); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-08-26T07:14:07.741535+00:00",
+  "generated_at_local": "26.08.2026, 09:14 Uhr",
+  "session_date": "2026-08-24",
+  "ticker": "IFX.DE",
+  "name": "Infineon",
+  "last_price": 54.16,
+  "previous_close": 55.97,
+  "change_pct": -3.23,
+  "volume": 3388941,
+  "avg_volume": 4438292,
+  "rel_volume": 0.76,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "$6.69B Cash-Aufbau und Bitcoin-Rally mit Analyst-Preiszielerhöhungen treiben MSTR-Kurs.",
-    "headline": "Bitcoin has just wiped out three months of losses in 1 week",
-    "url": "https://finance.yahoo.com/markets/crypto/article/bitcoin-has-just-wiped-out-three-months-of-losses-in-1-week-091208677.html"
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "Chip-Sektor erholt sich nach Verkaufsrally, aber keine spezifische Infineon-Nachricht.",
+    "headline": "Chip Stocks Edge Higher After Monday Rout",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-082526/card/chip-stocks-edge-higher-after-monday-rout-zhN3CjIVvgd0iZZCLGAW?siteid=yhoof2&yptr=yahoo"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 121.35,
-    "range_low": 118.45,
-    "current_price": 126.62,
-    "vwap": 122.7,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 15,
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 126.62,
-    "stop": 118.45,
-    "risk_per_share": 8.17,
-    "target_1": 138.88,
-    "target_2": 142.96,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 122,
-    "capital": 15448.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 8.33,
-      "rel_volume": 0.23,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -3.23,
+      "rel_volume": 0.76,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 4.01,
-      "rel_volume": 0.18,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": -3.01,
+      "rel_volume": 0.76,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": 2.1,
+      "rel_volume": 0.78,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": 2.3,
-      "rel_volume": 0.2,
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": -2.02,
+      "rel_volume": 0.79,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": 2.19,
-      "rel_volume": 0.13,
-      "catalyst": true,
-      "status": "ausbruch_auf"
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -2.61,
+      "rel_volume": 0.53,
+      "catalyst": false,
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 1.86,
-      "rel_volume": 0.16,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -1.6,
+      "rel_volume": 0.85,
       "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": 1.49,
-      "rel_volume": 0.2,
-      "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
