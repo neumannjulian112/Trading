@@ -3,45 +3,65 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-08-31T19:29:58.995989+00:00",
-  "generated_at_local": "31.08.2026, 21:29 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-08-31T19:54:34.722518+00:00",
+  "generated_at_local": "31.08.2026, 21:54 Uhr",
   "session_date": "2026-08-31",
-  "ticker": "MSTR",
-  "name": "MicroStrategy",
-  "last_price": 132.62,
-  "previous_close": 137.4,
-  "change_pct": -3.48,
-  "volume": 16905641,
-  "avg_volume": 21431940,
-  "rel_volume": 0.79,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "TSLA",
+  "name": "Tesla",
+  "last_price": 366.62,
+  "previous_close": 354.81,
+  "change_pct": 3.33,
+  "volume": 46725849,
+  "avg_volume": 38302509,
+  "rel_volume": 1.22,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (355.94); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Resumption von Bitcoin-Käufen mit 370 Millionen Dollar signalisiert klare strategische Neubewertung.",
-    "headline": "Strategy jumps back into bitcoin with $370 million purchase",
-    "url": "https://finance.yahoo.com/video/strategy-jumps-back-bitcoin-370-162000465.html"
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "mittel",
+    "catalyst": false,
+    "summary": "Hohe AI-Capex-Ausgaben könnten Profitabilität belasten; breitere Marktverkäufe wirken belastend.",
+    "headline": "Here comes the AI capex shocker, Goldman Sachs says",
+    "url": "https://finance.yahoo.com/markets/article/here-comes-the-ai-capex-shocker-goldman-sachs-says-171026577.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 355.94,
+    "range_low": 347.15,
+    "current_price": 368.38,
+    "vwap": 363.51,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 368.38,
+    "stop": 347.15,
+    "risk_per_share": 21.23,
+    "target_1": 400.23,
+    "target_2": 410.84,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 47,
+    "capital": 17314.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "TSLA",
@@ -49,7 +69,7 @@
       "change_pct": 3.33,
       "rel_volume": 1.22,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MARA",
@@ -57,7 +77,7 @@
       "change_pct": -9.98,
       "rel_volume": 0.37,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SOFI",
@@ -65,7 +85,7 @@
       "change_pct": -7.01,
       "rel_volume": 0.41,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MSTR",
@@ -73,7 +93,7 @@
       "change_pct": -3.48,
       "rel_volume": 0.79,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "NIO",
@@ -81,7 +101,7 @@
       "change_pct": -2.06,
       "rel_volume": 1.21,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NVDA",
@@ -89,7 +109,7 @@
       "change_pct": -3.62,
       "rel_volume": 0.62,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
