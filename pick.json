@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-08-28T23:30:09.440324+00:00",
-  "generated_at_local": "29.08.2026, 01:30 Uhr",
-  "session_date": "2026-08-28",
-  "ticker": "NFLX",
-  "name": "Netflix",
-  "last_price": 81.72,
-  "previous_close": 79.84,
-  "change_pct": 2.35,
-  "volume": 29028023,
-  "avg_volume": 40127765,
-  "rel_volume": 0.72,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (80.8); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "GTA VI Exklusivrecht generiert Content-Hype und Margenoptimismus.",
-    "headline": "Netflix scores an exclusive look at GTA VI",
-    "url": "https://finance.yahoo.com/video/netflix-scores-exclusive-look-gta-194100478.html"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-08-31T14:07:31.960987+00:00",
+  "generated_at_local": "31.08.2026, 16:07 Uhr",
+  "session_date": "2026-08-31",
+  "ticker": "ENR.DE",
+  "name": "Siemens Energy",
+  "last_price": 143.2,
+  "previous_close": 149.7,
+  "change_pct": -4.34,
+  "volume": 1092697,
+  "avg_volume": 2055608,
+  "rel_volume": 0.53,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 80.8,
-    "range_low": 79.95,
-    "current_price": 81.73,
-    "vwap": 81.64,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 81.73,
-    "stop": 79.95,
-    "risk_per_share": 1.78,
-    "target_1": 84.4,
-    "target_2": 85.29,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 561,
-    "capital": 45851.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -7.34,
-      "rel_volume": 1.41,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": -4.34,
+      "rel_volume": 0.53,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -10.11,
-      "rel_volume": 0.85,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -2.25,
+      "rel_volume": 0.36,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -6.33,
-      "rel_volume": 1.18,
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": 1.69,
+      "rel_volume": 0.39,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": -4.57,
-      "rel_volume": 1.51,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -2.37,
+      "rel_volume": 0.21,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": 3.97,
-      "rel_volume": 1.13,
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": -1.75,
+      "rel_volume": 0.22,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": -5.84,
-      "rel_volume": 0.66,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -0.72,
+      "rel_volume": 0.35,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
