@@ -3,29 +3,21 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-09-01T11:48:37.908404+00:00",
-  "generated_at_local": "01.09.2026, 13:48 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-09-01T12:43:39.151693+00:00",
+  "generated_at_local": "01.09.2026, 14:43 Uhr",
   "session_date": "2026-09-01",
-  "ticker": "RHM.DE",
-  "name": "Rheinmetall",
-  "last_price": 1074.8,
-  "previous_close": 1110.8,
-  "change_pct": -3.24,
-  "volume": 81400,
-  "avg_volume": 209867,
-  "rel_volume": 0.39,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
-  "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
-    "catalyst": false,
-    "summary": "Allgemeine Marktkommentar ohne spezifische Relevanz für Rheinmetall.",
-    "headline": "European Equities Largely Lower Though AI Stocks Gain",
-    "url": "https://www.wsj.com/finance/stocks/nikkei-falls-1-0-dragged-by-chip-stocks-f0ceaeae?siteid=yhoof2&yptr=yahoo"
-  },
+  "ticker": "MUV2.DE",
+  "name": "Munich Re",
+  "last_price": 522.8,
+  "previous_close": 518.8,
+  "change_pct": 0.77,
+  "volume": 103612,
+  "avg_volume": 240245,
+  "rel_volume": 0.43,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (522.8); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "news": null,
   "or_window_min": 15,
   "orb": {
     "market": "Xetra",
@@ -33,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 522.8,
+    "range_low": 519.6,
+    "current_price": 524.0,
+    "vwap": 522.16,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": true,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 3,
+  "trade_plan": {
+    "entry": 524.0,
+    "stop": 519.6,
+    "risk_per_share": 4.4,
+    "target_1": 530.6,
+    "target_2": 532.8,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 227,
+    "capital": 118948.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "RHM.DE",
@@ -49,7 +61,7 @@
       "change_pct": -3.24,
       "rel_volume": 0.39,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "P911.DE",
@@ -57,7 +69,7 @@
       "change_pct": -3.02,
       "rel_volume": 0.36,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "SAP.DE",
@@ -65,7 +77,7 @@
       "change_pct": -2.93,
       "rel_volume": 0.26,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "BMW.DE",
@@ -73,7 +85,7 @@
       "change_pct": -2.42,
       "rel_volume": 0.31,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "DBK.DE",
@@ -81,7 +93,7 @@
       "change_pct": -2.05,
       "rel_volume": 0.34,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "VOW3.DE",
@@ -89,7 +101,7 @@
       "change_pct": -2.42,
       "rel_volume": 0.27,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
