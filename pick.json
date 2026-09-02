@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-01T17:45:56.859082+00:00",
-  "generated_at_local": "01.09.2026, 19:45 Uhr",
-  "session_date": "2026-09-01",
-  "ticker": "META",
-  "name": "Meta",
-  "last_price": 581.96,
-  "previous_close": 572.34,
-  "change_pct": 1.68,
-  "volume": 9283043,
-  "avg_volume": 18171076,
-  "rel_volume": 0.51,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (566.36); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-02T11:29:23.271397+00:00",
+  "generated_at_local": "02.09.2026, 13:29 Uhr",
+  "session_date": "2026-09-02",
+  "ticker": "VOW3.DE",
+  "name": "Volkswagen",
+  "last_price": 74.18,
+  "previous_close": 76.58,
+  "change_pct": -3.13,
+  "volume": 391243,
+  "avg_volume": 867183,
+  "rel_volume": 0.45,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "hoch",
     "catalyst": true,
-    "summary": "Teen-Harm-Settlement hebt Belastung auf, Engagement-Fragen gelten als ueberwunden fuer Anleger.",
-    "headline": "Alphabet stock has tanked recently because of a 'brain drain'",
-    "url": "https://finance.yahoo.com/markets/stocks/article/alphabet-stock-has-tanked-recently-because-of-a-brain-drain-102219947.html"
+    "summary": "Geplante Schließung von vier deutschen Fabriken und starker Kursrückgang von 38% signalisieren erhebliche Restrukturierungsprobleme.",
+    "headline": "Volkswagen plans phased shutdown of four German factories – report",
+    "url": "https://www.just-auto.com/news/vw-phased-shutdown-four-german-factories/"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 566.36,
-    "range_low": 556.3,
-    "current_price": 581.81,
-    "vwap": 573.73,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 581.81,
-    "stop": 556.3,
-    "risk_per_share": 25.51,
-    "target_1": 620.07,
-    "target_2": 632.83,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 39,
-    "capital": 22691.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": -4.0,
-      "rel_volume": 2.14,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -3.13,
+      "rel_volume": 0.45,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -5.16,
-      "rel_volume": 0.59,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -5.41,
-      "rel_volume": 0.52,
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": -1.6,
+      "rel_volume": 0.37,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": -3.01,
-      "rel_volume": 0.58,
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": -1.34,
+      "rel_volume": 0.3,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -4.64,
-      "rel_volume": 0.35,
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": -1.97,
+      "rel_volume": 0.18,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "change_pct": 2.53,
-      "rel_volume": 0.63,
+      "ticker": "DHL.DE",
+      "name": "DHL Group",
+      "change_pct": -1.49,
+      "rel_volume": 0.24,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": -1.44,
+      "rel_volume": 0.2,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
