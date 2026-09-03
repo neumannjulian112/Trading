@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-02T17:48:56.413661+00:00",
-  "generated_at_local": "02.09.2026, 19:48 Uhr",
-  "session_date": "2026-09-02",
-  "ticker": "NVDA",
-  "name": "NVIDIA",
-  "last_price": 224.84,
-  "previous_close": 217.44,
-  "change_pct": 3.4,
-  "volume": 98652196,
-  "avg_volume": 127873618,
-  "rel_volume": 0.77,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (220.13); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-03T11:26:16.719703+00:00",
+  "generated_at_local": "03.09.2026, 13:26 Uhr",
+  "session_date": "2026-09-03",
+  "ticker": "DTE.DE",
+  "name": "Deutsche Telekom",
+  "last_price": 28.9,
+  "previous_close": 28.45,
+  "change_pct": 1.58,
+  "volume": 2653115,
+  "avg_volume": 5500615,
+  "rel_volume": 0.48,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Chipaktien steigen auf erneuerte Zuversicht in AI-Investitionen und starke Dell-Nachfrage.",
-    "headline": "Dell's revenue guidance exceeded Wall Street forecasts and then some",
-    "url": "https://finance.yahoo.com/video/dells-revenue-guidance-exceeded-wall-140000348.html"
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Aktivist Elliott baut Stake auf und opponieret T-Mobile-Merger, was Aktienanlauf beschleunigt.",
+    "headline": "Elliott Takes Stake in Deutsche Telekom, Opposes T-Mobile Deal",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-03-2026/card/elliott-takes-stake-in-deutsche-telekom-opposes-t-mobile-deal-NwlVebgEnQ4rJ1uoIoXd?siteid=yhoof2&yptr=yahoo"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 220.13,
-    "range_low": 218.48,
-    "current_price": 225.23,
-    "vwap": 224.35,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 225.23,
-    "stop": 218.48,
-    "risk_per_share": 6.75,
-    "target_1": 235.35,
-    "target_2": 238.73,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 148,
-    "capital": 33334.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": -4.93,
-      "rel_volume": 1.5,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": -6.58,
-      "rel_volume": 0.65,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": 3.4,
-      "rel_volume": 0.77,
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": -1.89,
+      "rel_volume": 0.51,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": 4.31,
-      "rel_volume": 0.37,
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "change_pct": 1.58,
+      "rel_volume": 0.48,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": 2.44,
-      "rel_volume": 0.53,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "BA",
-      "name": "Boeing",
-      "change_pct": 2.11,
-      "rel_volume": 0.52,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -2.07,
+      "rel_volume": 0.29,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": -1.11,
+      "rel_volume": 0.25,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": 1.02,
+      "rel_volume": 0.27,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": -1.05,
+      "rel_volume": 0.26,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
