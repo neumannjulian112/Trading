@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-04T12:15:15.103559+00:00",
-  "generated_at_local": "04.09.2026, 14:15 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-04T16:51:44.649679+00:00",
+  "generated_at_local": "04.09.2026, 18:51 Uhr",
   "session_date": "2026-09-04",
-  "ticker": "BMW.DE",
-  "name": "BMW",
-  "last_price": 62.7,
-  "previous_close": 61.76,
-  "change_pct": 1.52,
-  "volume": 550499,
-  "avg_volume": 1361309,
-  "rel_volume": 0.4,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (62.76); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "TSLA",
+  "name": "Tesla",
+  "last_price": 352.22,
+  "previous_close": 376.37,
+  "change_pct": -6.42,
+  "volume": 42705022,
+  "avg_volume": 38170670,
+  "rel_volume": 1.12,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
     "materiality": "mittel",
-    "catalyst": false,
-    "summary": "BMW-Aktie unter Druck durch Marktherausforderungen in China und bewertungstechnische Schwaeche.",
-    "headline": "BMW Stock Has Rarely Been Cheaper Amid Pressure in Chinese Market",
-    "url": "https://www.barrons.com/articles/bmw-stock-ev-china-85119885?siteid=yhoof2&yptr=yahoo"
+    "catalyst": true,
+    "summary": "Cybercab-Launch enttäuschte Erwartungen, Wells Fargo senkt Bewertung; 6% Kursrückgang dokumentiert.",
+    "headline": "Stock Market Today: Dow Sinks As Inflation Report Looms; Oracle Up On OpenAI Buzz (Live Coverage)",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-august-jobs-report-lululemon-lulu/?src=A00220&yptr=yahoo"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 62.76,
-    "range_low": 61.98,
-    "current_price": 63.4,
-    "vwap": 62.59,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 63.4,
-    "stop": 61.98,
-    "risk_per_share": 1.42,
-    "target_1": 65.53,
-    "target_2": 66.24,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 704,
-    "capital": 44634.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": 5.97,
-      "rel_volume": 1.82,
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": -6.42,
+      "rel_volume": 1.12,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": 1.52,
-      "rel_volume": 0.4,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": 7.63,
+      "rel_volume": 0.6,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": 1.77,
-      "rel_volume": 0.3,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "ticker": "NIO",
+      "name": "NIO",
+      "change_pct": -2.46,
+      "rel_volume": 0.9,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": 2.36,
-      "rel_volume": 0.2,
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "change_pct": -4.16,
+      "rel_volume": 0.53,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 1.58,
-      "rel_volume": 0.28,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 4.34,
+      "rel_volume": 0.51,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "MBG.DE",
-      "name": "Mercedes-Benz",
-      "change_pct": 1.1,
-      "rel_volume": 0.37,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 4.39,
+      "rel_volume": 0.47,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
