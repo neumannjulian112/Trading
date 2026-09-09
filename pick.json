@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-08T17:51:38.738427+00:00",
-  "generated_at_local": "08.09.2026, 19:51 Uhr",
-  "session_date": "2026-09-08",
-  "ticker": "AMD",
-  "name": "AMD",
-  "last_price": 511.18,
-  "previous_close": 477.57,
-  "change_pct": 7.04,
-  "volume": 17278003,
-  "avg_volume": 23768381,
-  "rel_volume": 0.73,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (494.57); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-09T11:34:49.887312+00:00",
+  "generated_at_local": "09.09.2026, 13:34 Uhr",
+  "session_date": "2026-09-09",
+  "ticker": "MC.PA",
+  "name": "LVMH",
+  "last_price": 411.35,
+  "previous_close": 426.55,
+  "change_pct": -3.56,
+  "volume": 259542,
+  "avg_volume": 472439,
+  "rel_volume": 0.55,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Starke Positionierung im $2-Billionen-AI-Markt mit neuen Produktlinien treibt Aktienkurs.",
-    "headline": "AMD shares surge as chipmaker eyes $2 trillion AI market",
-    "url": "https://finance.yahoo.com/technology/ai/articles/amd-shares-surge-chipmaker-eyes-165044582.html"
+    "sentiment": "negativ",
+    "direction": "ab",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "Höhere Ölpreise belasten Defense und Banken, aber die Catterton-Akquisition ist strategisch positiv und kompensiert teilweise.",
+    "headline": "European Indexes Slide as Higher Oil Weighs on Defense Stocks, Banks",
+    "url": "https://www.wsj.com/finance/stocks/nikkei-rises-0-1-led-by-chip-related-stocks-c8902c64?siteid=yhoof2&yptr=yahoo"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 494.57,
-    "range_low": 487.95,
-    "current_price": 508.18,
-    "vwap": 501.18,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 15,
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 508.18,
-    "stop": 487.95,
-    "risk_per_share": 20.23,
-    "target_1": 538.52,
-    "target_2": 548.64,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 49,
-    "capital": 24901.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 10.38,
-      "rel_volume": 0.87,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 7.04,
-      "rel_volume": 0.73,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": 4.01,
-      "rel_volume": 0.89,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": 4.55,
-      "rel_volume": 0.59,
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": -3.56,
+      "rel_volume": 0.55,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -3.76,
-      "rel_volume": 0.54,
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": -3.74,
+      "rel_volume": 0.36,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 2.93,
-      "rel_volume": 0.53,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -3.16,
+      "rel_volume": 0.38,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": -2.8,
+      "rel_volume": 0.4,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "change_pct": -2.27,
+      "rel_volume": 0.47,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MUV2.DE",
+      "name": "Munich Re",
+      "change_pct": -1.87,
+      "rel_volume": 0.49,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
