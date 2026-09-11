@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-10T17:36:57.400171+00:00",
-  "generated_at_local": "10.09.2026, 19:36 Uhr",
-  "session_date": "2026-09-10",
-  "ticker": "GME",
-  "name": "GameStop",
-  "last_price": 20.43,
-  "previous_close": 19.89,
-  "change_pct": 2.71,
-  "volume": 4879963,
-  "avg_volume": 6301709,
-  "rel_volume": 0.77,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (19.95); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "GameStop hebt EBITDA-Ausblick nach 77% Gewinnanstieg an, Collectibles-Verkäufe springen 57%, Directors kaufen Aktien.",
-    "headline": "GameStop raises EBITDA outlook after Q2 profit climbs 77%",
-    "url": "https://www.retail-insight-network.com/news/gamestop-raises-ebitda-outlook-q2/"
-  },
-  "or_window_min": 5,
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-11T11:33:10.088891+00:00",
+  "generated_at_local": "11.09.2026, 13:33 Uhr",
+  "session_date": "2026-09-11",
+  "ticker": "BAS.DE",
+  "name": "BASF",
+  "last_price": 51.74,
+  "previous_close": 53.34,
+  "change_pct": -3.0,
+  "volume": 668791,
+  "avg_volume": 1803823,
+  "rel_volume": 0.37,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
+  "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 19.95,
-    "range_low": 19.6,
-    "current_price": 20.42,
-    "vwap": 20.15,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 15,
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 20.42,
-    "stop": 19.6,
-    "risk_per_share": 0.82,
-    "target_1": 21.65,
-    "target_2": 22.06,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1219,
-    "capital": 24892.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -4.72,
-      "rel_volume": 0.55,
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": -3.0,
+      "rel_volume": 0.37,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "GME",
-      "name": "GameStop",
-      "change_pct": 2.71,
-      "rel_volume": 0.77,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "change_pct": 2.5,
-      "rel_volume": 0.83,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": -2.3,
-      "rel_volume": 0.83,
+      "ticker": "MUV2.DE",
+      "name": "Munich Re",
+      "change_pct": 1.89,
+      "rel_volume": 0.34,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "F",
-      "name": "Ford",
-      "change_pct": 3.31,
-      "rel_volume": 0.49,
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": 2.01,
+      "rel_volume": 0.24,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -2.93,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 2.14,
+      "rel_volume": 0.2,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": 1.44,
+      "rel_volume": 0.3,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -1.05,
       "rel_volume": 0.38,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
