@@ -3,20 +3,20 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-09-11T11:33:10.088891+00:00",
-  "generated_at_local": "11.09.2026, 13:33 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-09-11T12:20:40.872456+00:00",
+  "generated_at_local": "11.09.2026, 14:20 Uhr",
   "session_date": "2026-09-11",
-  "ticker": "BAS.DE",
-  "name": "BASF",
-  "last_price": 51.74,
-  "previous_close": 53.34,
-  "change_pct": -3.0,
-  "volume": 668791,
-  "avg_volume": 1803823,
-  "rel_volume": 0.37,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "MUV2.DE",
+  "name": "Munich Re",
+  "last_price": 507.4,
+  "previous_close": 498.0,
+  "change_pct": 1.89,
+  "volume": 85771,
+  "avg_volume": 255037,
+  "rel_volume": 0.34,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (504.0); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 504.0,
+    "range_low": 501.4,
+    "current_price": 506.6,
+    "vwap": 505.34,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 1,
+  "trade_plan": {
+    "entry": 506.6,
+    "stop": 501.4,
+    "risk_per_share": 5.2,
+    "target_1": 514.4,
+    "target_2": 517.0,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 192,
+    "capital": 97267.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "BAS.DE",
@@ -41,7 +61,7 @@
       "change_pct": -3.0,
       "rel_volume": 0.37,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MUV2.DE",
@@ -49,7 +69,7 @@
       "change_pct": 1.89,
       "rel_volume": 0.34,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SIE.DE",
@@ -57,7 +77,7 @@
       "change_pct": 2.01,
       "rel_volume": 0.24,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ENR.DE",
@@ -65,7 +85,7 @@
       "change_pct": 2.14,
       "rel_volume": 0.2,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "MC.PA",
@@ -73,7 +93,7 @@
       "change_pct": 1.44,
       "rel_volume": 0.3,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SAP.DE",
@@ -81,7 +101,7 @@
       "change_pct": -1.05,
       "rel_volume": 0.38,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
