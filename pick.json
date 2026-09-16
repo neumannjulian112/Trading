@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-09-15T18:04:41.614121+00:00",
-  "generated_at_local": "15.09.2026, 20:04 Uhr",
-  "session_date": "2026-09-15",
-  "ticker": "NIO",
-  "name": "NIO",
-  "last_price": 3.6,
-  "previous_close": 3.67,
-  "change_pct": -2.02,
-  "volume": 15626893,
-  "avg_volume": 31609304,
-  "rel_volume": 0.49,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: NIO (Spanne 3.64–3.7, aktuell 3.6).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-16T11:49:21.837734+00:00",
+  "generated_at_local": "16.09.2026, 13:49 Uhr",
+  "session_date": "2026-09-16",
+  "ticker": "VOW3.DE",
+  "name": "Volkswagen",
+  "last_price": 78.84,
+  "previous_close": 81.02,
+  "change_pct": -2.69,
+  "volume": 505900,
+  "avg_volume": 922567,
+  "rel_volume": 0.55,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
-    "catalyst": true,
-    "summary": "Starke Q2-Ergebnisse und optimistische Q3-Guidance sowie Investitionen von hochkarätigen Investoren stützen Kurs.",
-    "headline": "Should NIO’s (NIO) Strong Q2 Results and Upbeat Q3 Outlook Require Action From Investors?",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/nio-nio-strong-q2-results-151750304.html"
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "Spekulationen über Ducati-Verkauf und allgemeine Bewertungsdiskussion ohne konkrete Newinformation.",
+    "headline": "Volkswagen (XTRA:VOW3) Stock May Be Cheap After Ducati Sale Review",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/volkswagen-xtra-vow3-stock-may-061145222.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 3.7,
-    "range_low": 3.64,
-    "current_price": 3.6,
-    "vwap": 3.63,
-    "breakout_status": "ausbruch_ab"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
-    "trend": false
+    "vwap": null,
+    "volume": null,
+    "trend": true
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 3.7,
-    "stop": 3.64,
-    "risk_per_share": 0.06,
-    "target_1": 3.79,
-    "target_2": 3.82,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 16666,
-    "capital": 61664.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": -2.02,
-      "rel_volume": 0.49,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -1.17,
-      "rel_volume": 0.6,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "F",
-      "name": "Ford",
-      "change_pct": -1.67,
-      "rel_volume": 0.46,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -2.69,
+      "rel_volume": 0.55,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": -2.1,
-      "rel_volume": 0.51,
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": -2.52,
+      "rel_volume": 0.39,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "NFLX",
-      "name": "Netflix",
-      "change_pct": -2.47,
-      "rel_volume": 0.43,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": 2.96,
+      "rel_volume": 0.24,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -2.91,
-      "rel_volume": 0.48,
-      "catalyst": true,
-      "status": "in_spanne"
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": -1.34,
+      "rel_volume": 0.36,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": -1.13,
+      "rel_volume": 0.41,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 2.17,
+      "rel_volume": 0.21,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
