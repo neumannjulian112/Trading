@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-16T18:04:35.118507+00:00",
-  "generated_at_local": "16.09.2026, 20:04 Uhr",
-  "session_date": "2026-09-16",
-  "ticker": "GME",
-  "name": "GameStop",
-  "last_price": 21.67,
-  "previous_close": 21.44,
-  "change_pct": 1.05,
-  "volume": 2107297,
-  "avg_volume": 6861527,
-  "rel_volume": 0.31,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (21.51); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
-    "catalyst": true,
-    "summary": "CEO Ryan Cohen kauft $20.3M Shares, Collectibles Surge und Operating Milestone treten als positive Indikatoren auf.",
-    "headline": "Zacks Investment Ideas feature highlights: Uber, GameStop and Celsius",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-100600288.html"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-17T11:52:43.033357+00:00",
+  "generated_at_local": "17.09.2026, 13:52 Uhr",
+  "session_date": "2026-09-17",
+  "ticker": "P911.DE",
+  "name": "Porsche AG",
+  "last_price": 46.46,
+  "previous_close": 45.27,
+  "change_pct": 2.63,
+  "volume": 177242,
+  "avg_volume": 418251,
+  "rel_volume": 0.42,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 21.51,
-    "range_low": 21.39,
-    "current_price": 21.62,
-    "vwap": 21.55,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 21.62,
-    "stop": 21.39,
-    "risk_per_share": 0.23,
-    "target_1": 21.96,
-    "target_2": 22.08,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 4347,
-    "capital": 93982.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -4.15,
-      "rel_volume": 0.76,
-      "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 4.48,
-      "rel_volume": 0.63,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 3.56,
-      "rel_volume": 0.53,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -3.26,
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 2.63,
       "rel_volume": 0.42,
-      "catalyst": true,
-      "status": "ausbruch_ab"
+      "catalyst": false,
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 3.14,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 3.12,
+      "rel_volume": 0.31,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": 2.74,
       "rel_volume": 0.3,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": 1.28,
-      "rel_volume": 0.48,
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": 1.92,
+      "rel_volume": 0.31,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
+    },
+    {
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": 1.8,
+      "rel_volume": 0.26,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": 1.99,
+      "rel_volume": 0.21,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
