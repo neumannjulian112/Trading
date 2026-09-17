@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-17T12:45:51.092815+00:00",
-  "generated_at_local": "17.09.2026, 14:45 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-17T17:37:25.931926+00:00",
+  "generated_at_local": "17.09.2026, 19:37 Uhr",
   "session_date": "2026-09-17",
-  "ticker": "DHL.DE",
-  "name": "DHL Group",
-  "last_price": 56.14,
-  "previous_close": 55.76,
-  "change_pct": 0.68,
-  "volume": 569653,
-  "avg_volume": 1462856,
-  "rel_volume": 0.39,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (55.98); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "SMCI",
+  "name": "Super Micro",
+  "last_price": 40.74,
+  "previous_close": 36.85,
+  "change_pct": 10.56,
+  "volume": 47814804,
+  "avg_volume": 49101200,
+  "rel_volume": 0.97,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "hoch",
     "catalyst": false,
-    "summary": "Neue Nigeria-Servicelancierung ist operativ unbedeutend; Bewertungsfrage spekulativ.",
-    "headline": "DHL (XTRA:DHL) Launches Nigeria Parcel Service, Is The Stock Fully Valued?",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/dhl-xtra-dhl-launches-nigeria-151148109.html"
+    "summary": "Starke AI-Server-Nachfrage und Kurssteigerungen signalisieren Marktmomentum, aber keine neuen fundamentalen Katalysatoren.",
+    "headline": "Dell’s AI Backlog Surge Positions Stock for $600+ as Server Revenue Doubles",
+    "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 55.98,
-    "range_low": 55.76,
-    "current_price": 56.34,
-    "vwap": 56.07,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 56.34,
-    "stop": 55.76,
-    "risk_per_share": 0.58,
-    "target_1": 57.21,
-    "target_2": 57.5,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1724,
-    "capital": 97130.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "P911.DE",
-      "name": "Porsche AG",
-      "change_pct": 2.63,
-      "rel_volume": 0.42,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": 10.56,
+      "rel_volume": 0.97,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 3.12,
-      "rel_volume": 0.31,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 9.97,
+      "rel_volume": 0.92,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": 2.74,
-      "rel_volume": 0.3,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": 6.73,
+      "rel_volume": 0.94,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": 1.92,
-      "rel_volume": 0.31,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 6.79,
+      "rel_volume": 0.79,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": 1.8,
-      "rel_volume": 0.26,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "change_pct": 4.59,
+      "rel_volume": 0.66,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": 1.99,
-      "rel_volume": 0.21,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 5.48,
+      "rel_volume": 0.54,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
