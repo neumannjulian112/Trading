@@ -3,26 +3,26 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-09-18T11:28:52.696024+00:00",
-  "generated_at_local": "18.09.2026, 13:28 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-09-18T12:21:26.432533+00:00",
+  "generated_at_local": "18.09.2026, 14:21 Uhr",
   "session_date": "2026-09-18",
-  "ticker": "DTE.DE",
-  "name": "Deutsche Telekom",
-  "last_price": 27.26,
-  "previous_close": 28.84,
-  "change_pct": -5.48,
-  "volume": 8213254,
-  "avg_volume": 5359421,
-  "rel_volume": 1.53,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "IFX.DE",
+  "name": "Infineon",
+  "last_price": 55.82,
+  "previous_close": 55.0,
+  "change_pct": 1.49,
+  "volume": 3406352,
+  "avg_volume": 4111447,
+  "rel_volume": 0.83,
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Infineon (Spanne 55.55–56.13, aktuell 55.8).",
   "news": {
     "sentiment": "neutral",
     "direction": "unklar",
     "materiality": "gering",
     "catalyst": false,
-    "summary": "Allgemeine Marktbewegung ohne spezifischen Bezug zu Deutsche Telekom.",
+    "summary": "Allgemeine Marktbewegung ohne spezifischen Bezug zu Infineon.",
     "headline": "European Indexes Slip, But AI-Related Stocks Gain",
     "url": "https://www.wsj.com/finance/stocks/nikkei-rises-0-8-led-by-chip-related-stocks-2b0efbba?siteid=yhoof2&yptr=yahoo"
   },
@@ -33,47 +33,51 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 56.13,
+    "range_low": 55.55,
+    "current_price": 55.8,
+    "vwap": 56.08,
+    "breakout_status": "in_spanne"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": false,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 0,
+  "trade_plan": {
+    "entry": 56.13,
+    "stop": 55.55,
+    "risk_per_share": 0.58,
+    "target_1": 57.0,
+    "target_2": 57.29,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 1724,
+    "capital": 96768.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
+    {
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": 1.49,
+      "rel_volume": 0.83,
+      "catalyst": false,
+      "status": "in_spanne"
+    },
     {
       "ticker": "DTE.DE",
       "name": "Deutsche Telekom",
       "change_pct": -5.48,
       "rel_volume": 1.53,
       "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": 2.26,
-      "rel_volume": 1.32,
-      "catalyst": true,
-      "status": null
-    },
-    {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 3.11,
-      "rel_volume": 0.82,
-      "catalyst": true,
-      "status": null
-    },
-    {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "change_pct": -1.31,
-      "rel_volume": 1.51,
-      "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "P911.DE",
@@ -81,15 +85,31 @@
       "change_pct": 2.98,
       "rel_volume": 0.45,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": 1.49,
-      "rel_volume": 0.83,
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": -0.88,
+      "rel_volume": 0.97,
+      "catalyst": true,
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": 2.26,
+      "rel_volume": 1.32,
+      "catalyst": true,
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": -1.66,
+      "rel_volume": 0.47,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
