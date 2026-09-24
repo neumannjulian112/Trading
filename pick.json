@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-23T18:20:37.072525+00:00",
-  "generated_at_local": "23.09.2026, 20:20 Uhr",
-  "session_date": "2026-09-23",
-  "ticker": "GME",
-  "name": "GameStop",
-  "last_price": 24.59,
-  "previous_close": 22.76,
-  "change_pct": 8.06,
-  "volume": 7559988,
-  "avg_volume": 7455988,
-  "rel_volume": 1.01,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (24.17); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-24T11:58:33.026684+00:00",
+  "generated_at_local": "24.09.2026, 13:58 Uhr",
+  "session_date": "2026-09-24",
+  "ticker": "BMW.DE",
+  "name": "BMW",
+  "last_price": 56.62,
+  "previous_close": 57.88,
+  "change_pct": -2.18,
+  "volume": 1558223,
+  "avg_volume": 1503619,
+  "rel_volume": 1.04,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "CEO Ryan Cohen kauft 1,2 Millionen Aktien für 26,4 Millionen Dollar – starkes Vertrauenssignal und wesentlicher Catalyst.",
-    "headline": "Robinhood Has Quietly Become a Real Business. Does HOOD Stock Have Room to Run?",
-    "url": "https://www.tikr.com/blog/robinhood-has-quietly-become-a-real-business-does-hood-stock-have-room-to-run?ref=yahoofinance"
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "Bentley-EV und Lieferentschädigungen betreffen BMW nicht direkt; Börsentrend neutral.",
+    "headline": "Bentley debuts the Torcal, its first EV — an 876-hp SUV estimated at $250,000",
+    "url": "https://finance.yahoo.com/markets/stocks/article/bentley-debuts-the-torcal-its-first-ev--an-876-hp-suv-estimated-at-250000-181500284.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 24.17,
-    "range_low": 23.86,
-    "current_price": 24.59,
-    "vwap": 24.34,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 15,
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 24.59,
-    "stop": 23.86,
-    "risk_per_share": 0.73,
-    "target_1": 25.68,
-    "target_2": 26.05,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1369,
-    "capital": 33664.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "GME",
-      "name": "GameStop",
-      "change_pct": 8.06,
-      "rel_volume": 1.01,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "change_pct": -4.48,
-      "rel_volume": 0.76,
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": -2.18,
+      "rel_volume": 1.04,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": 4.47,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -3.46,
+      "rel_volume": 0.62,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -2.77,
+      "rel_volume": 0.52,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": -1.41,
       "rel_volume": 0.65,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": -3.8,
-      "rel_volume": 0.63,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": 1.78,
-      "rel_volume": 1.16,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -2.99,
-      "rel_volume": 0.59,
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "change_pct": 1.33,
+      "rel_volume": 0.58,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": -1.31,
+      "rel_volume": 0.49,
+      "catalyst": true,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
