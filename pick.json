@@ -3,45 +3,65 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-09-24T17:51:30.918715+00:00",
-  "generated_at_local": "24.09.2026, 19:51 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-09-24T18:21:35.641039+00:00",
+  "generated_at_local": "24.09.2026, 20:21 Uhr",
   "session_date": "2026-09-24",
-  "ticker": "META",
-  "name": "Meta",
-  "last_price": 769.6,
-  "previous_close": 744.1,
-  "change_pct": 3.43,
-  "volume": 24643460,
-  "avg_volume": 19200323,
-  "rel_volume": 1.28,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "GME",
+  "name": "GameStop",
+  "last_price": 24.85,
+  "previous_close": 24.2,
+  "change_pct": 2.69,
+  "volume": 6488727,
+  "avg_volume": 7822704,
+  "rel_volume": 0.83,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (24.1); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Muse-Produktlinie erweitert Wettbewerbsvorteil und verändert AI-Narrative positiv, trotz Datenschutzbedenken.",
-    "headline": "Muse is expanding Meta's moat, consumer exposure to tech products",
-    "url": "https://finance.yahoo.com/video/muse-expanding-metas-moat-consumer-172500840.html"
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
+    "catalyst": false,
+    "summary": "eBay-Interesse und CEO-Selbstvertrauen sind Spekulation ohne konkrete Katalysatoren.",
+    "headline": "3 Stocks Under $50 That Fall Short",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-fall-092854243.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 24.1,
+    "range_low": 23.87,
+    "current_price": 24.91,
+    "vwap": 24.48,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 24.91,
+    "stop": 23.87,
+    "risk_per_share": 1.04,
+    "target_1": 26.47,
+    "target_2": 26.99,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 961,
+    "capital": 23939.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "META",
@@ -49,7 +69,7 @@
       "change_pct": 3.43,
       "rel_volume": 1.28,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "GME",
@@ -57,7 +77,7 @@
       "change_pct": 2.69,
       "rel_volume": 0.83,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "INTC",
@@ -65,7 +85,7 @@
       "change_pct": 2.32,
       "rel_volume": 0.74,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MARA",
@@ -73,7 +93,7 @@
       "change_pct": -2.86,
       "rel_volume": 0.55,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "BA",
@@ -81,7 +101,7 @@
       "change_pct": -1.5,
       "rel_volume": 0.94,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NIO",
@@ -89,7 +109,7 @@
       "change_pct": -1.36,
       "rel_volume": 0.58,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
