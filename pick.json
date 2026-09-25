@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-24T18:21:35.641039+00:00",
-  "generated_at_local": "24.09.2026, 20:21 Uhr",
-  "session_date": "2026-09-24",
-  "ticker": "GME",
-  "name": "GameStop",
-  "last_price": 24.85,
-  "previous_close": 24.2,
-  "change_pct": 2.69,
-  "volume": 6488727,
-  "avg_volume": 7822704,
-  "rel_volume": 0.83,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (24.1); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-25T11:59:38.231631+00:00",
+  "generated_at_local": "25.09.2026, 13:59 Uhr",
+  "session_date": "2026-09-25",
+  "ticker": "BAS.DE",
+  "name": "BASF",
+  "last_price": 51.26,
+  "previous_close": 52.3,
+  "change_pct": -1.99,
+  "volume": 1196968,
+  "avg_volume": 1725711,
+  "rel_volume": 0.69,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "neutral",
     "direction": "unklar",
     "materiality": "gering",
     "catalyst": false,
-    "summary": "eBay-Interesse und CEO-Selbstvertrauen sind Spekulation ohne konkrete Katalysatoren.",
-    "headline": "3 Stocks Under $50 That Fall Short",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-fall-092854243.html"
+    "summary": "Tesla-Batterie-Fortschritt betrifft BASF nur indirekt und spekulativ.",
+    "headline": "Tesla’s In-House Battery Plant Could Give Cybercab a Major Edge",
+    "url": "https://www.barrons.com/articles/tesla-stock-cybercab-battery-plant-1bf094d3?siteid=yhoof2&yptr=yahoo"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 24.1,
-    "range_low": 23.87,
-    "current_price": 24.91,
-    "vwap": 24.48,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 24.91,
-    "stop": 23.87,
-    "risk_per_share": 1.04,
-    "target_1": 26.47,
-    "target_2": 26.99,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 961,
-    "capital": 23939.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": 3.43,
-      "rel_volume": 1.28,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "GME",
-      "name": "GameStop",
-      "change_pct": 2.69,
-      "rel_volume": 0.83,
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": -1.99,
+      "rel_volume": 0.69,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": 2.32,
-      "rel_volume": 0.74,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -2.86,
-      "rel_volume": 0.55,
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": -1.58,
+      "rel_volume": 0.84,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "BA",
-      "name": "Boeing",
-      "change_pct": -1.5,
-      "rel_volume": 0.94,
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": 2.59,
+      "rel_volume": 0.47,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": -1.36,
-      "rel_volume": 0.58,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 2.01,
+      "rel_volume": 0.36,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
+    },
+    {
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 1.91,
+      "rel_volume": 0.34,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": 1.71,
+      "rel_volume": 0.37,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
