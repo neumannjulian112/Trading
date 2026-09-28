@@ -1,115 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-25T18:25:42.169070+00:00",
-  "generated_at_local": "25.09.2026, 20:25 Uhr",
-  "session_date": "2026-09-25",
-  "ticker": "SMCI",
-  "name": "Super Micro",
-  "last_price": 43.46,
-  "previous_close": 41.51,
-  "change_pct": 4.7,
-  "volume": 37531820,
-  "avg_volume": 45777213,
-  "rel_volume": 0.82,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (42.99); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "mittel",
-    "catalyst": true,
-    "summary": "Konkurrenz durch neue NVIDIA-Systeme und ITC-Patentbeschwerde sind materialrelevante negative Katalysatoren.",
-    "headline": "HPE vs. Super Micro: Which AI Server Stock Offers the Better Risk-Reward?",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-vs-super-micro-ai-042751635.html"
-  },
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-28T14:11:30.291110+00:00",
+  "generated_at_local": "28.09.2026, 16:11 Uhr",
+  "session_date": "2026-09-28",
+  "ticker": "SAP.DE",
+  "name": "SAP",
+  "last_price": 180.88,
+  "previous_close": 185.92,
+  "change_pct": -2.71,
+  "volume": 1157867,
+  "avg_volume": 2589435,
+  "rel_volume": 0.45,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 42.99,
-    "range_low": 41.9,
-    "current_price": 43.42,
-    "vwap": 42.99,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 43.42,
-    "stop": 41.9,
-    "risk_per_share": 1.52,
-    "target_1": 45.7,
-    "target_2": 46.46,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 657,
-    "capital": 28527.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "GME",
-      "name": "GameStop",
-      "change_pct": -6.53,
-      "rel_volume": 1.25,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -2.71,
+      "rel_volume": 0.45,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 4.7,
-      "rel_volume": 0.82,
-      "catalyst": true,
-      "status": "ausbruch_auf"
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": 1.52,
+      "rel_volume": 0.67,
+      "catalyst": false,
+      "status": null
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "change_pct": 3.87,
-      "rel_volume": 0.9,
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": 1.2,
+      "rel_volume": 0.55,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": -3.61,
-      "rel_volume": 0.87,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": 1.5,
+      "rel_volume": 0.37,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -4.3,
-      "rel_volume": 0.53,
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": 1.28,
+      "rel_volume": 0.41,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -2.45,
-      "rel_volume": 0.57,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 1.15,
+      "rel_volume": 0.36,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
