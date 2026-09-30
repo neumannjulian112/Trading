@@ -1,107 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-09-30T14:13:05.605749+00:00",
-  "generated_at_local": "30.09.2026, 16:13 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-09-30T18:26:24.673983+00:00",
+  "generated_at_local": "30.09.2026, 20:26 Uhr",
   "session_date": "2026-09-30",
-  "ticker": "P911.DE",
-  "name": "Porsche AG",
-  "last_price": 46.32,
-  "previous_close": 45.3,
-  "change_pct": 2.25,
-  "volume": 150553,
-  "avg_volume": 481435,
-  "rel_volume": 0.31,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (45.6); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
-  "news": null,
+  "ticker": "GME",
+  "name": "GameStop",
+  "last_price": 24.72,
+  "previous_close": 23.76,
+  "change_pct": 4.02,
+  "volume": 9055023,
+  "avg_volume": 8522895,
+  "rel_volume": 1.06,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "news": {
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
+    "catalyst": true,
+    "summary": "CEO Ryan Cohen kauft 10,6 Millionen Dollar in Aktien, was Vertrauen signalisiert und Kurssteigerungen auslöst.",
+    "headline": "Moderna, Cerebras, Jabil, HPE, Cal-Maine, Mattel, and More Stocks That Explain Today’s Market",
+    "url": "https://www.barrons.com/articles/stock-movers-81984569?siteid=yhoof2&yptr=yahoo"
+  },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 45.6,
-    "range_low": 45.26,
-    "current_price": 45.81,
-    "vwap": 45.94,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": true,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 45.81,
-    "stop": 45.26,
-    "risk_per_share": 0.55,
-    "target_1": 46.64,
-    "target_2": 46.91,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1818,
-    "capital": 83283.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": 3.38,
-      "rel_volume": 0.38,
+      "ticker": "GME",
+      "name": "GameStop",
+      "change_pct": 4.02,
+      "rel_volume": 1.06,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MBG.DE",
-      "name": "Mercedes-Benz",
-      "change_pct": 1.72,
-      "rel_volume": 0.43,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -3.88,
+      "rel_volume": 0.6,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "P911.DE",
-      "name": "Porsche AG",
-      "change_pct": 2.25,
-      "rel_volume": 0.31,
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "change_pct": 2.36,
+      "rel_volume": 0.67,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "change_pct": -1.35,
-      "rel_volume": 0.34,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 2.76,
+      "rel_volume": 0.57,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": 2.0,
-      "rel_volume": 0.23,
+      "ticker": "BA",
+      "name": "Boeing",
+      "change_pct": -1.23,
+      "rel_volume": 1.25,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": 1.48,
-      "rel_volume": 0.26,
-      "catalyst": false,
-      "status": "in_spanne"
+      "ticker": "F",
+      "name": "Ford",
+      "change_pct": -2.36,
+      "rel_volume": 0.63,
+      "catalyst": true,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
