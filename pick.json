@@ -3,28 +3,28 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-01T18:52:02.092089+00:00",
-  "generated_at_local": "01.10.2026, 20:52 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-01T19:23:15.932412+00:00",
+  "generated_at_local": "01.10.2026, 21:23 Uhr",
   "session_date": "2026-10-01",
-  "ticker": "MSTR",
-  "name": "MicroStrategy",
-  "last_price": 159.56,
-  "previous_close": 153.09,
-  "change_pct": 4.23,
-  "volume": 13441526,
-  "avg_volume": 24261128,
-  "rel_volume": 0.55,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "SMCI",
+  "name": "Super Micro",
+  "last_price": 41.72,
+  "previous_close": 41.07,
+  "change_pct": 1.58,
+  "volume": 20003221,
+  "avg_volume": 45658500,
+  "rel_volume": 0.44,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (41.41); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
     "catalyst": false,
-    "summary": "Bitcoin-Outperformance und strategische Akquisitionen unterstreichen Saylors Bullcase, aber keine neuen Katalysatoren.",
-    "headline": "Bitcoin Outperforms Stocks and Gold in September: What Surpassed Bitcoin?",
-    "url": "https://247wallst.com/investing/cryptocurrency/2026/10/01/bitcoin-outperforms-stocks-and-gold-in-september-what-surpassed-bitcoin/"
+    "summary": "AI-Infrastructure-Rolle anerkannt, aber schwache Kursreaktion und keine konkreten Nachrichten.",
+    "headline": "Top 3 AI Stocks With Revenue Growth Over 20%",
+    "url": "https://finance.yahoo.com/technology/ai/articles/top-3-ai-stocks-revenue-131010751.html"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 41.41,
+    "range_low": 40.53,
+    "current_price": 41.97,
+    "vwap": 41.14,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 41.97,
+    "stop": 40.53,
+    "risk_per_share": 1.44,
+    "target_1": 44.13,
+    "target_2": 44.85,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 694,
+    "capital": 29127.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "MSTR",
@@ -49,7 +69,7 @@
       "change_pct": 4.23,
       "rel_volume": 0.55,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "GOOGL",
@@ -57,7 +77,7 @@
       "change_pct": -1.69,
       "rel_volume": 0.92,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NFLX",
@@ -65,7 +85,7 @@
       "change_pct": -1.65,
       "rel_volume": 0.86,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NVDA",
@@ -73,7 +93,7 @@
       "change_pct": 1.66,
       "rel_volume": 0.56,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "COIN",
@@ -81,7 +101,7 @@
       "change_pct": 1.82,
       "rel_volume": 0.44,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "MARA",
@@ -89,7 +109,7 @@
       "change_pct": -1.5,
       "rel_volume": 0.52,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
