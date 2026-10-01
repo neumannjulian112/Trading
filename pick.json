@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-10-01T14:45:31.927841+00:00",
-  "generated_at_local": "01.10.2026, 16:45 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-01T18:52:02.092089+00:00",
+  "generated_at_local": "01.10.2026, 20:52 Uhr",
   "session_date": "2026-10-01",
-  "ticker": "SAP.DE",
-  "name": "SAP",
-  "last_price": 189.58,
-  "previous_close": 185.66,
-  "change_pct": 2.11,
-  "volume": 956506,
-  "avg_volume": 2408617,
-  "rel_volume": 0.4,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (184.86); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "MSTR",
+  "name": "MicroStrategy",
+  "last_price": 159.56,
+  "previous_close": 153.09,
+  "change_pct": 4.23,
+  "volume": 13441526,
+  "avg_volume": 24261128,
+  "rel_volume": 0.55,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
+    "sentiment": "positiv",
+    "direction": "auf",
     "materiality": "mittel",
     "catalyst": false,
-    "summary": "Kursrückgang durch OpenShell-Governance-Bewegung in ERP, aber ohne konkrete operative Auswirkungen belegt.",
-    "headline": "SAP Stocks Fall as OpenShell Moves Agent Governance Into ERP",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/sap-stocks-fall-openshell-moves-172452292.html"
+    "summary": "Bitcoin-Outperformance und strategische Akquisitionen unterstreichen Saylors Bullcase, aber keine neuen Katalysatoren.",
+    "headline": "Bitcoin Outperforms Stocks and Gold in September: What Surpassed Bitcoin?",
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/10/01/bitcoin-outperforms-stocks-and-gold-in-september-what-surpassed-bitcoin/"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 184.86,
-    "range_low": 181.94,
-    "current_price": 188.14,
-    "vwap": 186.48,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 188.14,
-    "stop": 181.94,
-    "risk_per_share": 6.2,
-    "target_1": 197.44,
-    "target_2": 200.54,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 161,
-    "capital": 30291.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": -3.17,
-      "rel_volume": 0.47,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 4.23,
+      "rel_volume": 0.55,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": 2.11,
-      "rel_volume": 0.4,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "MC.PA",
-      "name": "LVMH",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
       "change_pct": -1.69,
-      "rel_volume": 0.49,
+      "rel_volume": 0.92,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": -1.47,
-      "rel_volume": 0.54,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "AIR.PA",
-      "name": "Airbus",
-      "change_pct": -1.66,
-      "rel_volume": 0.37,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
+      "ticker": "NFLX",
+      "name": "Netflix",
       "change_pct": -1.65,
-      "rel_volume": 0.36,
-      "catalyst": true,
-      "status": "ausbruch_ab"
+      "rel_volume": 0.86,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "change_pct": 1.66,
+      "rel_volume": 0.56,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "change_pct": 1.82,
+      "rel_volume": 0.44,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -1.5,
+      "rel_volume": 0.52,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
