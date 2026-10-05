@@ -3,20 +3,20 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-05T14:58:37.909668+00:00",
-  "generated_at_local": "05.10.2026, 16:58 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-05T16:21:38.708402+00:00",
+  "generated_at_local": "05.10.2026, 18:21 Uhr",
   "session_date": "2026-10-05",
-  "ticker": "BAYN.DE",
-  "name": "Bayer",
-  "last_price": 43.71,
-  "previous_close": 44.94,
-  "change_pct": -2.74,
-  "volume": 1262371,
-  "avg_volume": 2071400,
-  "rel_volume": 0.61,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "VOW3.DE",
+  "name": "Volkswagen",
+  "last_price": 68.62,
+  "previous_close": 67.48,
+  "change_pct": 1.69,
+  "volume": 519589,
+  "avg_volume": 1142919,
+  "rel_volume": 0.45,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (67.86); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 67.86,
+    "range_low": 67.38,
+    "current_price": 68.48,
+    "vwap": 68.07,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 1,
+  "trade_plan": {
+    "entry": 68.48,
+    "stop": 67.38,
+    "risk_per_share": 1.1,
+    "target_1": 70.13,
+    "target_2": 70.68,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 909,
+    "capital": 62248.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "BAYN.DE",
@@ -41,7 +61,7 @@
       "change_pct": -2.74,
       "rel_volume": 0.61,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "RHM.DE",
@@ -49,7 +69,7 @@
       "change_pct": 1.55,
       "rel_volume": 0.67,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MBG.DE",
@@ -57,7 +77,7 @@
       "change_pct": 1.75,
       "rel_volume": 0.57,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "VOW3.DE",
@@ -65,7 +85,7 @@
       "change_pct": 1.69,
       "rel_volume": 0.45,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "IFX.DE",
@@ -73,7 +93,7 @@
       "change_pct": -0.99,
       "rel_volume": 0.62,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "DBK.DE",
@@ -81,7 +101,7 @@
       "change_pct": 1.34,
       "rel_volume": 0.38,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
