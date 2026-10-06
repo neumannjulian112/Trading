@@ -1,107 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-10-05T21:25:56.757711+00:00",
-  "generated_at_local": "05.10.2026, 23:25 Uhr",
-  "session_date": "2026-10-05",
-  "ticker": "TSLA",
-  "name": "Tesla",
-  "last_price": 378.73,
-  "previous_close": 370.59,
-  "change_pct": 2.2,
-  "volume": 42006295,
-  "avg_volume": 37121136,
-  "rel_volume": 1.13,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (371.83); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-06T13:26:40.417457+00:00",
+  "generated_at_local": "06.10.2026, 15:26 Uhr",
+  "session_date": "2026-10-06",
+  "ticker": "RHM.DE",
+  "name": "Rheinmetall",
+  "last_price": 951.6,
+  "previous_close": 980.2,
+  "change_pct": -2.92,
+  "volume": 185103,
+  "avg_volume": 177670,
+  "rel_volume": 1.04,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 371.83,
-    "range_low": 364.91,
-    "current_price": 378.89,
-    "vwap": 376.25,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 378.89,
-    "stop": 364.91,
-    "risk_per_share": 13.98,
-    "target_1": 399.86,
-    "target_2": 406.85,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 71,
-    "capital": 26901.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "GME",
-      "name": "GameStop",
-      "change_pct": 2.19,
-      "rel_volume": 1.44,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -2.92,
+      "rel_volume": 1.04,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": 2.2,
-      "rel_volume": 1.13,
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": 1.95,
+      "rel_volume": 0.36,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": 2.85,
-      "rel_volume": 0.8,
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": 1.77,
+      "rel_volume": 0.38,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": 2.12,
-      "rel_volume": 1.07,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": 1.65,
+      "rel_volume": 0.22,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -2.63,
-      "rel_volume": 0.78,
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": 1.49,
+      "rel_volume": 0.23,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 2.76,
-      "rel_volume": 0.72,
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "change_pct": -1.08,
+      "rel_volume": 0.33,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
