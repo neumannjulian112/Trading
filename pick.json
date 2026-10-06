@@ -3,20 +3,20 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-06T13:26:40.417457+00:00",
-  "generated_at_local": "06.10.2026, 15:26 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-06T14:26:46.367347+00:00",
+  "generated_at_local": "06.10.2026, 16:26 Uhr",
   "session_date": "2026-10-06",
-  "ticker": "RHM.DE",
-  "name": "Rheinmetall",
-  "last_price": 951.6,
-  "previous_close": 980.2,
-  "change_pct": -2.92,
-  "volume": 185103,
-  "avg_volume": 177670,
-  "rel_volume": 1.04,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "ENR.DE",
+  "name": "Siemens Energy",
+  "last_price": 144.86,
+  "previous_close": 145.46,
+  "change_pct": -0.41,
+  "volume": 634056,
+  "avg_volume": 1733779,
+  "rel_volume": 0.37,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (147.18); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 147.18,
+    "range_low": 144.62,
+    "current_price": 150.0,
+    "vwap": 146.41,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 150.0,
+    "stop": 144.62,
+    "risk_per_share": 5.38,
+    "target_1": 158.07,
+    "target_2": 160.76,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 185,
+    "capital": 27750.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "RHM.DE",
@@ -41,7 +61,7 @@
       "change_pct": -2.92,
       "rel_volume": 1.04,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "BAS.DE",
@@ -49,7 +69,7 @@
       "change_pct": 1.95,
       "rel_volume": 0.36,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "BAYN.DE",
@@ -57,7 +77,7 @@
       "change_pct": 1.77,
       "rel_volume": 0.38,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SAP.DE",
@@ -65,7 +85,7 @@
       "change_pct": 1.65,
       "rel_volume": 0.22,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SIE.DE",
@@ -73,7 +93,7 @@
       "change_pct": 1.49,
       "rel_volume": 0.23,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "DTE.DE",
@@ -81,7 +101,7 @@
       "change_pct": -1.08,
       "rel_volume": 0.33,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
