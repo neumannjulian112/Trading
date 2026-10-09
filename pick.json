@@ -3,20 +3,20 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-09T13:29:01.317745+00:00",
-  "generated_at_local": "09.10.2026, 15:29 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-09T14:37:55.424584+00:00",
+  "generated_at_local": "09.10.2026, 16:37 Uhr",
   "session_date": "2026-10-09",
-  "ticker": "DTE.DE",
-  "name": "Deutsche Telekom",
-  "last_price": 25.05,
-  "previous_close": 26.83,
-  "change_pct": -6.63,
-  "volume": 8693558,
-  "avg_volume": 5392233,
-  "rel_volume": 1.61,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "SIE.DE",
+  "name": "Siemens",
+  "last_price": 272.05,
+  "previous_close": 264.25,
+  "change_pct": 2.95,
+  "volume": 324760,
+  "avg_volume": 920067,
+  "rel_volume": 0.35,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (269.05); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 269.05,
+    "range_low": 267.45,
+    "current_price": 271.3,
+    "vwap": 270.68,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": true,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 3,
+  "trade_plan": {
+    "entry": 271.3,
+    "stop": 267.45,
+    "risk_per_share": 3.85,
+    "target_1": 277.07,
+    "target_2": 279.0,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 259,
+    "capital": 70267.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "DTE.DE",
@@ -41,7 +61,7 @@
       "change_pct": -6.63,
       "rel_volume": 1.61,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SAP.DE",
@@ -49,7 +69,7 @@
       "change_pct": 3.23,
       "rel_volume": 0.55,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "IFX.DE",
@@ -57,7 +77,7 @@
       "change_pct": 3.28,
       "rel_volume": 0.42,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "DHL.DE",
@@ -65,7 +85,7 @@
       "change_pct": 2.26,
       "rel_volume": 0.59,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SIE.DE",
@@ -73,7 +93,7 @@
       "change_pct": 2.95,
       "rel_volume": 0.35,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MBG.DE",
@@ -81,7 +101,7 @@
       "change_pct": 1.9,
       "rel_volume": 0.47,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
