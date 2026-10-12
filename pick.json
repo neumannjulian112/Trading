@@ -1,107 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-10-09T19:23:21.765764+00:00",
-  "generated_at_local": "09.10.2026, 21:23 Uhr",
-  "session_date": "2026-10-09",
-  "ticker": "GME",
-  "name": "GameStop",
-  "last_price": 26.44,
-  "previous_close": 25.28,
-  "change_pct": 4.59,
-  "volume": 12161497,
-  "avg_volume": 8542209,
-  "rel_volume": 1.42,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (25.54); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-12T15:45:13.126864+00:00",
+  "generated_at_local": "12.10.2026, 17:45 Uhr",
+  "session_date": "2026-10-12",
+  "ticker": "RHM.DE",
+  "name": "Rheinmetall",
+  "last_price": 964.5,
+  "previous_close": 939.1,
+  "change_pct": 2.7,
+  "volume": 99364,
+  "avg_volume": 172370,
+  "rel_volume": 0.58,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 25.54,
-    "range_low": 24.9,
-    "current_price": 26.56,
-    "vwap": 26.32,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 26.56,
-    "stop": 24.9,
-    "risk_per_share": 1.66,
-    "target_1": 29.05,
-    "target_2": 29.88,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 602,
-    "capital": 15989.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "GME",
-      "name": "GameStop",
-      "change_pct": 4.59,
-      "rel_volume": 1.42,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 2.7,
+      "rel_volume": 0.58,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": 4.35,
-      "rel_volume": 0.99,
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": 1.7,
+      "rel_volume": 0.66,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": 5.31,
-      "rel_volume": 0.7,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -2.62,
+      "rel_volume": 0.41,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": 3.96,
-      "rel_volume": 0.89,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -1.72,
+      "rel_volume": 0.56,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "change_pct": 2.44,
-      "rel_volume": 0.87,
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "change_pct": 0.69,
+      "rel_volume": 0.97,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -3.38,
-      "rel_volume": 0.59,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 1.22,
+      "rel_volume": 0.46,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
