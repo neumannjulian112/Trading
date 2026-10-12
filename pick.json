@@ -3,20 +3,20 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-12T21:43:31.161459+00:00",
-  "generated_at_local": "12.10.2026, 23:43 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-12T22:02:11.336850+00:00",
+  "generated_at_local": "13.10.2026, 00:02 Uhr",
   "session_date": "2026-10-12",
-  "ticker": "META",
-  "name": "Meta",
-  "last_price": 742.96,
-  "previous_close": 718.67,
-  "change_pct": 3.38,
-  "volume": 24749285,
-  "avg_volume": 19580941,
-  "rel_volume": 1.26,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "GME",
+  "name": "GameStop",
+  "last_price": 27.23,
+  "previous_close": 26.56,
+  "change_pct": 2.52,
+  "volume": 9026654,
+  "avg_volume": 8889309,
+  "rel_volume": 1.02,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (26.26); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 26.26,
+    "range_low": 25.77,
+    "current_price": 27.23,
+    "vwap": 26.61,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 27.23,
+    "stop": 25.77,
+    "risk_per_share": 1.46,
+    "target_1": 29.42,
+    "target_2": 30.15,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 684,
+    "capital": 18625.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "META",
@@ -41,7 +61,7 @@
       "change_pct": 3.38,
       "rel_volume": 1.26,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SOFI",
@@ -49,7 +69,7 @@
       "change_pct": -3.61,
       "rel_volume": 0.91,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "SMCI",
@@ -57,7 +77,7 @@
       "change_pct": -4.49,
       "rel_volume": 0.63,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "GME",
@@ -65,7 +85,7 @@
       "change_pct": 2.52,
       "rel_volume": 1.02,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "NIO",
@@ -73,7 +93,7 @@
       "change_pct": -3.07,
       "rel_volume": 0.77,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "INTC",
@@ -81,7 +101,7 @@
       "change_pct": -3.2,
       "rel_volume": 0.73,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
