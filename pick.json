@@ -3,20 +3,20 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-15T17:45:47.745660+00:00",
-  "generated_at_local": "15.10.2026, 19:45 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-15T18:10:04.486864+00:00",
+  "generated_at_local": "15.10.2026, 20:10 Uhr",
   "session_date": "2026-10-15",
-  "ticker": "INTC",
-  "name": "Intel",
-  "last_price": 94.51,
-  "previous_close": 98.12,
-  "change_pct": -3.68,
-  "volume": 92802385,
-  "avg_volume": 99756664,
-  "rel_volume": 0.93,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "GME",
+  "name": "GameStop",
+  "last_price": 27.75,
+  "previous_close": 27.15,
+  "change_pct": 2.23,
+  "volume": 7598026,
+  "avg_volume": 9361314,
+  "rel_volume": 0.81,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (27.62); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 27.62,
+    "range_low": 26.58,
+    "current_price": 27.85,
+    "vwap": 27.76,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": true,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 3,
+  "trade_plan": {
+    "entry": 27.85,
+    "stop": 26.58,
+    "risk_per_share": 1.27,
+    "target_1": 29.76,
+    "target_2": 30.39,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 787,
+    "capital": 21918.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "INTC",
@@ -41,7 +61,7 @@
       "change_pct": -3.68,
       "rel_volume": 0.93,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SOFI",
@@ -49,7 +69,7 @@
       "change_pct": 3.74,
       "rel_volume": 0.87,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "AMD",
@@ -57,7 +77,7 @@
       "change_pct": -3.01,
       "rel_volume": 0.94,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SMCI",
@@ -65,7 +85,7 @@
       "change_pct": -4.12,
       "rel_volume": 0.69,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "NFLX",
@@ -73,7 +93,7 @@
       "change_pct": 3.22,
       "rel_volume": 0.76,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MSTR",
@@ -81,7 +101,7 @@
       "change_pct": 4.11,
       "rel_volume": 0.58,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
