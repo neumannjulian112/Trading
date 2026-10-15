@@ -3,20 +3,20 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-15T11:43:53.281798+00:00",
-  "generated_at_local": "15.10.2026, 13:43 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-15T12:50:04.316264+00:00",
+  "generated_at_local": "15.10.2026, 14:50 Uhr",
   "session_date": "2026-10-15",
-  "ticker": "IFX.DE",
-  "name": "Infineon",
-  "last_price": 50.77,
-  "previous_close": 55.35,
-  "change_pct": -8.27,
-  "volume": 4020416,
-  "avg_volume": 3802419,
-  "rel_volume": 1.06,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "RHM.DE",
+  "name": "Rheinmetall",
+  "last_price": 1007.4,
+  "previous_close": 983.3,
+  "change_pct": 2.45,
+  "volume": 121978,
+  "avg_volume": 168491,
+  "rel_volume": 0.72,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (992.3); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 992.3,
+    "range_low": 977.8,
+    "current_price": 1015.6,
+    "vwap": 1003.31,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 1015.6,
+    "stop": 977.8,
+    "risk_per_share": 37.8,
+    "target_1": 1072.3,
+    "target_2": 1091.2,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 26,
+    "capital": 26406.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
       "ticker": "IFX.DE",
@@ -41,7 +61,7 @@
       "change_pct": -8.27,
       "rel_volume": 1.06,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "ENR.DE",
@@ -49,7 +69,7 @@
       "change_pct": -5.91,
       "rel_volume": 1.34,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "ASML.AS",
@@ -57,7 +77,7 @@
       "change_pct": -5.2,
       "rel_volume": 0.59,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "RHM.DE",
@@ -65,7 +85,7 @@
       "change_pct": 2.45,
       "rel_volume": 0.72,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "DTE.DE",
@@ -73,7 +93,7 @@
       "change_pct": 2.93,
       "rel_volume": 0.47,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SIE.DE",
@@ -81,7 +101,7 @@
       "change_pct": -3.05,
       "rel_volume": 0.41,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
