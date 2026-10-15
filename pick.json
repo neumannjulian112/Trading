@@ -1,107 +1,87 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-10-15T12:50:04.316264+00:00",
-  "generated_at_local": "15.10.2026, 14:50 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-15T17:45:47.745660+00:00",
+  "generated_at_local": "15.10.2026, 19:45 Uhr",
   "session_date": "2026-10-15",
-  "ticker": "RHM.DE",
-  "name": "Rheinmetall",
-  "last_price": 1007.4,
-  "previous_close": 983.3,
-  "change_pct": 2.45,
-  "volume": 121978,
-  "avg_volume": 168491,
-  "rel_volume": 0.72,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (992.3); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "INTC",
+  "name": "Intel",
+  "last_price": 94.51,
+  "previous_close": 98.12,
+  "change_pct": -3.68,
+  "volume": 92802385,
+  "avg_volume": 99756664,
+  "rel_volume": 0.93,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 992.3,
-    "range_low": 977.8,
-    "current_price": 1015.6,
-    "vwap": 1003.31,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 1015.6,
-    "stop": 977.8,
-    "risk_per_share": 37.8,
-    "target_1": 1072.3,
-    "target_2": 1091.2,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 26,
-    "capital": 26406.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -8.27,
-      "rel_volume": 1.06,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -3.68,
+      "rel_volume": 0.93,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": -5.91,
-      "rel_volume": 1.34,
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "change_pct": 3.74,
+      "rel_volume": 0.87,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": -5.2,
-      "rel_volume": 0.59,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -3.01,
+      "rel_volume": 0.94,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 2.45,
-      "rel_volume": 0.72,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -4.12,
+      "rel_volume": 0.69,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": 2.93,
-      "rel_volume": 0.47,
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "change_pct": 3.22,
+      "rel_volume": 0.76,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": -3.05,
-      "rel_volume": 0.41,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": 4.11,
+      "rel_volume": 0.58,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
