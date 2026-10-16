@@ -1,107 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-10-15T18:10:04.486864+00:00",
-  "generated_at_local": "15.10.2026, 20:10 Uhr",
-  "session_date": "2026-10-15",
-  "ticker": "GME",
-  "name": "GameStop",
-  "last_price": 27.75,
-  "previous_close": 27.15,
-  "change_pct": 2.23,
-  "volume": 7598026,
-  "avg_volume": 9361314,
-  "rel_volume": 0.81,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (27.62); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-16T11:37:35.012620+00:00",
+  "generated_at_local": "16.10.2026, 13:37 Uhr",
+  "session_date": "2026-10-16",
+  "ticker": "RHM.DE",
+  "name": "Rheinmetall",
+  "last_price": 1078.8,
+  "previous_close": 1026.0,
+  "change_pct": 5.15,
+  "volume": 130042,
+  "avg_volume": 171109,
+  "rel_volume": 0.76,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 27.62,
-    "range_low": 26.58,
-    "current_price": 27.85,
-    "vwap": 27.76,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
+    "vwap": null,
+    "volume": null,
     "trend": true
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 27.85,
-    "stop": 26.58,
-    "risk_per_share": 1.27,
-    "target_1": 29.76,
-    "target_2": 30.39,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 787,
-    "capital": 21918.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -3.68,
-      "rel_volume": 0.93,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": 3.74,
-      "rel_volume": 0.87,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -3.01,
-      "rel_volume": 0.94,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -4.12,
-      "rel_volume": 0.69,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix",
-      "change_pct": 3.22,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 5.15,
       "rel_volume": 0.76,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 4.11,
-      "rel_volume": 0.58,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": 3.59,
+      "rel_volume": 0.43,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": 3.3,
+      "rel_volume": 0.44,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": 3.7,
+      "rel_volume": 0.36,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 1.83,
+      "rel_volume": 0.49,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "change_pct": 1.33,
+      "rel_volume": 0.55,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
