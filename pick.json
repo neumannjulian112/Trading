@@ -1,107 +1,87 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-10-16T12:42:34.518965+00:00",
-  "generated_at_local": "16.10.2026, 14:42 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-16T17:22:57.110387+00:00",
+  "generated_at_local": "16.10.2026, 19:22 Uhr",
   "session_date": "2026-10-16",
-  "ticker": "MBG.DE",
-  "name": "Mercedes-Benz",
-  "last_price": 41.26,
-  "previous_close": 39.94,
-  "change_pct": 3.3,
-  "volume": 1002323,
-  "avg_volume": 2280536,
-  "rel_volume": 0.44,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (40.44); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "SMCI",
+  "name": "Super Micro",
+  "last_price": 31.67,
+  "previous_close": 35.09,
+  "change_pct": -9.73,
+  "volume": 26864623,
+  "avg_volume": 36963753,
+  "rel_volume": 0.73,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 40.44,
-    "range_low": 40.19,
-    "current_price": 41.22,
-    "vwap": 40.97,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 41.22,
-    "stop": 40.19,
-    "risk_per_share": 1.03,
-    "target_1": 42.77,
-    "target_2": 43.28,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 970,
-    "capital": 39983.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": 5.15,
-      "rel_volume": 0.76,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -9.73,
+      "rel_volume": 0.73,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": 3.59,
-      "rel_volume": 0.43,
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -9.58,
+      "rel_volume": 0.59,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MBG.DE",
-      "name": "Mercedes-Benz",
-      "change_pct": 3.3,
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": -7.54,
+      "rel_volume": 0.73,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": -3.05,
+      "rel_volume": 1.17,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -7.98,
       "rel_volume": 0.44,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": 3.7,
-      "rel_volume": 0.36,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -5.01,
+      "rel_volume": 0.63,
       "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 1.83,
-      "rel_volume": 0.49,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": 1.33,
-      "rel_volume": 0.55,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
