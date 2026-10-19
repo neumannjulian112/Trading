@@ -1,107 +1,87 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-10-16T17:55:03.499650+00:00",
-  "generated_at_local": "16.10.2026, 19:55 Uhr",
-  "session_date": "2026-10-16",
-  "ticker": "MARA",
-  "name": "MARA Holdings",
-  "last_price": 7.66,
-  "previous_close": 8.33,
-  "change_pct": -7.98,
-  "volume": 20171681,
-  "avg_volume": 45895427,
-  "rel_volume": 0.44,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: MARA Holdings (Spanne 7.91–8.14, aktuell 7.7).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-19T13:37:59.452198+00:00",
+  "generated_at_local": "19.10.2026, 15:37 Uhr",
+  "session_date": "2026-10-19",
+  "ticker": "RHM.DE",
+  "name": "Rheinmetall",
+  "last_price": 1055.4,
+  "previous_close": 1090.2,
+  "change_pct": -3.19,
+  "volume": 132662,
+  "avg_volume": 174761,
+  "rel_volume": 0.76,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 8.14,
-    "range_low": 7.91,
-    "current_price": 7.7,
-    "vwap": 7.95,
-    "breakout_status": "ausbruch_ab"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
-    "trend": false
+    "vwap": null,
+    "volume": null,
+    "trend": true
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 8.14,
-    "stop": 7.91,
-    "risk_per_share": 0.23,
-    "target_1": 8.49,
-    "target_2": 8.6,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 4347,
-    "capital": 35385.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -7.98,
-      "rel_volume": 0.44,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -3.19,
+      "rel_volume": 0.76,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SOFI",
-      "name": "SoFi",
-      "change_pct": -3.41,
-      "rel_volume": 0.75,
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": -2.49,
+      "rel_volume": 0.37,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "GME",
-      "name": "GameStop",
-      "change_pct": -4.57,
-      "rel_volume": 0.66,
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": -2.58,
+      "rel_volume": 0.32,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "NFLX",
-      "name": "Netflix",
-      "change_pct": -3.07,
-      "rel_volume": 0.67,
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "change_pct": -1.82,
+      "rel_volume": 0.43,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -9.73,
-      "rel_volume": 0.73,
+      "ticker": "DHL.DE",
+      "name": "DHL Group",
+      "change_pct": -2.23,
+      "rel_volume": 0.32,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -5.01,
-      "rel_volume": 0.63,
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": -2.23,
+      "rel_volume": 0.29,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
