@@ -3,20 +3,20 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-20T17:57:47.018969+00:00",
-  "generated_at_local": "20.10.2026, 19:57 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-20T18:25:12.886739+00:00",
+  "generated_at_local": "20.10.2026, 20:25 Uhr",
   "session_date": "2026-10-20",
-  "ticker": "MSTR",
-  "name": "MicroStrategy",
-  "last_price": 144.44,
-  "previous_close": 136.02,
-  "change_pct": 6.19,
-  "volume": 12035748,
-  "avg_volume": 24545278,
-  "rel_volume": 0.49,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "TSLA",
+  "name": "Tesla",
+  "last_price": 373.86,
+  "previous_close": 368.06,
+  "change_pct": 1.58,
+  "volume": 20981922,
+  "avg_volume": 37348897,
+  "rel_volume": 0.56,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (370.49); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 370.49,
+    "range_low": 363.64,
+    "current_price": 374.97,
+    "vwap": 373.6,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": true,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 3,
+  "trade_plan": {
+    "entry": 374.97,
+    "stop": 363.64,
+    "risk_per_share": 11.33,
+    "target_1": 391.97,
+    "target_2": 397.63,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 88,
+    "capital": 32997.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "MSTR",
@@ -41,7 +61,7 @@
       "change_pct": 6.19,
       "rel_volume": 0.49,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SOFI",
@@ -49,7 +69,7 @@
       "change_pct": 3.22,
       "rel_volume": 0.71,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "MARA",
@@ -57,7 +77,7 @@
       "change_pct": 2.85,
       "rel_volume": 0.54,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "META",
@@ -65,7 +85,7 @@
       "change_pct": -2.04,
       "rel_volume": 0.52,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "GME",
@@ -73,7 +93,7 @@
       "change_pct": -1.46,
       "rel_volume": 0.63,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "TSLA",
@@ -81,7 +101,7 @@
       "change_pct": 1.58,
       "rel_volume": 0.56,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
