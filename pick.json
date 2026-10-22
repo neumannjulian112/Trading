@@ -3,20 +3,20 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-10-22T17:58:19.435461+00:00",
-  "generated_at_local": "22.10.2026, 19:58 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-10-22T18:26:36.769812+00:00",
+  "generated_at_local": "22.10.2026, 20:26 Uhr",
   "session_date": "2026-10-22",
-  "ticker": "META",
-  "name": "Meta",
-  "last_price": 646.62,
-  "previous_close": 697.52,
-  "change_pct": -7.3,
-  "volume": 28636417,
-  "avg_volume": 20409707,
-  "rel_volume": 1.4,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "NFLX",
+  "name": "Netflix",
+  "last_price": 67.06,
+  "previous_close": 65.04,
+  "change_pct": 3.11,
+  "volume": 34084713,
+  "avg_volume": 35717847,
+  "rel_volume": 0.95,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (67.24); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": null,
   "or_window_min": 15,
   "orb": {
@@ -25,15 +25,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 67.24,
+    "range_low": 65.02,
+    "current_price": 67.25,
+    "vwap": 66.68,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 1,
+  "trade_plan": {
+    "entry": 67.25,
+    "stop": 65.02,
+    "risk_per_share": 2.23,
+    "target_1": 70.59,
+    "target_2": 71.71,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 448,
+    "capital": 30128.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "META",
@@ -41,7 +61,7 @@
       "change_pct": -7.3,
       "rel_volume": 1.4,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "AMD",
@@ -49,7 +69,7 @@
       "change_pct": -7.78,
       "rel_volume": 0.78,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "SMCI",
@@ -57,7 +77,7 @@
       "change_pct": -6.62,
       "rel_volume": 0.82,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "INTC",
@@ -65,7 +85,7 @@
       "change_pct": -7.51,
       "rel_volume": 0.72,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MARA",
@@ -73,7 +93,7 @@
       "change_pct": -7.63,
       "rel_volume": 0.48,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "GME",
@@ -81,7 +101,7 @@
       "change_pct": -5.4,
       "rel_volume": 0.65,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
