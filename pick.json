@@ -1,107 +1,87 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-10-22T13:10:40.474306+00:00",
-  "generated_at_local": "22.10.2026, 15:10 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-22T17:58:19.435461+00:00",
+  "generated_at_local": "22.10.2026, 19:58 Uhr",
   "session_date": "2026-10-22",
-  "ticker": "DTE.DE",
-  "name": "Deutsche Telekom",
-  "last_price": 25.78,
-  "previous_close": 25.5,
-  "change_pct": 1.1,
-  "volume": 1853970,
-  "avg_volume": 6446017,
-  "rel_volume": 0.29,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (25.66); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "META",
+  "name": "Meta",
+  "last_price": 646.62,
+  "previous_close": 697.52,
+  "change_pct": -7.3,
+  "volume": 28636417,
+  "avg_volume": 20409707,
+  "rel_volume": 1.4,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 25.66,
-    "range_low": 25.43,
-    "current_price": 25.83,
-    "vwap": 25.74,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 1,
-  "trade_plan": {
-    "entry": 25.83,
-    "stop": 25.43,
-    "risk_per_share": 0.4,
-    "target_1": 26.43,
-    "target_2": 26.63,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 2500,
-    "capital": 64575.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": -3.35,
-      "rel_volume": 0.41,
+      "ticker": "META",
+      "name": "Meta",
+      "change_pct": -7.3,
+      "rel_volume": 1.4,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": -2.69,
-      "rel_volume": 0.28,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -7.78,
+      "rel_volume": 0.78,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "ADS.DE",
-      "name": "Adidas",
-      "change_pct": -1.71,
-      "rel_volume": 0.44,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -6.62,
+      "rel_volume": 0.82,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -2.6,
-      "rel_volume": 0.25,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -7.51,
+      "rel_volume": 0.72,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": -1.97,
-      "rel_volume": 0.19,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -7.63,
+      "rel_volume": 0.48,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": -1.82,
-      "rel_volume": 0.19,
+      "ticker": "GME",
+      "name": "GameStop",
+      "change_pct": -5.4,
+      "rel_volume": 0.65,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
