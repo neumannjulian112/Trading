@@ -1,107 +1,87 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-10-27T13:32:08.870460+00:00",
-  "generated_at_local": "27.10.2026, 14:32 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-10-27T18:41:02.574254+00:00",
+  "generated_at_local": "27.10.2026, 19:41 Uhr",
   "session_date": "2026-10-27",
-  "ticker": "P911.DE",
-  "name": "Porsche AG",
-  "last_price": 43.17,
-  "previous_close": 41.33,
-  "change_pct": 4.45,
-  "volume": 227049,
-  "avg_volume": 564950,
-  "rel_volume": 0.4,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (43.08); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "BA",
+  "name": "Boeing",
+  "last_price": 169.18,
+  "previous_close": 188.31,
+  "change_pct": -10.16,
+  "volume": 33586189,
+  "avg_volume": 7261435,
+  "rel_volume": 4.63,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 43.08,
-    "range_low": 42.17,
-    "current_price": 43.2,
-    "vwap": 42.65,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 43.2,
-    "stop": 42.17,
-    "risk_per_share": 1.03,
-    "target_1": 44.75,
-    "target_2": 45.26,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 970,
-    "capital": 41904.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "MBG.DE",
-      "name": "Mercedes-Benz",
-      "change_pct": -3.55,
-      "rel_volume": 0.75,
+      "ticker": "BA",
+      "name": "Boeing",
+      "change_pct": -10.16,
+      "rel_volume": 4.63,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "P911.DE",
-      "name": "Porsche AG",
-      "change_pct": 4.45,
-      "rel_volume": 0.4,
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "change_pct": 13.11,
+      "rel_volume": 3.0,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 3.18,
-      "rel_volume": 0.37,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": 6.93,
+      "rel_volume": 0.61,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "BMW.DE",
-      "name": "BMW",
-      "change_pct": -1.35,
-      "rel_volume": 0.34,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 5.3,
+      "rel_volume": 0.67,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "VOW3.DE",
-      "name": "Volkswagen",
-      "change_pct": -1.5,
-      "rel_volume": 0.29,
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": 3.7,
+      "rel_volume": 0.87,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": 1.99,
-      "rel_volume": 0.17,
+      "ticker": "META",
+      "name": "Meta",
+      "change_pct": -1.29,
+      "rel_volume": 1.55,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
