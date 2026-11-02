@@ -1,107 +1,87 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-11-02T17:24:51.543145+00:00",
-  "generated_at_local": "02.11.2026, 18:24 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-02T22:18:07.311329+00:00",
+  "generated_at_local": "02.11.2026, 23:18 Uhr",
   "session_date": "2026-11-02",
-  "ticker": "MBG.DE",
-  "name": "Mercedes-Benz",
-  "last_price": 41.34,
-  "previous_close": 40.68,
-  "change_pct": 1.62,
-  "volume": 1040396,
-  "avg_volume": 2412569,
-  "rel_volume": 0.43,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (40.67); 3/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "INTC",
+  "name": "Intel",
+  "last_price": 59.97,
+  "previous_close": 65.76,
+  "change_pct": -8.8,
+  "volume": 227516903,
+  "avg_volume": 113382436,
+  "rel_volume": 2.01,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": null,
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 40.67,
-    "range_low": 40.46,
-    "current_price": 41.33,
-    "vwap": 40.77,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": true,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 3,
-  "trade_plan": {
-    "entry": 41.33,
-    "stop": 40.46,
-    "risk_per_share": 0.87,
-    "target_1": 42.63,
-    "target_2": 43.07,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 1149,
-    "capital": 47488.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": -4.5,
-      "rel_volume": 0.7,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -8.8,
+      "rel_volume": 2.01,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 3.06,
-      "rel_volume": 0.53,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -7.52,
+      "rel_volume": 1.48,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": 3.54,
-      "rel_volume": 0.42,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -7.62,
+      "rel_volume": 1.11,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom",
-      "change_pct": -1.57,
-      "rel_volume": 0.72,
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "change_pct": -3.13,
+      "rel_volume": 1.48,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "ADS.DE",
-      "name": "Adidas",
-      "change_pct": 2.37,
-      "rel_volume": 0.45,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "change_pct": -3.98,
+      "rel_volume": 1.16,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": 2.05,
-      "rel_volume": 0.47,
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "change_pct": -2.83,
+      "rel_volume": 1.56,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
