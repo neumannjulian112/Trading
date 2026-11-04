@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-11-03T20:27:46.470148+00:00",
-  "generated_at_local": "03.11.2026, 21:27 Uhr",
-  "session_date": "2026-11-03",
-  "ticker": "MSFT",
-  "name": "Microsoft",
-  "last_price": 522.67,
-  "previous_close": 507.12,
-  "change_pct": 3.07,
-  "volume": 11143505,
-  "avg_volume": 22006423,
-  "rel_volume": 0.51,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (512.6); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-04T14:42:59.878472+00:00",
+  "generated_at_local": "04.11.2026, 15:42 Uhr",
+  "session_date": "2026-11-04",
+  "ticker": "ENR.DE",
+  "name": "Siemens Energy",
+  "last_price": 123.46,
+  "previous_close": 129.78,
+  "change_pct": -4.87,
+  "volume": 2458529,
+  "avg_volume": 2025721,
+  "rel_volume": 1.21,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
     "catalyst": false,
-    "summary": "AI-Wetten und Datacenter-Wachstum positiv, aber Cashflow-Vergleich zu Apple und breite Tech-Volatilität neutral.",
-    "headline": "Apple just made twice as much free cash as Microsoft, Meta, Alphabet and Amazon combined: Chart of the Day",
-    "url": "https://finance.yahoo.com/markets/article/apple-just-made-twice-as-much-free-cash-as-microsoft-meta-alphabet-and-amazon-combined-chart-of-the-day-110000928.html"
+    "summary": "Siemens Energy wird von Bernstein als Top-Pick für Datencenter-Wachstum genannt, positiver Branchentrend ohne konkrete Unternehmensnews.",
+    "headline": "Bernstein names top EU capital goods stocks for data center growth",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-names-top-eu-capital-064108435.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 512.6,
-    "range_low": 507.85,
-    "current_price": 522.85,
-    "vwap": 516.09,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 1,
-  "trade_plan": {
-    "entry": 522.85,
-    "stop": 507.85,
-    "risk_per_share": 15.0,
-    "target_1": 545.35,
-    "target_2": 552.85,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 66,
-    "capital": 34508.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": 10.19,
-      "rel_volume": 0.63,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": -4.87,
+      "rel_volume": 1.21,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": 5.47,
-      "rel_volume": 0.88,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 4.37,
-      "rel_volume": 0.83,
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": 5.96,
+      "rel_volume": 0.71,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 4.16,
-      "rel_volume": 0.87,
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": 3.9,
+      "rel_volume": 0.69,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "change_pct": -1.65,
-      "rel_volume": 1.75,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -3.21,
+      "rel_volume": 0.77,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "change_pct": -2.5,
-      "rel_volume": 1.01,
+      "ticker": "ADS.DE",
+      "name": "Adidas",
+      "change_pct": 3.75,
+      "rel_volume": 0.47,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "ALV.DE",
+      "name": "Allianz",
+      "change_pct": 3.13,
+      "rel_volume": 0.54,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
