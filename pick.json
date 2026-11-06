@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-11-06T15:21:10.470438+00:00",
-  "generated_at_local": "06.11.2026, 16:21 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-06T19:56:53.973600+00:00",
+  "generated_at_local": "06.11.2026, 20:56 Uhr",
   "session_date": "2026-11-06",
-  "ticker": "ENR.DE",
-  "name": "Siemens Energy",
-  "last_price": 116.82,
-  "previous_close": 113.84,
-  "change_pct": 2.62,
-  "volume": 1886268,
-  "avg_volume": 2225016,
-  "rel_volume": 0.85,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (114.0); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "AMD",
+  "name": "AMD",
+  "last_price": 446.2,
+  "previous_close": 404.4,
+  "change_pct": 10.34,
+  "volume": 34649420,
+  "avg_volume": 24050948,
+  "rel_volume": 1.44,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "gering",
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
     "catalyst": false,
-    "summary": "Europäischer Markt-Selloff durch KI-Rotation und Havens-Suche, keine unternehmungsspezifischen Nachrichten.",
-    "headline": "The Outliers In Today’s European Selloff? AI Plays",
-    "url": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026/card/the-outliers-in-today-s-european-selloff-ai-plays-9pb0D4vWoq3NZsp1H6j8?siteid=yhoof2&yptr=yahoo"
+    "summary": "AMD führt Chip-Sektor-Rebound nach massivem Ausverkauf an, profitiert von Sektorerholung.",
+    "headline": "What these CEOs think about the midterm election results",
+    "url": "https://finance.yahoo.com/video/ceos-think-midterm-election-results-163000622.html"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 114.0,
-    "range_low": 112.22,
-    "current_price": 116.5,
-    "vwap": 115.69,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 1,
-  "trade_plan": {
-    "entry": 116.5,
-    "stop": 112.22,
-    "risk_per_share": 4.28,
-    "target_1": 122.92,
-    "target_2": 125.06,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 233,
-    "capital": 27144.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": -3.42,
-      "rel_volume": 1.51,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 10.34,
+      "rel_volume": 1.44,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 8.4,
+      "rel_volume": 0.99,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "NIO",
+      "name": "NIO",
+      "change_pct": 5.63,
+      "rel_volume": 1.11,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": 4.16,
-      "rel_volume": 0.85,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": 5.64,
+      "rel_volume": 0.76,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MUV2.DE",
-      "name": "Munich Re",
-      "change_pct": -4.2,
-      "rel_volume": 0.81,
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "change_pct": 3.49,
+      "rel_volume": 1.18,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "DHL.DE",
-      "name": "DHL Group",
-      "change_pct": -5.3,
-      "rel_volume": 0.57,
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": 4.85,
+      "rel_volume": 0.7,
       "catalyst": true,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "change_pct": -4.09,
-      "rel_volume": 0.72,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 2.62,
-      "rel_volume": 0.85,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
