@@ -3,45 +3,65 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-11-12T20:47:46.955035+00:00",
-  "generated_at_local": "12.11.2026, 21:47 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-11-12T21:23:51.416691+00:00",
+  "generated_at_local": "12.11.2026, 22:23 Uhr",
   "session_date": "2026-11-12",
-  "ticker": "NVDA",
-  "name": "NVIDIA",
-  "last_price": 164.62,
-  "previous_close": 173.73,
-  "change_pct": -5.24,
-  "volume": 686824942,
-  "avg_volume": 134009090,
-  "rel_volume": 5.13,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "AMD",
+  "name": "AMD",
+  "last_price": 582.0,
+  "previous_close": 552.9,
+  "change_pct": 5.26,
+  "volume": 50450024,
+  "avg_volume": 26485881,
+  "rel_volume": 1.9,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (578.78); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "CEO Jensen Huang's Rücktritt ist ein wesentlicher Führungswechsel mit Unsicherheit über die Nachfolge und Auswirkungen auf die Unternehmensleitung.",
-    "headline": "How Jensen’s exit will help the US in the AI race vs. China: Roubini",
-    "url": "https://finance.yahoo.com/video/jensen-exit-help-us-ai-204000576.html"
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
+    "catalyst": false,
+    "summary": "Profitiert als Konkurrent von Nvidias Führungsunsicherheit; positive CEO-Bewertungen unterstützen das Sentiment.",
+    "headline": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
+    "url": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 578.78,
+    "range_low": 554.9,
+    "current_price": 585.58,
+    "vwap": 575.44,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": true,
+    "volume": false,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 585.58,
+    "stop": 554.9,
+    "risk_per_share": 30.68,
+    "target_1": 631.6,
+    "target_2": 646.94,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 32,
+    "capital": 18739.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "NVDA",
@@ -49,7 +69,7 @@
       "change_pct": -5.24,
       "rel_volume": 5.13,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SMCI",
@@ -57,7 +77,7 @@
       "change_pct": -10.17,
       "rel_volume": 2.5,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "AMD",
@@ -65,7 +85,7 @@
       "change_pct": 5.26,
       "rel_volume": 1.9,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "NIO",
@@ -73,7 +93,7 @@
       "change_pct": -5.87,
       "rel_volume": 1.45,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MSTR",
@@ -81,7 +101,7 @@
       "change_pct": -5.53,
       "rel_volume": 0.77,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "MARA",
@@ -89,7 +109,7 @@
       "change_pct": -4.31,
       "rel_volume": 0.95,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
