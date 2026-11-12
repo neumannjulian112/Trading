@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-11-12T16:11:20.390006+00:00",
-  "generated_at_local": "12.11.2026, 17:11 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-12T20:47:46.955035+00:00",
+  "generated_at_local": "12.11.2026, 21:47 Uhr",
   "session_date": "2026-11-12",
-  "ticker": "IFX.DE",
-  "name": "Infineon",
-  "last_price": 51.02,
-  "previous_close": 52.12,
-  "change_pct": -2.11,
-  "volume": 3101633,
-  "avg_volume": 4337318,
-  "rel_volume": 0.72,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (50.54); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "ticker": "NVDA",
+  "name": "NVIDIA",
+  "last_price": 164.62,
+  "previous_close": 173.73,
+  "change_pct": -5.24,
+  "volume": 686824942,
+  "avg_volume": 134009090,
+  "rel_volume": 5.13,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Kurszielsenkung der BofA wegen AI-Bedenken überwiegt positive CoreWeave-Signale.",
-    "headline": "U.S., Europe chip stocks dip as Nvidia board reportedly weighs ousting Huang",
-    "url": "https://finance.yahoo.com/technology/ai/articles/china-chip-stocks-rally-u-063831379.html"
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "CEO Jensen Huang's Rücktritt ist ein wesentlicher Führungswechsel mit Unsicherheit über die Nachfolge und Auswirkungen auf die Unternehmensleitung.",
+    "headline": "How Jensen’s exit will help the US in the AI race vs. China: Roubini",
+    "url": "https://finance.yahoo.com/video/jensen-exit-help-us-ai-204000576.html"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
-    "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 50.54,
-    "range_low": 49.87,
-    "current_price": 51.82,
-    "vwap": 51.28,
-    "breakout_status": "ausbruch_auf"
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
+    "window_min": 5,
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 51.82,
-    "stop": 49.87,
-    "risk_per_share": 1.95,
-    "target_1": 54.74,
-    "target_2": 55.72,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 512,
-    "capital": 26532.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": -3.31,
-      "rel_volume": 0.98,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MUV2.DE",
-      "name": "Munich Re",
-      "change_pct": 3.13,
-      "rel_volume": 0.78,
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "change_pct": -5.24,
+      "rel_volume": 5.13,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": -3.23,
-      "rel_volume": 0.6,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": 1.59,
-      "rel_volume": 1.14,
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "change_pct": -10.17,
+      "rel_volume": 2.5,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -2.11,
-      "rel_volume": 0.72,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 5.26,
+      "rel_volume": 1.9,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "ALV.DE",
-      "name": "Allianz",
-      "change_pct": 2.05,
-      "rel_volume": 0.73,
+      "ticker": "NIO",
+      "name": "NIO",
+      "change_pct": -5.87,
+      "rel_volume": 1.45,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -5.53,
+      "rel_volume": 0.77,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
+    },
+    {
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -4.31,
+      "rel_volume": 0.95,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
