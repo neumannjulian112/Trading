@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-11-12T21:23:51.416691+00:00",
-  "generated_at_local": "12.11.2026, 22:23 Uhr",
-  "session_date": "2026-11-12",
-  "ticker": "AMD",
-  "name": "AMD",
-  "last_price": 582.0,
-  "previous_close": 552.9,
-  "change_pct": 5.26,
-  "volume": 50450024,
-  "avg_volume": 26485881,
-  "rel_volume": 1.9,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (578.78); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-13T14:43:40.163570+00:00",
+  "generated_at_local": "13.11.2026, 15:43 Uhr",
+  "session_date": "2026-11-13",
+  "ticker": "RHM.DE",
+  "name": "Rheinmetall",
+  "last_price": 757.3,
+  "previous_close": 772.6,
+  "change_pct": -1.98,
+  "volume": 178345,
+  "avg_volume": 222294,
+  "rel_volume": 0.8,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "positiv",
-    "direction": "auf",
-    "materiality": "mittel",
+    "sentiment": "neutral",
+    "direction": "unklar",
+    "materiality": "gering",
     "catalyst": false,
-    "summary": "Profitiert als Konkurrent von Nvidias Führungsunsicherheit; positive CEO-Bewertungen unterstützen das Sentiment.",
-    "headline": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
-    "url": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html"
+    "summary": "Allgemeine Marktbewegungen ohne spezifische Rheinmetall-Nachrichten.",
+    "headline": "European Stock Indexes Turn Positive as Oil Drops",
+    "url": "https://www.wsj.com/finance/stocks/nikkei-rises-1-1-led-by-chip-stocks-eb2ed881?siteid=yhoof2&yptr=yahoo"
   },
   "or_window_min": 15,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
     "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 578.78,
-    "range_low": 554.9,
-    "current_price": 585.58,
-    "vwap": 575.44,
-    "breakout_status": "ausbruch_auf"
+    "range_window": "09:00–09:15 Uhr",
+    "entry_decision": "ab 09:15 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 585.58,
-    "stop": 554.9,
-    "risk_per_share": 30.68,
-    "target_1": 631.6,
-    "target_2": 646.94,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 32,
-    "capital": 18739.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": -5.24,
-      "rel_volume": 5.13,
-      "catalyst": true,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -10.17,
-      "rel_volume": 2.5,
-      "catalyst": true,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": 5.26,
-      "rel_volume": 1.9,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": -1.98,
+      "rel_volume": 0.8,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": -5.87,
-      "rel_volume": 1.45,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": -2.63,
+      "rel_volume": 0.39,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -5.53,
-      "rel_volume": 0.77,
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "change_pct": -1.22,
+      "rel_volume": 0.42,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -4.31,
-      "rel_volume": 0.95,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -1.9,
+      "rel_volume": 0.26,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
+    },
+    {
+      "ticker": "MUV2.DE",
+      "name": "Munich Re",
+      "change_pct": 1.16,
+      "rel_volume": 0.33,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": -1.44,
+      "rel_volume": 0.2,
+      "catalyst": false,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
