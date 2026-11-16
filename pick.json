@@ -3,10 +3,10 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-11-16T22:52:42.688157+00:00",
-  "generated_at_local": "16.11.2026, 23:52 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-11-16T23:16:52.184523+00:00",
+  "generated_at_local": "17.11.2026, 00:16 Uhr",
   "session_date": "2026-11-16",
   "ticker": "NIO",
   "name": "NIO",
@@ -16,7 +16,7 @@
   "volume": 82860082,
   "avg_volume": 32357159,
   "rel_volume": 2.56,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: NIO (Spanne 2.78–2.87, aktuell 2.73).",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
@@ -33,15 +33,35 @@
     "window_min": 15,
     "range_window": "15:30–15:45 Uhr",
     "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 2.87,
+    "range_low": 2.78,
+    "current_price": 2.73,
+    "vwap": 2.77,
+    "breakout_status": "ausbruch_ab"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": false,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 0,
+  "trade_plan": {
+    "entry": 2.87,
+    "stop": 2.78,
+    "risk_per_share": 0.09,
+    "target_1": 3.0,
+    "target_2": 3.05,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 11111,
+    "capital": 31889.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "NIO",
@@ -49,39 +69,15 @@
       "change_pct": -6.21,
       "rel_volume": 2.56,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": -4.12,
-      "rel_volume": 2.11,
-      "catalyst": true,
-      "status": null
-    },
-    {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -7.7,
-      "rel_volume": 1.06,
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -5.01,
+      "rel_volume": 1.03,
       "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -6.12,
-      "rel_volume": 1.29,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "change_pct": -5.58,
-      "rel_volume": 1.27,
-      "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "SMCI",
@@ -89,7 +85,31 @@
       "change_pct": -6.87,
       "rel_volume": 0.81,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -7.02,
+      "rel_volume": 0.79,
+      "catalyst": true,
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "change_pct": -6.12,
+      "rel_volume": 1.29,
+      "catalyst": false,
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -7.7,
+      "rel_volume": 1.06,
+      "catalyst": false,
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
