@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-11-16T23:16:52.184523+00:00",
-  "generated_at_local": "17.11.2026, 00:16 Uhr",
-  "session_date": "2026-11-16",
-  "ticker": "NIO",
-  "name": "NIO",
-  "last_price": 2.72,
-  "previous_close": 2.9,
-  "change_pct": -6.21,
-  "volume": 82860082,
-  "avg_volume": 32357159,
-  "rel_volume": 2.56,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: NIO (Spanne 2.78–2.87, aktuell 2.73).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-17T16:15:12.350656+00:00",
+  "generated_at_local": "17.11.2026, 17:15 Uhr",
+  "session_date": "2026-11-17",
+  "ticker": "DBK.DE",
+  "name": "Deutsche Bank",
+  "last_price": 30.98,
+  "previous_close": 32.92,
+  "change_pct": -5.88,
+  "volume": 7763583,
+  "avg_volume": 5475097,
+  "rel_volume": 1.42,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
     "materiality": "hoch",
-    "catalyst": false,
-    "summary": "NIO erreicht 6-Jahres-Tief durch Marktdruck und BlackRock-Desinvestment; keine aktuellen Geschäftskatalysatoren.",
-    "headline": "Lucid Sinks 8% in Tech Selloff as CEO Tempers EV Hopes: “Anything Positive, We’ll Take It”",
-    "url": "https://www.tikr.com/blog/lucid-sinks-8-in-tech-selloff-as-ceo-tempers-ev-hopes-anything-positive-well-take-it?ref=yahoofinance&tlnk=yf-261116-vrmw53f8"
+    "catalyst": true,
+    "summary": "15 Millionen Dateien geleakt und Compliance-Probleme belasten Vertrauen und Kurs erheblich.",
+    "headline": "3 European Bank Stocks With Strong Compliance Records as Deutsche Bank Scrutiny Grows",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/3-european-bank-stocks-strong-151444811.html"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 2.87,
-    "range_low": 2.78,
-    "current_price": 2.73,
-    "vwap": 2.77,
-    "breakout_status": "ausbruch_ab"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 2.87,
-    "stop": 2.78,
-    "risk_per_share": 0.09,
-    "target_1": 3.0,
-    "target_2": 3.05,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 11111,
-    "capital": 31889.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": -6.21,
-      "rel_volume": 2.56,
-      "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "MARA",
-      "name": "MARA Holdings",
-      "change_pct": -5.01,
-      "rel_volume": 1.03,
-      "catalyst": false,
-      "status": "in_spanne"
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": -6.87,
-      "rel_volume": 0.81,
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": -5.88,
+      "rel_volume": 1.42,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "INTC",
-      "name": "Intel",
-      "change_pct": -7.02,
-      "rel_volume": 0.79,
+      "ticker": "ASML.AS",
+      "name": "ASML",
+      "change_pct": -4.82,
+      "rel_volume": 0.83,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "change_pct": -6.12,
-      "rel_volume": 1.29,
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": -3.04,
+      "rel_volume": 0.53,
       "catalyst": false,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": -7.7,
-      "rel_volume": 1.06,
+      "ticker": "BAS.DE",
+      "name": "BASF",
+      "change_pct": -2.07,
+      "rel_volume": 0.69,
+      "catalyst": true,
+      "status": null
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "change_pct": -2.33,
+      "rel_volume": 0.56,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": -1.74,
+      "rel_volume": 0.52,
+      "catalyst": true,
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
