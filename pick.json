@@ -3,28 +3,28 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-11-18T15:49:55.782106+00:00",
-  "generated_at_local": "18.11.2026, 16:49 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-11-18T16:41:58.950661+00:00",
+  "generated_at_local": "18.11.2026, 17:41 Uhr",
   "session_date": "2026-11-18",
-  "ticker": "SAP.DE",
-  "name": "SAP",
-  "last_price": 196.08,
-  "previous_close": 201.5,
-  "change_pct": -2.69,
-  "volume": 1984207,
-  "avg_volume": 2057966,
-  "rel_volume": 0.96,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "VOW3.DE",
+  "name": "Volkswagen",
+  "last_price": 65.24,
+  "previous_close": 66.3,
+  "change_pct": -1.6,
+  "volume": 502133,
+  "avg_volume": 1137692,
+  "rel_volume": 0.44,
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Volkswagen (Spanne 65.36–65.92, aktuell 65.58).",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
     "materiality": "mittel",
     "catalyst": true,
-    "summary": "Führungswechsel signalisiert organisatorische Unsicherheit und könnte Strategieänderungen implizieren.",
-    "headline": "SAP (XTRA:SAP) In Focus After Leadership Exit As Undervalued View Holds",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/sap-xtra-sap-focus-leadership-151158564.html"
+    "summary": "China-Lieferverluste durch Lokalkonkurrenz wiegen Bewertungsrabatt auf und signalisieren Marktanteilverluste.",
+    "headline": "Hongqi considers European vehicle assembly partnerships – report",
+    "url": "https://www.just-auto.com/news/hongqi-european-vehicle-assembly-partnerships/"
   },
   "or_window_min": 15,
   "orb": {
@@ -33,23 +33,51 @@
     "window_min": 15,
     "range_window": "09:00–09:15 Uhr",
     "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 65.92,
+    "range_low": 65.36,
+    "current_price": 65.58,
+    "vwap": 65.46,
+    "breakout_status": "in_spanne"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 1,
+  "trade_plan": {
+    "entry": 65.92,
+    "stop": 65.36,
+    "risk_per_share": 0.56,
+    "target_1": 66.76,
+    "target_2": 67.04,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 1785,
+    "capital": 117667.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": -2.69,
-      "rel_volume": 0.96,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": -1.6,
+      "rel_volume": 0.44,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
+    },
+    {
+      "ticker": "MBG.DE",
+      "name": "Mercedes-Benz",
+      "change_pct": -1.52,
+      "rel_volume": 0.46,
+      "catalyst": true,
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "DBK.DE",
@@ -57,7 +85,7 @@
       "change_pct": -2.7,
       "rel_volume": 0.68,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "DTE.DE",
@@ -65,23 +93,7 @@
       "change_pct": -3.1,
       "rel_volume": 0.5,
       "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 2.66,
-      "rel_volume": 0.56,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": 2.28,
-      "rel_volume": 0.61,
-      "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "IFX.DE",
@@ -89,7 +101,15 @@
       "change_pct": 1.81,
       "rel_volume": 0.48,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "ENR.DE",
+      "name": "Siemens Energy",
+      "change_pct": 2.66,
+      "rel_volume": 0.56,
+      "catalyst": false,
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
