@@ -3,45 +3,65 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-11-19T21:29:26.682833+00:00",
-  "generated_at_local": "19.11.2026, 22:29 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-11-19T22:03:13.735809+00:00",
+  "generated_at_local": "19.11.2026, 23:03 Uhr",
   "session_date": "2026-11-19",
-  "ticker": "AMD",
-  "name": "AMD",
-  "last_price": 489.19,
-  "previous_close": 530.14,
-  "change_pct": -7.72,
-  "volume": 70675763,
-  "avg_volume": 28524118,
-  "rel_volume": 2.48,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "GME",
+  "name": "GameStop",
+  "last_price": 26.93,
+  "previous_close": 26.53,
+  "change_pct": 1.51,
+  "volume": 18065504,
+  "avg_volume": 9101306,
+  "rel_volume": 1.98,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (26.66); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
-    "sentiment": "negativ",
-    "direction": "ab",
-    "materiality": "hoch",
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "mittel",
     "catalyst": true,
-    "summary": "Kurzverkäufer werfen AMD Verstöße gegen Exportkontrollen und China-Verbindungen vor; Aktie fällt 7%.",
-    "headline": "Nvidia, Broadcom, and Micron stocks decline as Anthropic goes public",
-    "url": "https://finance.yahoo.com/markets/article/nvidia-broadcom-micron-stocks-decline-as-anthropic-goes-public-170845481.html"
+    "summary": "Roaring Kitty kehrt zurück mit Tweet; Trump-Beteiligung und GTA VI-Ankündigung fördern Sentiment.",
+    "headline": "The cat came back: Roaring Kitty tweet sends GameStop stock higher amid GTA VI fervor",
+    "url": "https://finance.yahoo.com/markets/stocks/article/the-cat-came-back-roaring-kitty-tweet-sends-gamestop-stock-higher-amid-gta-vi-fervor-184220345.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 26.66,
+    "range_low": 26.31,
+    "current_price": 26.96,
+    "vwap": 26.99,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
-    "trend": false
+    "vwap": false,
+    "volume": true,
+    "trend": true
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 2,
+  "trade_plan": {
+    "entry": 26.96,
+    "stop": 26.31,
+    "risk_per_share": 0.65,
+    "target_1": 27.94,
+    "target_2": 28.26,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 1538,
+    "capital": 41464.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "AMD",
@@ -49,7 +69,7 @@
       "change_pct": -7.72,
       "rel_volume": 2.48,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NVDA",
@@ -57,7 +77,7 @@
       "change_pct": -3.3,
       "rel_volume": 1.82,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "MSTR",
@@ -65,7 +85,7 @@
       "change_pct": -4.64,
       "rel_volume": 1.21,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "NIO",
@@ -73,7 +93,7 @@
       "change_pct": -3.97,
       "rel_volume": 1.3,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "GOOGL",
@@ -81,7 +101,7 @@
       "change_pct": -3.46,
       "rel_volume": 1.46,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "AMZN",
@@ -89,7 +109,7 @@
       "change_pct": -3.87,
       "rel_volume": 1.21,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
