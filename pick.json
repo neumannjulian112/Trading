@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-11-19T16:45:51.726946+00:00",
-  "generated_at_local": "19.11.2026, 17:45 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-19T21:29:26.682833+00:00",
+  "generated_at_local": "19.11.2026, 22:29 Uhr",
   "session_date": "2026-11-19",
-  "ticker": "DBK.DE",
-  "name": "Deutsche Bank",
-  "last_price": 30.27,
-  "previous_close": 30.0,
-  "change_pct": 0.92,
-  "volume": 2555606,
-  "avg_volume": 5439362,
-  "rel_volume": 0.47,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Deutsche Bank (Spanne 30.08–30.25, aktuell 30.19).",
+  "ticker": "AMD",
+  "name": "AMD",
+  "last_price": 489.19,
+  "previous_close": 530.14,
+  "change_pct": -7.72,
+  "volume": 70675763,
+  "avg_volume": 28524118,
+  "rel_volume": 2.48,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
     "materiality": "hoch",
     "catalyst": true,
-    "summary": "Mehrjähriges Verschweigen von Hypothekenverlusten und massive Datenlecks beschädigen Vertrauen erheblich.",
-    "headline": "Market Chatter: Deutsche Bank's Italian Unit Concealed Mortgage Losses for Years",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-deutsche-bank-apos-091242660.html"
+    "summary": "Kurzverkäufer werfen AMD Verstöße gegen Exportkontrollen und China-Verbindungen vor; Aktie fällt 7%.",
+    "headline": "Nvidia, Broadcom, and Micron stocks decline as Anthropic goes public",
+    "url": "https://finance.yahoo.com/markets/article/nvidia-broadcom-micron-stocks-decline-as-anthropic-goes-public-170845481.html"
   },
   "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 5,
-    "range_window": "09:00–09:05 Uhr",
-    "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 30.25,
-    "range_low": 30.08,
-    "current_price": 30.19,
-    "vwap": 30.51,
-    "breakout_status": "in_spanne"
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 30.25,
-    "stop": 30.08,
-    "risk_per_share": 0.17,
-    "target_1": 30.5,
-    "target_2": 30.59,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 5882,
-    "capital": 177930.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": 0.92,
-      "rel_volume": 0.47,
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -7.72,
+      "rel_volume": 2.48,
       "catalyst": true,
-      "status": "in_spanne"
+      "status": null
     },
     {
-      "ticker": "MBG.DE",
-      "name": "Mercedes-Benz",
-      "change_pct": -0.86,
-      "rel_volume": 0.36,
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "change_pct": -3.3,
+      "rel_volume": 1.82,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -4.64,
+      "rel_volume": 1.21,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "MC.PA",
-      "name": "LVMH",
-      "change_pct": 1.07,
-      "rel_volume": 0.37,
-      "catalyst": false,
-      "status": "in_spanne"
+      "ticker": "NIO",
+      "name": "NIO",
+      "change_pct": -3.97,
+      "rel_volume": 1.3,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "BAYN.DE",
-      "name": "Bayer",
-      "change_pct": -1.5,
-      "rel_volume": 0.38,
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "change_pct": -3.46,
+      "rel_volume": 1.46,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "ADS.DE",
-      "name": "Adidas",
-      "change_pct": -1.21,
-      "rel_volume": 0.29,
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "change_pct": -3.87,
+      "rel_volume": 1.21,
       "catalyst": false,
-      "status": "ausbruch_ab"
-    },
-    {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": 0.69,
-      "rel_volume": 0.5,
-      "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
