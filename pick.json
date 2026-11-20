@@ -1,115 +1,95 @@
 {
-  "region": "europe",
-  "region_label": "Europa",
-  "flag": "EU",
-  "currency": "EUR",
-  "phase": "breakout",
-  "status": "kein_setup",
-  "generated_at": "2026-11-20T16:20:40.675588+00:00",
-  "generated_at_local": "20.11.2026, 17:20 Uhr",
+  "region": "usa",
+  "region_label": "USA",
+  "flag": "US",
+  "currency": "USD",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-20T21:03:34.656854+00:00",
+  "generated_at_local": "20.11.2026, 22:03 Uhr",
   "session_date": "2026-11-20",
-  "ticker": "DBK.DE",
-  "name": "Deutsche Bank",
-  "last_price": 29.26,
-  "previous_close": 30.1,
-  "change_pct": -2.79,
-  "volume": 5232389,
-  "avg_volume": 5441308,
-  "rel_volume": 0.96,
-  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Deutsche Bank (Spanne 29.52–29.69, aktuell 29.13).",
+  "ticker": "NVDA",
+  "name": "NVIDIA",
+  "last_price": 125.53,
+  "previous_close": 145.98,
+  "change_pct": -14.01,
+  "volume": 595336706,
+  "avg_volume": 174728740,
+  "rel_volume": 3.41,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
     "materiality": "hoch",
     "catalyst": true,
-    "summary": "Schwere Compliance-Vorwuerfe gegen Deutsche Bank wegen Verschleierung von Hypothekenverlusten belasten erheblich.",
-    "headline": "Imperial Brands keeps Deutsche Bank ‘buy’ despite lower target",
-    "url": "https://www.proactiveinvestors.com/companies/news/1102183/imperial-brands-keeps-deutsche-bank-buy-despite-lower-target-1102183.html"
+    "summary": "SEC-Ermittlungen zu Bilanzierungspraktiken und massive Kursverluste triggern erhebliche Verkaufsrallye.",
+    "headline": "Nvidia stock extends $2.5 trillion rout as SEC probe reportedly investigates its accounting",
+    "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
   },
   "or_window_min": 5,
   "orb": {
-    "market": "Xetra",
-    "open_local": "09:00 Uhr",
+    "market": "NYSE / Nasdaq",
+    "open_local": "15:30 Uhr",
     "window_min": 5,
-    "range_window": "09:00–09:05 Uhr",
-    "entry_decision": "ab 09:05 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 29.69,
-    "range_low": 29.52,
-    "current_price": 29.13,
-    "vwap": 29.3,
-    "breakout_status": "ausbruch_ab"
+    "range_window": "15:30–15:35 Uhr",
+    "entry_decision": "ab 15:35 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": false,
-    "volume": false,
+    "vwap": null,
+    "volume": null,
     "trend": false
   },
-  "quality": 0,
-  "trade_plan": {
-    "entry": 29.69,
-    "stop": 29.52,
-    "risk_per_share": 0.17,
-    "target_1": 29.95,
-    "target_2": 30.03,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 5882,
-    "capital": 174637.0,
-    "currency": "EUR"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": -2.79,
-      "rel_volume": 0.96,
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "change_pct": -14.01,
+      "rel_volume": 3.41,
       "catalyst": true,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "SAP.DE",
-      "name": "SAP",
-      "change_pct": -1.32,
-      "rel_volume": 1.03,
-      "catalyst": false,
-      "status": "in_spanne"
+      "ticker": "AMD",
+      "name": "AMD",
+      "change_pct": -13.25,
+      "rel_volume": 2.33,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "IFX.DE",
-      "name": "Infineon",
-      "change_pct": -7.15,
-      "rel_volume": 1.08,
-      "catalyst": false,
-      "status": "ausbruch_ab"
+      "ticker": "MARA",
+      "name": "MARA Holdings",
+      "change_pct": -18.64,
+      "rel_volume": 1.2,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "DHL.DE",
-      "name": "DHL Group",
-      "change_pct": -3.02,
-      "rel_volume": 0.59,
-      "catalyst": false,
-      "status": "ausbruch_ab"
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "change_pct": -9.67,
+      "rel_volume": 1.75,
+      "catalyst": true,
+      "status": null
     },
     {
-      "ticker": "ENR.DE",
-      "name": "Siemens Energy",
-      "change_pct": -6.11,
-      "rel_volume": 0.8,
+      "ticker": "NIO",
+      "name": "NIO",
+      "change_pct": -7.89,
+      "rel_volume": 2.05,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     },
     {
-      "ticker": "AIR.PA",
-      "name": "Airbus",
-      "change_pct": -3.28,
-      "rel_volume": 0.48,
+      "ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -7.97,
+      "rel_volume": 1.58,
       "catalyst": false,
-      "status": "ausbruch_ab"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
