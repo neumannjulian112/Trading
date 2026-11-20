@@ -3,53 +3,81 @@
   "region_label": "Europa",
   "flag": "EU",
   "currency": "EUR",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-11-20T15:37:44.568933+00:00",
-  "generated_at_local": "20.11.2026, 16:37 Uhr",
+  "phase": "breakout",
+  "status": "kein_setup",
+  "generated_at": "2026-11-20T16:20:40.675588+00:00",
+  "generated_at_local": "20.11.2026, 17:20 Uhr",
   "session_date": "2026-11-20",
-  "ticker": "ASML.AS",
-  "name": "ASML",
-  "last_price": 1185.8,
-  "previous_close": 1288.2,
-  "change_pct": -7.95,
-  "volume": 713405,
-  "avg_volume": 661547,
-  "rel_volume": 1.08,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "DBK.DE",
+  "name": "Deutsche Bank",
+  "last_price": 29.26,
+  "previous_close": 30.1,
+  "change_pct": -2.79,
+  "volume": 5232389,
+  "avg_volume": 5441308,
+  "rel_volume": 0.96,
+  "rationale": "Noch kein Long-Ausbruch in der Beobachtungsliste. Naechster Kandidat am Spannen-Hoch: Deutsche Bank (Spanne 29.52–29.69, aktuell 29.13).",
   "news": {
     "sentiment": "negativ",
     "direction": "ab",
-    "materiality": "mittel",
-    "catalyst": false,
-    "summary": "Chip-Sektor unter Druck durch AI-Ausverkauf, ASML folgt dem negativen Trend trotz ETF-Zukaeufen.",
-    "headline": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower",
-    "url": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html"
+    "materiality": "hoch",
+    "catalyst": true,
+    "summary": "Schwere Compliance-Vorwuerfe gegen Deutsche Bank wegen Verschleierung von Hypothekenverlusten belasten erheblich.",
+    "headline": "Imperial Brands keeps Deutsche Bank ‘buy’ despite lower target",
+    "url": "https://www.proactiveinvestors.com/companies/news/1102183/imperial-brands-keeps-deutsche-bank-buy-despite-lower-target-1102183.html"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
     "market": "Xetra",
     "open_local": "09:00 Uhr",
-    "window_min": 15,
-    "range_window": "09:00–09:15 Uhr",
-    "entry_decision": "ab 09:15 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 29.69,
+    "range_low": 29.52,
+    "current_price": 29.13,
+    "vwap": 29.3,
+    "breakout_status": "ausbruch_ab"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": false,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 0,
+  "trade_plan": {
+    "entry": 29.69,
+    "stop": 29.52,
+    "risk_per_share": 0.17,
+    "target_1": 29.95,
+    "target_2": 30.03,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 5882,
+    "capital": 174637.0,
+    "currency": "EUR"
+  },
   "watchlist_top": [
     {
-      "ticker": "ASML.AS",
-      "name": "ASML",
-      "change_pct": -7.95,
-      "rel_volume": 1.08,
+      "ticker": "DBK.DE",
+      "name": "Deutsche Bank",
+      "change_pct": -2.79,
+      "rel_volume": 0.96,
+      "catalyst": true,
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "SAP.DE",
+      "name": "SAP",
+      "change_pct": -1.32,
+      "rel_volume": 1.03,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "IFX.DE",
@@ -57,7 +85,15 @@
       "change_pct": -7.15,
       "rel_volume": 1.08,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
+    },
+    {
+      "ticker": "DHL.DE",
+      "name": "DHL Group",
+      "change_pct": -3.02,
+      "rel_volume": 0.59,
+      "catalyst": false,
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "ENR.DE",
@@ -65,31 +101,15 @@
       "change_pct": -6.11,
       "rel_volume": 0.8,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
-      "ticker": "SIE.DE",
-      "name": "Siemens",
-      "change_pct": -4.36,
-      "rel_volume": 0.82,
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "change_pct": -3.28,
+      "rel_volume": 0.48,
       "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall",
-      "change_pct": -3.21,
-      "rel_volume": 0.89,
-      "catalyst": false,
-      "status": null
-    },
-    {
-      "ticker": "DBK.DE",
-      "name": "Deutsche Bank",
-      "change_pct": -2.79,
-      "rel_volume": 0.96,
-      "catalyst": true,
-      "status": null
+      "status": "ausbruch_ab"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
