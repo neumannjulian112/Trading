@@ -3,45 +3,65 @@
   "region_label": "USA",
   "flag": "US",
   "currency": "USD",
-  "phase": "screen",
-  "status": "vorboerslich",
-  "generated_at": "2026-11-24T00:48:49.488025+00:00",
-  "generated_at_local": "24.11.2026, 01:48 Uhr",
+  "phase": "breakout",
+  "status": "ausbruch_bestaetigt",
+  "generated_at": "2026-11-24T01:34:15.269089+00:00",
+  "generated_at_local": "24.11.2026, 02:34 Uhr",
   "session_date": "2026-11-23",
-  "ticker": "NVDA",
-  "name": "NVIDIA",
-  "last_price": 165.05,
-  "previous_close": 125.53,
-  "change_pct": 31.48,
-  "volume": 776225888,
-  "avg_volume": 190936611,
-  "rel_volume": 4.07,
-  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
+  "ticker": "INTC",
+  "name": "Intel",
+  "last_price": 59.66,
+  "previous_close": 51.28,
+  "change_pct": 16.34,
+  "volume": 164011608,
+  "avg_volume": 125041585,
+  "rel_volume": 1.31,
+  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (59.14); 1/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
   "news": {
     "sentiment": "positiv",
     "direction": "auf",
-    "materiality": "hoch",
-    "catalyst": true,
-    "summary": "Jensen Huang kehrt als CEO zurück, was Stabilität und Vertrauen in die Führung wiederherstellt.",
-    "headline": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
-    "url": "https://finance.yahoo.com/video/jensen-huang-is-back-does-washington-have-a-seat-in-the-boardroom-221214249.html"
+    "materiality": "mittel",
+    "catalyst": false,
+    "summary": "Nvidia-CEO-Rückkehr führt zu Branchenrallye, aber Intel profitiert nur indirekt vom AI-Chip-Rebound.",
+    "headline": "Jensen Huang back as Nvidia CEO after 12 days: Shares surge 30%",
+    "url": "https://finance.yahoo.com/video/jensen-huang-back-as-nvidia-ceo-after-12-days-shares-surge-30-161302539.html"
   },
-  "or_window_min": 5,
+  "or_window_min": 15,
   "orb": {
     "market": "NYSE / Nasdaq",
     "open_local": "15:30 Uhr",
-    "window_min": 5,
-    "range_window": "15:30–15:35 Uhr",
-    "entry_decision": "ab 15:35 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
+    "window_min": 15,
+    "range_window": "15:30–15:45 Uhr",
+    "entry_decision": "ab 15:45 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
+    "range_high": 59.14,
+    "range_low": 57.42,
+    "current_price": 59.68,
+    "vwap": 58.15,
+    "breakout_status": "ausbruch_auf"
   },
   "checks": {
-    "vwap": null,
-    "volume": null,
+    "vwap": true,
+    "volume": false,
     "trend": false
   },
-  "quality": null,
-  "trade_plan": null,
+  "quality": 1,
+  "trade_plan": {
+    "entry": 59.68,
+    "stop": 57.42,
+    "risk_per_share": 2.26,
+    "target_1": 63.07,
+    "target_2": 64.2,
+    "target_r": [
+      1.5,
+      2.0
+    ],
+    "account": 100000.0,
+    "risk_pct": 1.0,
+    "position_size": 442,
+    "capital": 26379.0,
+    "currency": "USD"
+  },
   "watchlist_top": [
     {
       "ticker": "NVDA",
@@ -49,7 +69,7 @@
       "change_pct": 31.48,
       "rel_volume": 4.07,
       "catalyst": true,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "INTC",
@@ -57,7 +77,7 @@
       "change_pct": 16.34,
       "rel_volume": 1.31,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_auf"
     },
     {
       "ticker": "SMCI",
@@ -65,7 +85,7 @@
       "change_pct": 13.3,
       "rel_volume": 1.52,
       "catalyst": false,
-      "status": null
+      "status": "ausbruch_ab"
     },
     {
       "ticker": "PLTR",
@@ -73,7 +93,7 @@
       "change_pct": 11.06,
       "rel_volume": 1.37,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "TSLA",
@@ -81,7 +101,7 @@
       "change_pct": 11.46,
       "rel_volume": 1.26,
       "catalyst": true,
-      "status": null
+      "status": "in_spanne"
     },
     {
       "ticker": "AMD",
@@ -89,7 +109,7 @@
       "change_pct": 6.85,
       "rel_volume": 1.76,
       "catalyst": false,
-      "status": null
+      "status": "in_spanne"
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
