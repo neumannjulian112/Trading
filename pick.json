@@ -1,115 +1,95 @@
 {
-  "region": "usa",
-  "region_label": "USA",
-  "flag": "US",
-  "currency": "USD",
-  "phase": "breakout",
-  "status": "ausbruch_bestaetigt",
-  "generated_at": "2026-11-25T23:00:12.778806+00:00",
-  "generated_at_local": "26.11.2026, 00:00 Uhr",
-  "session_date": "2026-11-25",
-  "ticker": "F",
-  "name": "Ford",
-  "last_price": 12.17,
-  "previous_close": 11.95,
-  "change_pct": 1.84,
-  "volume": 49059043,
-  "avg_volume": 43162435,
-  "rel_volume": 1.14,
-  "rationale": "Long-Ausbruch ueber dem Spannen-Hoch (12.01); 2/3 Qualitaetsfilter erfuellt (VWAP / Volumen / Trend).",
+  "region": "europe",
+  "region_label": "Europa",
+  "flag": "EU",
+  "currency": "EUR",
+  "phase": "screen",
+  "status": "vorboerslich",
+  "generated_at": "2026-11-26T17:06:21.682749+00:00",
+  "generated_at_local": "26.11.2026, 18:06 Uhr",
+  "session_date": "2026-11-26",
+  "ticker": "BAYN.DE",
+  "name": "Bayer",
+  "last_price": 52.82,
+  "previous_close": 50.68,
+  "change_pct": 4.22,
+  "volume": 2094350,
+  "avg_volume": 2692686,
+  "rel_volume": 0.78,
+  "rationale": "Vorboerslicher Favorit aus der Top-10-Beobachtungsliste. Der bestaetigte Pick mit Signal-Qualitaet und Trade-Plan folgt nach Eroeffnung.",
   "news": {
-    "sentiment": "neutral",
-    "direction": "unklar",
-    "materiality": "gering",
+    "sentiment": "positiv",
+    "direction": "auf",
+    "materiality": "hoch",
     "catalyst": true,
-    "summary": "Revolution Space-Minderheitsbeteiligung ist M&A-Aktivität, aber für Ford marginal.",
-    "headline": "Ford Motor vs. Tesla: Which Automaker Stock Is a Better Buy for 2027?",
-    "url": "https://www.fool.com/coverage/better-buy/2026/11/25/ford-motor-vs-tesla-which-automaker-stock-is-a-better-buy-for-2027/"
+    "summary": "3,25 Mrd. USD Oncology-Deal mit Hansoh und Berenberg-Upgrade bei sinkenden Litigationsrisiken sind bedeutsame Kurskatalysatoren.",
+    "headline": "Health Care Roundup: Market Talk",
+    "url": "https://www.wsj.com/business/health-care-roundup-market-talk-b4d17b6e?siteid=yhoof2&yptr=yahoo"
   },
-  "or_window_min": 15,
+  "or_window_min": 5,
   "orb": {
-    "market": "NYSE / Nasdaq",
-    "open_local": "15:30 Uhr",
-    "window_min": 15,
-    "range_window": "15:30–15:45 Uhr",
-    "entry_decision": "ab 15:45 Uhr",
-    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen.",
-    "range_high": 12.01,
-    "range_low": 11.87,
-    "current_price": 12.17,
-    "vwap": 12.03,
-    "breakout_status": "ausbruch_auf"
+    "market": "Xetra",
+    "open_local": "09:00 Uhr",
+    "window_min": 5,
+    "range_window": "09:00–09:05 Uhr",
+    "entry_decision": "ab 09:05 Uhr",
+    "logic": "Eroeffnungsspanne (Hoch/Tief des Zeitfensters) merken. Long-Signal beim Bruch ueber das Spannen-Hoch, Stop-Loss knapp unter das Spannen-Tief, Ziel rund 1,5–2× des Risikos. Position spaetestens zum Handelsschluss schliessen."
   },
   "checks": {
-    "vwap": true,
-    "volume": false,
-    "trend": true
+    "vwap": null,
+    "volume": null,
+    "trend": false
   },
-  "quality": 2,
-  "trade_plan": {
-    "entry": 12.17,
-    "stop": 11.87,
-    "risk_per_share": 0.3,
-    "target_1": 12.62,
-    "target_2": 12.77,
-    "target_r": [
-      1.5,
-      2.0
-    ],
-    "account": 100000.0,
-    "risk_pct": 1.0,
-    "position_size": 3333,
-    "capital": 40563.0,
-    "currency": "USD"
-  },
+  "quality": null,
+  "trade_plan": null,
   "watchlist_top": [
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "change_pct": -3.91,
-      "rel_volume": 1.67,
+      "ticker": "VOW3.DE",
+      "name": "Volkswagen",
+      "change_pct": 4.6,
+      "rel_volume": 0.91,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "NIO",
-      "name": "NIO",
-      "change_pct": 4.26,
-      "rel_volume": 1.3,
+      "ticker": "BMW.DE",
+      "name": "BMW",
+      "change_pct": 4.49,
+      "rel_volume": 0.84,
       "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "MSTR",
-      "name": "MicroStrategy",
-      "change_pct": 3.11,
-      "rel_volume": 1.52,
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall",
+      "change_pct": 4.06,
+      "rel_volume": 0.86,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "P911.DE",
+      "name": "Porsche AG",
+      "change_pct": 3.04,
+      "rel_volume": 1.09,
+      "catalyst": false,
+      "status": null
+    },
+    {
+      "ticker": "BAYN.DE",
+      "name": "Bayer",
+      "change_pct": 4.22,
+      "rel_volume": 0.78,
       "catalyst": true,
-      "status": "ausbruch_auf"
+      "status": null
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "change_pct": -3.12,
-      "rel_volume": 1.39,
+      "ticker": "IFX.DE",
+      "name": "Infineon",
+      "change_pct": 3.57,
+      "rel_volume": 0.88,
       "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro",
-      "change_pct": 3.05,
-      "rel_volume": 1.04,
-      "catalyst": false,
-      "status": "ausbruch_auf"
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "change_pct": 3.4,
-      "rel_volume": 0.92,
-      "catalyst": false,
-      "status": "ausbruch_auf"
+      "status": null
     }
   ],
   "disclaimer": "Beispielaktie zum Üben – keine Anlageempfehlung."
